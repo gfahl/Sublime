@@ -1,0 +1,20 @@
+Gustavs-MacBook-Pro:~ gustav$ mkdir Project
+Gustavs-MacBook-Pro:~ gustav$ cd Project/
+Gustavs-MacBook-Pro:Project gustav$ mkdir Sublime
+Gustavs-MacBook-Pro:Project gustav$ cd Sublime/
+Gustavs-MacBook-Pro:Sublime gustav$ git init
+Initialized empty Git repository in /Users/gustav/Project/Sublime/.git/
+Gustavs-MacBook-Pro:Sublime gustav$ touch README
+Gustavs-MacBook-Pro:Sublime gustav$ git add README 
+Gustavs-MacBook-Pro:Sublime gustav$ git commit -m 'first commit'
+[master (root-commit) 92726e8] first commit
+ 0 files changed
+ create mode 100644 README
+Gustavs-MacBook-Pro:Sublime gustav$ git remote add origin git@github.com:gfahl/Sublime.git
+Gustavs-MacBook-Pro:Sublime gustav$ git push -u origin master
+Counting objects: 3, done.
+Writing objects: 100% (3/3), 210 bytes, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To git@github.com:gfahl/Sublime.git
+ * [new branch]      master -> master
+Branch master set up to track remote branch master from origin.
