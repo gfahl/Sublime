@@ -1,1 +1,3 @@
 project/Sublime.sublime-workspace
+*.cache
+*.pyc
