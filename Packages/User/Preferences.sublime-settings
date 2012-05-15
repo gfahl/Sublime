@@ -1,0 +1,18 @@
+{
+	"auto_match_enabled": false,
+	"color_scheme": "Packages/User/Monokai Bright.tmTheme",
+	"font_face": "Consolas",
+	"font_options":
+	[
+	],
+	"font_size": 11,
+	"highlight_line": false,
+	"ignored_packages":
+	[
+		"Vintage",
+		"SublimeLinter"
+	],
+    "tab_size": 4,
+    "translate_tabs_to_spaces": false,
+	"word_wrap": false
+}

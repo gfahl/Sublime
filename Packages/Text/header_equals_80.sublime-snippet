@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[================================================================================
+$1
+================================================================================
+
+]]></content>
+    <tabTrigger>h1</tabTrigger>
+    <description>header === .. ===</description>
+    <scope>text.plain</scope>
+</snippet>

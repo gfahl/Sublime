@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[class ${1:class_name}
+	$0
+end]]></content>
+    <tabTrigger>cl</tabTrigger>
+    <scope>source.ruby</scope>
+    <description>class … end</description>
+</snippet>

@@ -1,0 +1,7 @@
+<snippet>
+    <content><![CDATA[puts "${1:$SELECTION} = #{(${1}).inspect}"]]>
+	</content>
+    <tabTrigger>pi</tabTrigger>
+    <scope>source.ruby</scope>
+    <description>debug: puts inspect</description>
+</snippet>

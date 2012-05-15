@@ -1,0 +1,26 @@
+[
+    {
+        "id": "edit",
+        "children":
+        [
+            { "id": "clipboard" },
+            {
+                "id": "copy_other",
+                "caption": "Copy Other",
+                "children":
+                [
+                    { "caption": "Copy Path", "command": "copy_path" }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "tools",
+        "children":
+        [
+            { "caption": "Windows Explorer", "command": "open_dir", "args": {"dir": "$file_path", "file": "$file_name"} },
+            { "caption": "Diff files", "command": "diff" },
+            { "caption": "Diff checked-in", "command": "diff_checked_in" }
+        ]
+    }
+]

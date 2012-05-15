@@ -1,0 +1,252 @@
+================================================================================
+Project:	Sublime
+================================================================================
+
+--------------------------------------------------------------------------------
+To do
+--------------------------------------------------------------------------------
+
+-To configure/extend
+	ruby: convert {} to do-end (and opposite)
+	sql syntax missing keywords
+		index, if exists, AUTO_INCREMENT, unique
+	turn off tab guides, is there command to toggle?
+	change code folding keyboard shortcuts
+	make open files in sidebar visible by default
+	delete blank lines in selection
+	remove trailing whitespace
+	Drag text left/right in the same way as ctrl+shift+pgup/pgdown
+-To investigate
+	shortcut to switch from dark to bright theme
+-Wishlist for Sublime
+	keep tab stack order when moving between projects
+-Bugs to report
+	shortcut text in menus don't get overridden when redefined (redefinition works fine)
+
+--------------------------------------------------------------------------------
+Internet links
+--------------------------------------------------------------------------------
+
+http://www.sublimetext.com/
+http://www.sublimetext.com/forum/
+http://sublimetext.info/
+http://sublimetext.userecho.com/
+
+-Documentation
+=Official
+http://www.sublimetext.com/docs/2/
+=Unofficial
+http://docs.sublimetext.info/en/latest/index.html
+
+--------------------------------------------------------------------------------
+Keyboard shortcuts
+--------------------------------------------------------------------------------
+
+-move/select
+	ctrl+left/right				move by word
+	ctrl+shift+left/right		expand/reduce selection by word
+	alt+up/down					move by paragraph
+	ctrl+shift+up/down			expand/reduce selection by paragraph
+	alt+left/right				move by word-part
+	alt+shift+left/right		expand/reduce selection by word-part
+	alt+pgup/pgdown				move by section
+	alt+shift+pgup/pgdown		expand/reduce selection by section
+	ctrl+m						move to matching bracket
+	ctrl+d						select word (when no selection)
+	ctrl+u						undo, including cursor movement and selection
+	ctrl+shift+u				redo, including cursor movement and selection
+	ctrl+shift+m				expand selection to brackets
+	ctrl+l						expand selection to line
+	f2							move to next bookmark
+	shift+f2					move to previous bookmark
+	ctrl+f2						toggle bookmark
+	ctrl+shift+f2				clear all bookmarks
+
+-multi-select
+	ctrl+d						select more (when selection)
+	ctrl/alt+click				add/delete cursor
+	ctrl/alt+doubleclick		add/delete selection
+	ctrl+shift+l				add cursor at each selected line
+	alt+f3						select all occurances of selection or word at cursor
+
+-edit
+	ctrl+shift+pgup/pgdown		move current line/selection of lines up/down (orig: ctrl+shift+up/down)
+	ctrl+shift+d				duplicate current line
+	ctrl+k, ctrl+k				delete rest of line
+	ctrl+shift+k				delete current line
+	ctrl+q, ctrl+p				copy current file's path
+	ctrl+space					auto-complete
+	ctrl+minus					toggle comment
+	ctrl+k, ctrl+u				upper case
+	ctrl+k, ctrl+l				lower case
+	ctrl+k, ctrl+t				title case
+	ctrl+k, ctrl+s				toggle CamelCase / snake_case
+	shift+tab					force a tab to be inserted instead of triggering tab command
+
+-view
+	ctrl+q, ctrl+1/2			decrease/increase font size
+	ctrl+q, ctrl+0				reset font size
+	shift+f11					toggle distraction free mode
+	ctrl+pgup/pgdown			previous/next view (as listed in side bar)
+	ctrl+(shift+)tab			previous/next view in stack
+	ctrl+k, ctrl+b				toggle side bar
+	ctrl+.						toggle console
+	ctrl+q, ctrl+w				toggle word wrap
+	ctrl+k, ctrl+c				center current line
+
+-tools
+	ctrl+r						run macro
+	ctrl+shift+r				start/end recording macro
+	ctrl+q, ctrl+c				diff current file with the checked-in version
+	ctrl+q, ctrl+d				diff of the two files at the top of the view stack
+	ctrl+q, ctrl+e				open Windows File Explorer positioned in the current file's folder
+	ctrl+shift+c				show command palette
+	ctrl+shift+i				show snippets (in command palette)
+
+-find
+	ctrl+f						find
+	ctrl+shift+f				find in files
+	f4							go to next "find in files" result
+
+-file/project
+	ctrl+shift+p				select project
+	ctrl+p						goto anything
+									ctrl+g = goto +line+ (goto anything prefix :)
+									ctrl+semicolon = goto +word+ (goto anything prefix #)
+									ctrl+r = goto +symbol+ (goto anything prefix @)
+	ctrl+q, ctrl+r				revert
+
+-sidebar
+	alt+1/2/../0				goto file number 1/2/../10 (tab order)
+	ctrl+0						bring focus to side bar
+	ctrl/alt+click				select multiple files
+
+--------------------------------------------------------------------------------
+Customization
+--------------------------------------------------------------------------------
+
+(Ruby is used here as an example of syntax-specific cusomization)
+
+-folder hierarchy for Sublime
+C:\Users\Gustav\AppData\Roaming\Sublime Text 2\
+	Packages
+		Default
+		User									_make your changes/additions here_
+												_not touched at upgrade of Sublime_
+		Ruby
+
+-customization file types
+=sublime-project
+=sublime-workspace								_used by Sublime, don't touch
+=sublime-settings
+Packages/Default/Preferences.sublime-settings	_contains all available settings_
+Packages/User/Preferences.sublime-settings		_make your general setup changes here_
+Packages/Ruby/Ruby.sublime-settings
+Packages/User/Ruby.sublime-settings				_make your package specific changes here_
+=sublime-keymap
+Packages/Default/Default (Windows).sublime-keymap
+Packages/User/Default (Windows).sublime-keymap
+=sublime-build
+=tmLanguage
+=tmPreferences
+
+-misc
+view current settings
+	>>> view.settings().get('font_face')
+
+--------------------------------------------------------------------------------
+Version Control
+--------------------------------------------------------------------------------
+
+copy all files in
+		C:\Users\Gustav\AppData\Roaming\Sublime Text 2\Packages\[package name]
+	to
+		C:\Users\Gustav\Projects\Sublime Text\Packages\[package name]
+where [package name] is each of
+	User
+	Ruby
+	Text
+	Japanese Text
+
+commit changes to SVN
+
+--------------------------------------------------------------------------------
+New Sublime version
+--------------------------------------------------------------------------------
+
+version control (see above)
+install
+copy all files in "C:\Users\Gustav\AppData\Roaming\Sublime Text 2\Packages\Default"
+	to "C:\Users\Gustav\Projects\Sublime Text\Packages\Default"
+	check diffs, add new files to SVN (except cache and pyc files)
+commit changes to SVN
+
+--------------------------------------------------------------------------------
+Package Control
+--------------------------------------------------------------------------------
+
+http://wbond.net/sublime_packages/package_control
+
+--------------------------------------------------------------------------------
+Console
+--------------------------------------------------------------------------------
+
+	dir()
+		>>> dir()
+		>>> dir(view)
+		>>> dir(view.run_command)
+	view.sel()
+		returns current selections
+			>>> view.sel()
+			[(1287, 1287)]				# no selection
+			[(377, 391)]				# one region selected
+			[(377, 391), (722, 736)]	# two regions selected
+			>>> view.sel().__class__
+			<class 'sublime.RegionSet'>
+			>>> view.sel()[0].__class__
+			<class 'sublime.Region'>
+			>>> print view.sel.__doc__
+
+				sel( (View)arg1) -> RegionSet :
+
+				    C++ signature :
+				        class SelectionSet {lvalue} sel(class TextBufferView {lvalue})
+	view.find(...)
+	view.has_non_empty_selection_region()
+	view.insert(...)
+	view.rowcol(pt)
+	view.run_command(...)
+		>>> view.run_command("insert", {"characters": "abc"})
+			# inserts "abc" at current point/selection(s)
+	view.show(pt)
+	view.size()
+	view.visible_region()
+	view.word(pt)
+
+
+>>> view.find("\n\n+",0)
+(238, 242)
+>>> view.find("\n\n+",0).a
+238
+>>> view.find("\n\n+",0).b
+242
+
+view.sel()[0].a
+view.find("\n\n+",0)
+view.find("\n\n+", view.sel()[0].a)
+
+pt = view.find("\n\n+", view.sel()[0].a).b
+view.sel().clear()
+view.sel().add(sublime.Region(pt))
+
+
+aaa
+bbb
+
+ccc
+
+
+ddd
+
+Ruby
+ru
