@@ -1,0 +1,11 @@
+{
+	"auto_match_enabled": false,
+	"color_scheme": "Packages/User/Monokai Bright.tmTheme",
+	"font_face": "Consolas",
+	"font_options":
+	[
+	],
+	"font_size": 11,
+	"highlight_line": false,
+	"word_wrap": false
+}

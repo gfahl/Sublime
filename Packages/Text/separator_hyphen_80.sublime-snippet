@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[--------------------------------------------------------------------------------
+
+]]></content>
+    <tabTrigger>s2</tabTrigger>
+    <description>separator ---</description>
+    <scope>text.plain</scope>
+</snippet>
