@@ -1,11 +1,7 @@
 {
 	"auto_match_enabled": false,
 	"color_scheme": "Packages/User/Monokai Bright.tmTheme",
-	"font_face": "Inconsolata",
-	"font_options":
-	[
-	],
-	"font_size": 14.0,
+	"font_size": 15.0,
 	"highlight_line": false,
 	"ignored_packages":
 	[
@@ -13,6 +9,7 @@
 		"SublimeLinter"
 	],
 	"open_files_in_new_window": false,
+	"scroll_past_end": true,
 	"tab_size": 4,
 	"translate_tabs_to_spaces": false,
 	"word_wrap": false

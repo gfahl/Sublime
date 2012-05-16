@@ -6,6 +6,8 @@ Project:	Sublime
 To do
 --------------------------------------------------------------------------------
 
+-Sublime on Mac
+	add ctrl versions of cmd shortcuts? e.g. ctrl+s to save in addition to cmd+s
 -To configure/extend
 	ruby: convert {} to do-end (and opposite)
 	sql syntax missing keywords

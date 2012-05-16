@@ -1,4 +1,25 @@
 [
+	// "ctrl" versions of "super" shortcuts
+	{ "keys": ["ctrl+o"], "command": "prompt_open" },
+	{ "keys": ["ctrl+shift+t"], "command": "reopen_last_file" },
+	{ "keys": ["ctrl+n"], "command": "new_file" },
+	{ "keys": ["ctrl+s"], "command": "save" },
+	{ "keys": ["ctrl+w"], "command": "close" },
+	{ "keys": ["ctrl+z"], "command": "undo" },
+	{ "keys": ["ctrl+y"], "command": "redo_or_repeat" },
+	{ "keys": ["ctrl+u"], "command": "soft_undo" },
+	{ "keys": ["ctrl+shift+u"], "command": "soft_redo" },
+	{ "keys": ["ctrl+x"], "command": "cut" },
+	{ "keys": ["ctrl+c"], "command": "copy" },
+	{ "keys": ["ctrl+v"], "command": "paste" },
+	{ "keys": ["ctrl+a"], "command": "select_all" },
+	{ "keys": ["ctrl+shift+l"], "command": "split_selection_into_lines" },
+	{ "keys": ["ctrl+l"], "command": "expand_selection", "args": {"to": "line"} },
+	{ "keys": ["ctrl+d"], "command": "find_under_expand" },
+	{ "keys": ["ctrl+f"], "command": "show_panel", "args": {"panel": "find"} },
+	{ "keys": ["ctrl+shift+f"], "command": "show_panel", "args": {"panel": "find_in_files"} },
+
+	//
 	{ "keys": ["ctrl+left"], "command": "move", "args": {"by": "words", "forward": false} },
 	{ "keys": ["ctrl+right"], "command": "move", "args": {"by": "word_ends", "forward": true} },
 
