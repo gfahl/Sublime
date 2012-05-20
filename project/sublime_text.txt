@@ -6,8 +6,11 @@ Project:	Sublime
 To do
 --------------------------------------------------------------------------------
 
--Sublime on Mac
-	add ctrl versions of cmd shortcuts? e.g. ctrl+s to save in addition to cmd+s
+-Mac setup
+	idea: use prefixes in front of arrow key shortcuts to simulate home/end/pgup/pgdown shortcuts?
+		e.g. "ctrl+q, ctrl+left/right/up/down" for home/end/pgup/pgdown
+			"ctrl+q, ctrl+shift+left/right/up/down" for selecting versions
+	ctrl+shift+left/right selects word part only - make it the same as on Windows
 -To configure/extend
 	ruby: convert {} to do-end (and opposite)
 	sql syntax missing keywords
@@ -86,6 +89,7 @@ Keyboard shortcuts
 	shift+tab					force a tab to be inserted instead of triggering tab command
 
 -view
+	ctrl+up/down				scroll
 	ctrl+q, ctrl+1/2			decrease/increase font size
 	ctrl+q, ctrl+0				reset font size
 	shift+f11					toggle distraction free mode
@@ -101,7 +105,7 @@ Keyboard shortcuts
 	ctrl+shift+r				start/end recording macro
 	ctrl+q, ctrl+c				diff current file with the checked-in version
 	ctrl+q, ctrl+d				diff of the two files at the top of the view stack
-	ctrl+q, ctrl+e				open Windows File Explorer positioned in the current file's folder
+	ctrl+q, ctrl+e				open Windows File Explorer/Mac Finder positioned in the current file's folder
 	ctrl+shift+c				show command palette
 	ctrl+shift+i				show snippets (in command palette)
 
