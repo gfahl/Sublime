@@ -6,7 +6,7 @@ It seems platform-specific settings in the User package folder are not possible 
 Therefore, I put my font settings in the Default folder:
 Default/Preferences (OSX).sublime-settings
 	"font_face": "Inconsolata",
-	"font_size": 14.0,
+	"font_size": 15.0,
 Default/Preferences (Windows).sublime-settings
 	"font_face": "Consolas",
 	"font_size": 10

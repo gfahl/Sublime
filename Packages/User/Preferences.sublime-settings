@@ -1,7 +1,6 @@
 {
 	"auto_match_enabled": false,
 	"color_scheme": "Packages/User/Monokai Bright.tmTheme",
-	"font_size": 11.0,
 	"highlight_line": false,
 	"ignored_packages":
 	[
@@ -10,6 +9,7 @@
 	],
 	"open_files_in_new_window": false,
 	"scroll_past_end": true,
+	"show_full_path": true,
 	"tab_size": 4,
 	"translate_tabs_to_spaces": false,
 	"word_wrap": false

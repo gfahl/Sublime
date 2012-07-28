@@ -7,7 +7,6 @@ To do
 --------------------------------------------------------------------------------
 
 -Mac setup
-	ctrl+p should do same as cmd+p
 	ctrl+shift+left/right selects word part only - make it the same as on Windows
 	idea: use prefixes in front of arrow key shortcuts to simulate home/end/pgup/pgdown shortcuts?
 		e.g. "ctrl+q, ctrl+left/right/up/down" for home/end/pgup/pgdown
@@ -166,9 +165,15 @@ Version Control
 --------------------------------------------------------------------------------
 
 copy all files in
-		C:\Users\Gustav\AppData\Roaming\Sublime Text 2\Packages\[package name]
+		Windows:
+			C:\Users\Gustav\AppData\Roaming\Sublime Text 2\Packages\[package name]
+		OSX:
+			~/Library/Application Support/Sublime Text 2/Packages/[package name]
 	to
-		C:\Users\Gustav\Git Projects\Sublime\Packages\[package name]
+		Windows:
+			C:\Users\Gustav\Git Projects\Sublime\Packages\[package name]
+		OSX:
+			~/Project/Sublime/Packages/[package name]
 where [package name] is each of
 	Japanese Text
 	Ruby
