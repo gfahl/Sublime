@@ -163,14 +163,14 @@ Version Control
 copy all files in
 		C:\Users\Gustav\AppData\Roaming\Sublime Text 2\Packages\[package name]
 	to
-		C:\Users\Gustav\Projects\Sublime Text\Packages\[package name]
+		C:\Users\Gustav\Git Projects\Sublime\Packages\[package name]
 where [package name] is each of
-	User
+	Japanese Text
 	Ruby
 	Text
-	Japanese Text
+	User
 
-commit changes to SVN
+commit changes
 
 --------------------------------------------------------------------------------
 New Sublime version
@@ -178,10 +178,11 @@ New Sublime version
 
 version control (see above)
 install
-copy all files in "C:\Users\Gustav\AppData\Roaming\Sublime Text 2\Packages\Default"
-	to "C:\Users\Gustav\Projects\Sublime Text\Packages\Default"
-	check diffs, add new files to SVN (except cache and pyc files)
-commit changes to SVN
+copy all files in
+		C:\Users\Gustav\AppData\Roaming\Sublime Text 2\Packages\Default
+	to
+		C:\Users\Gustav\Git Projects\Sublime\Packages\Default
+check diffs in Default dir to see what's new, commit changes
 
 --------------------------------------------------------------------------------
 Package Control
