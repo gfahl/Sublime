@@ -7,11 +7,13 @@ To do
 --------------------------------------------------------------------------------
 
 -Mac setup
+	ctrl + f2 for toggle bookmark (and other bookmark commands?)
 	ctrl+shift+left/right selects word part only - make it the same as on Windows
 	idea: use prefixes in front of arrow key shortcuts to simulate home/end/pgup/pgdown shortcuts?
 		e.g. "ctrl+q, ctrl+left/right/up/down" for home/end/pgup/pgdown
 			"ctrl+q, ctrl+shift+left/right/up/down" for selecting versions
 -To configure/extend
+	add shortcut of some kind for making 'puts "foo = %p" % foo'
 	ruby: convert {} to do-end (and opposite)
 	sql syntax missing keywords
 		index, if exists, AUTO_INCREMENT, unique
@@ -22,6 +24,7 @@ To do
 	remove trailing whitespace
 	Drag text left/right in the same way as ctrl+shift+pgup/pgdown
 -To investigate
+	how to select many lines (not consecutive) and get multiple cursors
 	shortcut to switch from dark to bright theme
 -Wishlist for Sublime
 	keep tab stack order when moving between projects
@@ -69,6 +72,7 @@ Keyboard shortcuts
 
 -multi-select
 	ctrl+d						select more (when selection)
+	ctrl+k, ctrl+d				skip this selection during 'select more'
 	ctrl/alt+click				add/delete cursor
 	ctrl/alt+doubleclick		add/delete selection
 	ctrl+shift+l				add cursor at each selected line
