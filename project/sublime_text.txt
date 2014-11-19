@@ -13,6 +13,9 @@ To do
 		e.g. "ctrl+q, ctrl+left/right/up/down" for home/end/pgup/pgdown
 			"ctrl+q, ctrl+shift+left/right/up/down" for selecting versions
 -To configure/extend
+	shortcut for View -> Indentation -> Convert Indentation to Spaces
+	always indent using spaces
+	plain text syntax colouring: only use for special text files, say ".gtxt", and not for all text files
 	add shortcut of some kind for making 'puts "foo = %p" % foo'
 	ruby: convert {} to do-end (and opposite)
 	sql syntax missing keywords
