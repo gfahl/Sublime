@@ -123,6 +123,23 @@
 			<key>match</key>
 			<string>^\s*(\*)([ \w].*)$</string>
 		</dict>
+		<dict>
+			<key>captures</key>
+			<dict>
+				<key>1</key>
+				<dict>
+					<key>name</key>
+					<string>comment.line.number-sign.ruby</string>
+				</dict>
+				<key>2</key>
+				<dict>
+					<key>name</key>
+					<string>support.class.ruby</string>
+				</dict>
+			</dict>
+			<key>match</key>
+			<string>^\s*(\$)([ \w].*)$</string>
+		</dict>
 	</array>
 	<key>scopeName</key>
 	<string>text.plain</string>
