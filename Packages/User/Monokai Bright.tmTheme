@@ -372,6 +372,50 @@
 				<string>#85BAEE</string>
 			</dict>
 		</dict>
+		<dict>
+			<key>name</key>
+			<string>Ruby Text: comment 1</string>
+			<key>scope</key>
+			<string>comment.1.ruby.text</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#76C718</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Ruby Text: comment 2</string>
+			<key>scope</key>
+			<string>comment.2.ruby.text</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#CCEAA9</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Ruby Text: comment 3</string>
+			<key>scope</key>
+			<string>comment.3.ruby.text</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#A4AD99</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Ruby Text: result comment</string>
+			<key>scope</key>
+			<string>comment.result.ruby.text</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#A4AD99</string>
+			</dict>
+		</dict>
 	</array>
 	<key>uuid</key>
 	<string>D8D5E82E-3D5B-46B5-B38E-8C841C21347D</string>
