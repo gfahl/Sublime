@@ -295,6 +295,83 @@
 				<string>#CFCFC2</string>
 			</dict>
 		</dict>
+		<dict>
+			<key>name</key>
+			<string>My Text: important text</string>
+			<key>scope</key>
+			<string>important-word.my.text, important-text.my.text</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#F4F4B4</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>My Text: header 1</string>
+			<key>scope</key>
+			<string>header.1.my.text</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#68A368</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>My Text: header 2</string>
+			<key>scope</key>
+			<string>header.2.my.text</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#A4E1A4</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>My Text: header 3</string>
+			<key>scope</key>
+			<string>header.3.my.text</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#EE6161</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>My Text: header 4</string>
+			<key>scope</key>
+			<string>header.4.my.text</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#F38888</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>My Text: header 5</string>
+			<key>scope</key>
+			<string>header.5.my.text</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#E5B7B7</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>My Text: command line</string>
+			<key>scope</key>
+			<string>command-line.my.text</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#85BAEE</string>
+			</dict>
+		</dict>
 	</array>
 	<key>uuid</key>
 	<string>D8D5E82E-3D5B-46B5-B38E-8C841C21347D</string>

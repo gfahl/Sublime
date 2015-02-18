@@ -23,7 +23,7 @@
 				<key>2</key>
 				<dict>
 					<key>name</key>
-					<string>entity.name.function.ruby</string>
+					<string>important-word.my.text</string>
 				</dict>
 				<key>3</key>
 				<dict>
@@ -45,7 +45,7 @@
 				<key>2</key>
 				<dict>
 					<key>name</key>
-					<string>entity.name.function.ruby</string>
+					<string>important-text.my.text</string>
 				</dict>
 				<key>3</key>
 				<dict>
@@ -62,7 +62,7 @@
 			<key>end</key>
 			<string>^(===.*)?$</string>
 			<key>name</key>
-			<string>entity.name.function.ruby</string>
+			<string>header.1.my.text</string>
 		</dict>
 		<dict>
 			<key>begin</key>
@@ -70,7 +70,7 @@
 			<key>end</key>
 			<string>^(---.*)?$</string>
 			<key>name</key>
-			<string>constant.language.ruby</string>
+			<string>header.2.my.text</string>
 		</dict>
 		<dict>
 			<key>captures</key>
@@ -83,7 +83,7 @@
 				<key>2</key>
 				<dict>
 					<key>name</key>
-					<string>variable.parameter.function.ruby</string>
+					<string>header.3.my.text</string>
 				</dict>
 			</dict>
 			<key>match</key>
@@ -100,7 +100,7 @@
 				<key>2</key>
 				<dict>
 					<key>name</key>
-					<string>keyword.control.class.ruby</string>
+					<string>header.4.my.text</string>
 				</dict>
 			</dict>
 			<key>match</key>
@@ -117,7 +117,7 @@
 				<key>2</key>
 				<dict>
 					<key>name</key>
-					<string>string.quoted.single.ruby</string>
+					<string>header.5.my.text</string>
 				</dict>
 			</dict>
 			<key>match</key>
@@ -134,7 +134,7 @@
 				<key>2</key>
 				<dict>
 					<key>name</key>
-					<string>support.class.ruby</string>
+					<string>command-line.my.text</string>
 				</dict>
 			</dict>
 			<key>match</key>

@@ -6,16 +6,15 @@ Project:	Sublime
 To do
 --------------------------------------------------------------------------------
 
--Mac setup
+=Mac setup
 	ctrl + f2 for toggle bookmark (and other bookmark commands?)
 	ctrl+shift+left/right selects word part only - make it the same as on Windows
 	idea: use prefixes in front of arrow key shortcuts to simulate home/end/pgup/pgdown shortcuts?
 		e.g. "ctrl+q, ctrl+left/right/up/down" for home/end/pgup/pgdown
 			"ctrl+q, ctrl+shift+left/right/up/down" for selecting versions
--To configure/extend
+=To configure/extend
 	shortcut for View -> Indentation -> Convert Indentation to Spaces
 	always indent using spaces
-	plain text syntax colouring: only use for special text files, say ".gtxt", and not for all text files
 	add shortcut of some kind for making 'puts "foo = %p" % foo'
 	ruby: convert {} to do-end (and opposite)
 	sql syntax missing keywords
@@ -26,12 +25,12 @@ To do
 	delete blank lines in selection
 	remove trailing whitespace
 	Drag text left/right in the same way as ctrl+shift+pgup/pgdown
--To investigate
+=To investigate
 	how to select many lines (not consecutive) and get multiple cursors
 	shortcut to switch from dark to bright theme
--Wishlist for Sublime
+=Wishlist for Sublime
 	keep tab stack order when moving between projects
--Bugs to report
+=Bugs to report
 	shortcut text in menus don't get overridden when redefined (redefinition works fine)
 
 --------------------------------------------------------------------------------
@@ -43,17 +42,17 @@ http://www.sublimetext.com/forum/
 http://sublimetext.info/
 http://sublimetext.userecho.com/
 
--Documentation
-=Official
+=Documentation
+-Official
 http://www.sublimetext.com/docs/2/
-=Unofficial
+-Unofficial
 http://docs.sublimetext.info/en/latest/index.html
 
 --------------------------------------------------------------------------------
 Keyboard shortcuts
 --------------------------------------------------------------------------------
 
--move/select
+=move/select
 	ctrl+left/right				move by word
 	ctrl+shift+left/right		expand/reduce selection by word
 	alt+up/down					move by paragraph
@@ -73,7 +72,7 @@ Keyboard shortcuts
 	ctrl+f2						toggle bookmark
 	ctrl+shift+f2				clear all bookmarks
 
--multi-select
+=multi-select
 	ctrl+d						select more (when selection)
 	ctrl+k, ctrl+d				skip this selection during 'select more'
 	ctrl/alt+click				add/delete cursor
@@ -81,7 +80,7 @@ Keyboard shortcuts
 	ctrl+shift+l				add cursor at each selected line
 	alt+f3						select all occurances of selection or word at cursor
 
--edit
+=edit
 	ctrl+shift+pgup/pgdown		move current line/selection of lines up/down (orig: ctrl+shift+up/down)
 	ctrl+shift+d				duplicate current line
 	ctrl+k, ctrl+k				delete rest of line
@@ -95,7 +94,7 @@ Keyboard shortcuts
 	ctrl+k, ctrl+s				toggle CamelCase / snake_case
 	shift+tab					force a tab to be inserted instead of triggering tab command
 
--view
+=view
 	ctrl+up/down				scroll
 	ctrl+q, ctrl+1/2			decrease/increase font size
 	ctrl+q, ctrl+0				reset font size
@@ -107,7 +106,7 @@ Keyboard shortcuts
 	ctrl+q, ctrl+w				toggle word wrap
 	ctrl+k, ctrl+c				center current line
 
--tools
+=tools
 	ctrl+r						run macro
 	ctrl+shift+r				start/end recording macro
 	ctrl+q, ctrl+c				diff current file with the checked-in version
@@ -116,12 +115,12 @@ Keyboard shortcuts
 	ctrl+shift+c				show command palette
 	ctrl+shift+i				show snippets (in command palette)
 
--find
+=find
 	ctrl+f						find
 	ctrl+shift+f				find in files
 	f4							go to next "find in files" result
 
--file/project
+=file/project
 	ctrl+shift+p				select project
 	ctrl+p						goto anything
 									ctrl+g = goto +line+ (goto anything prefix :)
@@ -129,7 +128,7 @@ Keyboard shortcuts
 									ctrl+r = goto +symbol+ (goto anything prefix @)
 	ctrl+q, ctrl+r				revert
 
--sidebar
+=sidebar
 	alt+1/2/../0				goto file number 1/2/../10 (tab order)
 	ctrl+0						bring focus to side bar
 	ctrl/alt+click				select multiple files
@@ -140,7 +139,7 @@ Customization
 
 (Ruby is used here as an example of syntax-specific cusomization)
 
--folder hierarchy for Sublime
+=folder hierarchy for Sublime
 C:\Users\Gustav\AppData\Roaming\Sublime Text 2\
 	Packages
 		Default
@@ -148,22 +147,23 @@ C:\Users\Gustav\AppData\Roaming\Sublime Text 2\
 												_not touched at upgrade of Sublime_
 		Ruby
 
--customization file types
-=sublime-project
-=sublime-workspace								_used by Sublime, don't touch
-=sublime-settings
+=customization file types
+-sublime-project
+-sublime-workspace
+_used by Sublime, don't touch_
+-sublime-settings
 Packages/Default/Preferences.sublime-settings	_contains all available settings_
 Packages/User/Preferences.sublime-settings		_make your general setup changes here_
 Packages/Ruby/Ruby.sublime-settings
 Packages/User/Ruby.sublime-settings				_make your package specific changes here_
-=sublime-keymap
+-sublime-keymap
 Packages/Default/Default (Windows).sublime-keymap
 Packages/User/Default (Windows).sublime-keymap
-=sublime-build
-=tmLanguage
-=tmPreferences
+-sublime-build
+-tmLanguage
+-tmPreferences
 
--misc
+=misc
 view current settings
 	>>> view.settings().get('font_face')
 
