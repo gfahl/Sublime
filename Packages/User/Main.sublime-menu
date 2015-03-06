@@ -11,6 +11,14 @@
                 [
                     { "caption": "Copy Path", "command": "copy_path" }
                 ]
+            },
+            {
+                "id": "paste_other",
+                "caption": "Paste Other",
+                "children":
+                [
+                    { "caption": "Paste Date", "command": "paste_date" }
+                ]
             }
         ]
     },
