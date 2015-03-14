@@ -86,6 +86,7 @@ Keyboard shortcuts
 	ctrl+k, ctrl+k				delete rest of line
 	ctrl+shift+k				delete current line
 	ctrl+q, ctrl+p				copy current file's path
+	ctrl+q, ctrl+d				paste current date
 	ctrl+space					auto-complete
 	ctrl+minus					toggle comment
 	ctrl+k, ctrl+u				upper case
