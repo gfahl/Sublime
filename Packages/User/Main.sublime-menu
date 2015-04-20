@@ -3,7 +3,9 @@
         "id": "edit",
         "children":
         [
-            { "id": "clipboard" },
+            { "id": "foo" },
+            { "caption": "Trim Trailing Whitespace", "command": "trim_trailing_white_space_now" },
+            { "caption": "-" },
             {
                 "id": "copy_other",
                 "caption": "Copy Other",
