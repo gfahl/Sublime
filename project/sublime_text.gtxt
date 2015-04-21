@@ -96,7 +96,7 @@ Keyboard shortcuts
 	ctrl+k, ctrl+u				upper case
 	ctrl+k, ctrl+l				lower case
 	ctrl+k, ctrl+t				title case
-	ctrl+k, ctrl+s				toggle CamelCase / snake_case
+	ctrl+k, ctrl+s				"ha hi hu" => "ha_hi_hu" => "HaHiHu" => "ha hi hu" etc.
 	shift+tab					force a tab to be inserted instead of triggering tab command
 
 =view
