@@ -33,7 +33,11 @@ To do
 	remove trailing whitespace
 	Drag text left/right in the same way as ctrl+shift+pgup/pgdown
 =To investigate
-	how to select many lines (not consecutive) and get multiple cursors
+	according to my doc
+		alt+click/doubleclick is supposed to delete cursor/selection
+			why doesn't it?
+		alt+f3 supposed to select all occurances
+			why doesn't it?
 	shortcut to switch from dark to bright theme
 =Wishlist for Sublime
 	keep tab stack order when moving between projects
