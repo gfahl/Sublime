@@ -12,6 +12,9 @@ To do
 
 =Mac setup
 	ctrl + f2 for toggle bookmark (and other bookmark commands?)
+		!tried this but it doesn't work - why?
+		!also tried disabling ^F2 in
+			System Preferences -> Keyboard -> Shortcuts -> Keyboard
 	ctrl+shift+left/right selects word part only - make it the same as on Windows
 	idea: use prefixes in front of arrow key shortcuts to simulate home/end/pgup/pgdown shortcuts?
 		e.g. "ctrl+q, ctrl+left/right/up/down" for home/end/pgup/pgdown
