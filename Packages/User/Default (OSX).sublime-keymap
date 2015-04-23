@@ -20,6 +20,7 @@
 	{ "keys": ["ctrl+shift+f"], "command": "show_panel", "args": {"panel": "find_in_files"} },
 	{ "keys": ["ctrl+p"], "command": "show_overlay", "args": {"overlay": "goto", "show_files": true} },
 	{ "keys": ["ctrl+k", "ctrl+d"], "command": "find_under_expand_skip" },
+	{ "keys": ["ctrl+q", "ctrl+shift+l"], "command": "select_all_bookmarks" },
 
 	//
 	{ "keys": ["ctrl+left"], "command": "move", "args": {"by": "words", "forward": false} },

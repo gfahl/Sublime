@@ -83,6 +83,7 @@ Keyboard shortcuts
 	ctrl/alt+doubleclick		add/delete selection
 	ctrl+shift+l				add cursor at each selected line
 	alt+f3						select all occurances of selection or word at cursor
+	ctrl+q, ctrl+shift+l		add cursor at each bookmark
 
 =edit
 	ctrl+shift+pgup/pgdown		move current line/selection of lines up/down (orig: ctrl+shift+up/down)
