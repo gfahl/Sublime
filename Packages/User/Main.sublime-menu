@@ -3,6 +3,13 @@
         "id": "edit",
         "children":
         [
+            {
+                "id": "convert_case",
+                "children":
+                [
+                    { "caption": "Camel Case & Co.", "command": "toggle_camel_snake_case" }
+                ]
+            },
             { "id": "foo" },
             { "caption": "Trim Trailing Whitespace", "command": "trim_trailing_white_space_now" },
             { "caption": "-" },
