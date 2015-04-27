@@ -1,6 +1,0 @@
-<snippet>
-    <content><![CDATA[tap {|x|p x}]]></content>
-    <tabTrigger>tap</tabTrigger>
-    <scope>source.ruby</scope>
-    <description>tap {|x|p x}</description>
-</snippet>

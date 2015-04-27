@@ -1,6 +1,0 @@
-<snippet>
-    <content><![CDATA[#{${1:$SELECTION}}]]></content>
-    <tabTrigger>ip</tabTrigger>
-    <scope>source.ruby</scope>
-    <description>#{..}</description>
-</snippet>

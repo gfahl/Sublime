@@ -1,8 +1,0 @@
-<snippet>
-    <content><![CDATA[map do |${1:x}|
-	$0
-end]]></content>
-    <tabTrigger>map</tabTrigger>
-    <scope>source.ruby</scope>
-    <description>map do..end</description>
-</snippet>
