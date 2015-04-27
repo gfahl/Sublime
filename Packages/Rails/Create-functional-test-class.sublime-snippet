@@ -6,6 +6,6 @@ class ${1:Model}ControllerTest < ActionController::TestCase
 end
 ]]></content>
     <tabTrigger>cla</tabTrigger>
-    <scope>source.ruby</scope>
+    <scope>source.ruby.rails</scope>
     <description>Create functional test class</description>
 </snippet>

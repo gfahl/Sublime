@@ -3,6 +3,6 @@
   $0
 end]]></content>
     <tabTrigger>asd</tabTrigger>
-    <scope>source.ruby</scope>
+    <scope>source.ruby.rails</scope>
     <description>assert_difference</description>
 </snippet>

@@ -10,6 +10,6 @@
 	end
 end]]></content>
     <tabTrigger>cla</tabTrigger>
-    <scope>source.ruby</scope>
+    <scope>source.ruby.rails</scope>
     <description>Create controller class</description>
 </snippet>
