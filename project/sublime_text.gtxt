@@ -10,6 +10,10 @@ Doing
 To do
 --------------------------------------------------------------------------------
 
+=Ruby and RubyMotion
+	clean up interferring snippets (e.g. do)
+	look through package to identify things that are useful and to keep
+	check GitHub repos for useful ideas/packages
 =Mac setup
 	ctrl + f2 for toggle bookmark (and other bookmark commands?)
 		!tried this but it doesn't work - why?

@@ -1,6 +1,7 @@
-
+Packages/originals/*
 project/Sublime.sublime-workspace
 project/Sublime.sublime-project
 *.cache
 *.pyc
 Packages/Default/send2trash
+temp/*
