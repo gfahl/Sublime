@@ -24,6 +24,8 @@ To do
 		e.g. "ctrl+q, ctrl+left/right/up/down" for home/end/pgup/pgdown
 			"ctrl+q, ctrl+shift+left/right/up/down" for selecting versions
 =To configure/extend
+	diff of the two files at the top of the view stack
+		like diff.py but not using Tortoise
 	shortcut for View -> Indentation -> Convert Indentation to Spaces
 	always indent using spaces
 	add shortcut of some kind for making 'puts "foo = %p" % foo'
@@ -143,7 +145,6 @@ Keyboard shortcuts
 									ctrl+g = goto +line+ (goto anything prefix :)
 									ctrl+semicolon = goto +word+ (goto anything prefix #)
 									ctrl+r = goto +symbol+ (goto anything prefix @)
-	ctrl+q, ctrl+r				revert
 
 =sidebar
 	alt+1/2/../0				goto file number 1/2/../10 (tab order)

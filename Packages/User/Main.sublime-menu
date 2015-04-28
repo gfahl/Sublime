@@ -30,14 +30,5 @@
                 ]
             }
         ]
-    },
-    {
-        "id": "tools",
-        "children":
-        [
-            { "caption": "Windows Explorer", "command": "open_dir", "args": {"dir": "$file_path", "file": "$file_name"} },
-            { "caption": "Diff files", "command": "diff" },
-            { "caption": "Diff checked-in", "command": "diff_checked_in" }
-        ]
     }
 ]
