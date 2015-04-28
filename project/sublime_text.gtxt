@@ -103,7 +103,8 @@ Keyboard shortcuts
 	ctrl+shift+d				duplicate current line
 	ctrl+k, ctrl+k				delete rest of line
 	ctrl+shift+k				delete current line
-	ctrl+q, ctrl+p				copy current file's path
+	ctrl+q, ctrl+f				copy current file's name (with extension)
+	ctrl+q, ctrl+p				copy current file's full path
 	ctrl+q, ctrl+d				paste current date
 	ctrl+space					auto-complete
 	ctrl+minus					toggle comment

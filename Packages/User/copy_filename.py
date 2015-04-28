@@ -1,6 +1,11 @@
-import sublime, sublime_plugin
+import sublime, sublime_plugin, re
 
 class CopyFilenameCommand(sublime_plugin.TextCommand):
     def run(self, edit):
-        # self.view.run_command("copy_path")
-        print self.view.file_name()
+        s = self.view.file_name()
+        sublime.set_clipboard(re.match('.*/(.*)', s).group(1))
+        sublime.status_message("Copied file name")
+
+    def is_enabled(self):
+    	s = self.view.file_name()
+        return s and len(s) > 0

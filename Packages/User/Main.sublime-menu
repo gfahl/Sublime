@@ -18,6 +18,7 @@
                 "caption": "Copy Other",
                 "children":
                 [
+                    { "caption": "Copy Filename", "command": "copy_filename" },
                     { "caption": "Copy Path", "command": "copy_path" }
                 ]
             },

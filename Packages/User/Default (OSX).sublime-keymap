@@ -63,6 +63,7 @@
 	{ "keys": ["ctrl+k", "ctrl+s"], "command": "toggle_camel_snake_case" },
 	{ "keys": ["ctrl+k", "ctrl+t"], "command": "title_case" },
 	{ "keys": ["ctrl+q", "ctrl+e"], "command": "open_dir", "args": {"dir": "$file_path", "file": "$file_name"} },
+	{ "keys": ["ctrl+q", "ctrl+f"], "command": "copy_filename" },
 	{ "keys": ["ctrl+q", "ctrl+p"], "command": "copy_path" },
 	{ "keys": ["ctrl+q", "ctrl+d"], "command": "paste_date" },
 	{ "keys": ["ctrl+q", "ctrl+s"], "command": "reveal_in_side_bar" },
