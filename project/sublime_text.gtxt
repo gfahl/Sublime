@@ -10,15 +10,12 @@ Doing
 To do
 --------------------------------------------------------------------------------
 
-=Ruby and RubyMotion
-	clean up interferring snippets (e.g. do)
-	look through package to identify things that are useful and to keep
-	check GitHub repos for useful ideas/packages
+remap Next Result (f4) to other shortcut (doesn't work now)
+snippet
+	{ || ... }
+	puts "hello from foo - x: %p" % [x]
+
 =Mac setup
-	ctrl + f2 for toggle bookmark (and other bookmark commands?)
-		!tried this but it doesn't work - why?
-		!also tried disabling ^F2 in
-			System Preferences -> Keyboard -> Shortcuts -> Keyboard
 	ctrl+shift+left/right selects word part only - make it the same as on Windows
 	idea: use prefixes in front of arrow key shortcuts to simulate home/end/pgup/pgdown shortcuts?
 		e.g. "ctrl+q, ctrl+left/right/up/down" for home/end/pgup/pgdown
