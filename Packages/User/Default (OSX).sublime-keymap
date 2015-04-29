@@ -13,7 +13,6 @@
 	{ "keys": ["ctrl+c"], "command": "copy" },
 	{ "keys": ["ctrl+v"], "command": "paste" },
 	{ "keys": ["ctrl+a"], "command": "select_all" },
-	{ "keys": ["ctrl+shift+l"], "command": "split_selection_into_lines" },
 	{ "keys": ["ctrl+l"], "command": "expand_selection", "args": {"to": "line"} },
 	{ "keys": ["ctrl+d"], "command": "find_under_expand" },
 	{ "keys": ["ctrl+f"], "command": "show_panel", "args": {"panel": "find"} },
@@ -22,7 +21,7 @@
 	{ "keys": ["ctrl+k", "ctrl+d"], "command": "find_under_expand_skip" },
 	{ "keys": ["ctrl+f2"], "command": "toggle_bookmark" },
 	{ "keys": ["ctrl+shift+f2"], "command": "clear_bookmarks" },
-	{ "keys": ["ctrl+q", "ctrl+shift+l"], "command": "select_all_bookmarks" },
+	{ "keys": ["ctrl+shift+l"], "command": "get_multiple_cursors" },
 
 	//
 	{ "keys": ["ctrl+left"], "command": "move", "args": {"by": "words", "forward": false} },

@@ -31,5 +31,27 @@
                 ]
             }
         ]
+    },
+    {
+        "id": "selection",
+        "children":
+        [
+            { "caption": "-" },
+            { "caption": "Split into Lines / Select All Bookmarks", "command": "get_multiple_cursors" }
+        ]
+    },
+    {
+        "id": "goto",
+        "children":
+        [
+            {
+                "id": "bookmarks",
+                "children":
+                [
+                    { "caption": "-" },
+                    { "caption": "Split into Lines / Select All Bookmarks", "command": "get_multiple_cursors" }
+                ]
+            }
+        ]
     }
 ]
