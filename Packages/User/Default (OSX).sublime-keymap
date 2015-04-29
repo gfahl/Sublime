@@ -43,6 +43,9 @@
 	{ "keys": ["ctrl+pagedown"], "command": "next_view" },
 	{ "keys": ["ctrl+pageup"], "command": "prev_view" },
 
+	{ "keys": ["ctrl+4"], "command": "next_result" },
+	{ "keys": ["ctrl+shift+4"], "command": "prev_result" },
+
 	{ "keys": ["ctrl+period"], "command": "show_panel", "args": {"panel": "console"} },
 	{ "keys": ["ctrl+shift+c"], "command": "show_overlay", "args": {"overlay": "command_palette"} },
 	{ "keys": ["ctrl+shift+i"], "command": "show_overlay", "args": {"overlay": "command_palette", "text": "Snippet: "} },

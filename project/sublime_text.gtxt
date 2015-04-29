@@ -10,7 +10,6 @@ Doing
 To do
 --------------------------------------------------------------------------------
 
-remap Next Result (f4) to other shortcut (doesn't work now)
 snippet
 	{ || ... }
 	puts "hello from foo - x: %p" % [x]
@@ -117,8 +116,8 @@ Keyboard shortcuts
 	ctrl+q, ctrl+1/2			decrease/increase font size
 	ctrl+q, ctrl+0				reset font size
 	shift+f11					toggle distraction free mode
-	ctrl+pgup/pgdown			previous/next view (as listed in side bar)
-	ctrl+(shift+)tab			previous/next view in stack
+	ctrl+pgdown/pgup			next/previous view (as listed in side bar)
+	ctrl+(shift+)tab			next/previous view in stack
 	ctrl+k, ctrl+b				toggle side bar
 	ctrl+.						toggle console
 	ctrl+q, ctrl+w				toggle word wrap
@@ -136,7 +135,7 @@ Keyboard shortcuts
 =find
 	ctrl+f						find
 	ctrl+shift+f				find in files
-	f4							go to next "find in files" result
+	ctrl+(shift+)4				go to next/previous "find in files" result
 
 =file/project
 	ctrl+shift+p				select project
