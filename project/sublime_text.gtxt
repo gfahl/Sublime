@@ -10,9 +10,6 @@ Doing
 To do
 --------------------------------------------------------------------------------
 
-snippet
-	puts "hello from foo - x: %p" % [x]
-
 =Mac setup
 	ctrl+shift+left/right selects word part only - make it the same as on Windows
 	idea: use prefixes in front of arrow key shortcuts to simulate home/end/pgup/pgdown shortcuts?
