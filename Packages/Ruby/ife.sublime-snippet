@@ -5,7 +5,6 @@
 ${SELECTION/([^\n]+|^)/\t$0/g}$2
 else
 	$3
-end
-$0]]></content>
+end$0]]></content>
   <scope>source.ruby</scope>
 </snippet>

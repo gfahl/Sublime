@@ -3,7 +3,6 @@
   <description>If Statement [X]</description>
   <content><![CDATA[if ${1:condition}
 ${SELECTION/([^\n]+|^)/\t$0/g}$2
-end
-$0]]></content>
+end$0]]></content>
   <scope>source.ruby</scope>
 </snippet>
