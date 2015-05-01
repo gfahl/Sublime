@@ -11,7 +11,6 @@ To do
 --------------------------------------------------------------------------------
 
 =Mac setup
-	ctrl+shift+left/right selects word part only - make it the same as on Windows
 	idea: use prefixes in front of arrow key shortcuts to simulate home/end/pgup/pgdown shortcuts?
 		e.g. "ctrl+q, ctrl+left/right/up/down" for home/end/pgup/pgdown
 			"ctrl+q, ctrl+shift+left/right/up/down" for selecting versions
