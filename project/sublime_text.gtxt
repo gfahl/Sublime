@@ -12,12 +12,6 @@ To do
 
 change keyboard shortcuts using function keys to +not+ using function keys
 	toggle distraction free mode: ? no shortcut but add to command palette?
-customize command palette (ctrl+shift+c)
-	remove commands I don't use (?)
-	add commands
-		e.g. copy other, paste other
-		rename
-	/Users/gustav/Library/Application Support/Sublime Text 2/Packages/Default/Default.sublime-commands
 look at "replace in files"
 	ctrl+shift+f and then play with the "..." button
 

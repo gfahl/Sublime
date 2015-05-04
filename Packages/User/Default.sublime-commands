@@ -1,0 +1,17 @@
+[
+    { "caption": "Convert Case: Camel Case & Co.", "command": "toggle_camel_snake_case" },
+    { "caption": "Edit: Trim Trailing Whitespace", "command": "trim_trailing_white_space_now" },
+    { "caption": "Edit: Copy Filename", "command": "copy_filename" },
+    { "caption": "Edit: Copy Path", "command": "copy_path" },
+    { "caption": "Edit: Paste Date", "command": "paste_date" },
+    {
+        "caption": "Multi-Selection: Split into Lines / Select All Bookmarks",
+        "command": "get_multiple_cursors"
+    },
+    { "caption": "File: Re-Open Last File", "command": "reopen_last_file" },
+    { "caption": "Find in Files: Next Result", "command": "next_result" },
+    { "caption": "Find in Files: Previous Result", "command": "prev_result" },
+    { "caption": "View: Decrease Font Size", "command": "decrease_font_size" },
+    { "caption": "View: Increase Font Size", "command": "increase_font_size" },
+    { "caption": "View: Reset Font Size", "command": "reset_font_size" }
+]
