@@ -11,8 +11,6 @@ To do
 --------------------------------------------------------------------------------
 
 change keyboard shortcuts using function keys to +not+ using function keys
-	select all occurances of selection or word at cursor: cmd+d
-
 	toggle distraction free mode: ? no shortcut but add to command palette?
 customize command palette (ctrl+shift+c)
 	remove commands I don't use (?)
@@ -99,7 +97,7 @@ Keyboard shortcuts
 	ctrl+k, ctrl+d				skip this selection during 'select more'
 	ctrl/alt+click				add/delete cursor
 	ctrl/alt+doubleclick		add/delete selection
-	alt+f3						select all occurances of selection or word at cursor
+	cmd+d						select all occurances of selection or word at cursor
 	ctrl+shift+l				get multiple cursors:
 									if multiple lines selected: add cursor at each selected line
 									if multiple bookmarks: add cursor at each bookmark
