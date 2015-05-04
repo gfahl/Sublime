@@ -10,6 +10,24 @@ Doing
 To do
 --------------------------------------------------------------------------------
 
+change keyboard shortcuts using function keys to +not+ using function keys
+	next bookmark: ctrl+b (currently move backwards)
+	previous bookmark: ctrl+shift+b
+	toggle bookmark: ctrl+q, ctrl+b
+	clear bookmarks: ctrl+q, ctrl+shift+b
+
+	select all occurances of selection or word at cursor: cmd+d
+
+	toggle distraction free mode: ? no shortcut but add to command palette?
+customize command palette (ctrl+shift+c)
+	remove commands I don't use (?)
+	add commands
+		e.g. copy other, paste other
+		rename
+	/Users/gustav/Library/Application Support/Sublime Text 2/Packages/Default/Default.sublime-commands
+look at "replace in files"
+	ctrl+shift+f and then play with the "..." button
+
 =Mac setup
 	idea: use prefixes in front of arrow key shortcuts to simulate home/end/pgup/pgdown shortcuts?
 		e.g. "ctrl+q, ctrl+left/right/up/down" for home/end/pgup/pgdown
@@ -32,8 +50,6 @@ To do
 =To investigate
 	according to my doc
 		alt+click/doubleclick is supposed to delete cursor/selection
-			why doesn't it?
-		alt+f3 supposed to select all occurances
 			why doesn't it?
 	shortcut to switch from dark to bright theme
 =Wishlist for Sublime
@@ -63,10 +79,12 @@ Keyboard shortcuts
 =move/select
 	ctrl+left/right				move by word
 	ctrl+shift+left/right		expand/reduce selection by word
-	alt+up/down					move by paragraph
-	ctrl+shift+up/down			expand/reduce selection by paragraph
+	cmd+left/right				move to beginning/end of line
+	cmd+shift+left/right		expand selection to beginning/end of line
 	alt+left/right				move by word-part
 	alt+shift+left/right		expand/reduce selection by word-part
+	alt+up/down					move by paragraph
+	ctrl+shift+up/down			expand/reduce selection by paragraph
 	alt+pgup/pgdown				move by section
 	alt+shift+pgup/pgdown		expand/reduce selection by section
 	ctrl+m						move to matching bracket
