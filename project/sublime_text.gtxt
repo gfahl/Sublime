@@ -11,11 +11,6 @@ To do
 --------------------------------------------------------------------------------
 
 change keyboard shortcuts using function keys to +not+ using function keys
-	next bookmark: ctrl+b (currently move backwards)
-	previous bookmark: ctrl+shift+b
-	toggle bookmark: ctrl+q, ctrl+b
-	clear bookmarks: ctrl+q, ctrl+shift+b
-
 	select all occurances of selection or word at cursor: cmd+d
 
 	toggle distraction free mode: ? no shortcut but add to command palette?
@@ -93,10 +88,11 @@ Keyboard shortcuts
 	ctrl+shift+u				redo, including cursor movement and selection
 	ctrl+shift+m				expand selection to brackets
 	ctrl+l						expand selection to line
-	f2							move to next bookmark
-	shift+f2					move to previous bookmark
-	ctrl+f2						toggle bookmark
-	ctrl+shift+f2				clear all bookmarks
+	-bookmarks
+	cmd+b						move to next bookmark
+	cmd+shift+b					move to previous bookmark
+	ctrl+b						toggle bookmark
+	ctrl+shift+b				clear all bookmarks
 
 =multi-select
 	ctrl+d						select more (when selection)
