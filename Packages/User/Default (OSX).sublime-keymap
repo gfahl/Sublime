@@ -19,6 +19,7 @@
 	{ "keys": ["ctrl+shift+f"], "command": "show_panel", "args": {"panel": "find_in_files"} },
 	{ "keys": ["ctrl+p"], "command": "show_overlay", "args": {"overlay": "goto", "show_files": true} },
 	{ "keys": ["ctrl+k", "ctrl+d"], "command": "find_under_expand_skip" },
+	{ "keys": ["ctrl+k", "ctrl+c"], "command": "show_at_center" },
 	{ "keys": ["ctrl+shift+l"], "command": "get_multiple_cursors" },
 	{ "keys": ["super+d"], "command": "find_all_under" },
 
@@ -56,10 +57,6 @@
 	{ "keys": ["ctrl+shift+c"], "command": "show_overlay", "args": {"overlay": "command_palette"} },
 	{ "keys": ["ctrl+shift+i"], "command": "show_overlay", "args": {"overlay": "command_palette", "text": "Snippet: "} },
 	{ "keys": ["ctrl+shift+p"], "command": "prompt_select_project" },
-
-	{ "keys": ["ctrl+q", "ctrl+1"], "command": "decrease_font_size" },
-	{ "keys": ["ctrl+q", "ctrl+2"], "command": "increase_font_size" },
-	{ "keys": ["ctrl+q", "ctrl+0"], "command": "reset_font_size" },
 
 	{ "keys": ["ctrl+shift+pageup"], "command": "swap_line_up" },
 	{ "keys": ["ctrl+shift+pagedown"], "command": "swap_line_down" },
