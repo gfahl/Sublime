@@ -13,9 +13,6 @@ To do
 change shortcut for
 	ctrl+(shift+)4				go to next/previous "find in files" result
 	cmd+n/p ?
-come up with new keyboard shortcuts for
-	ctrl+semicolon = goto +word+ (goto anything prefix #)
-	ctrl+r = goto +symbol+ (goto anything prefix @)
 look at "replace in files"
 	ctrl+shift+f and then play with the "..." button
 
@@ -145,9 +142,9 @@ Keyboard shortcuts (and useful commands without keyboard shortcut)
 =file/project
 	ctrl+shift+p				select project
 	ctrl+p						goto anything
-									ctrl+g = goto +line+ (goto anything prefix :)
-									ctrl+semicolon = goto +word+ (goto anything prefix #)
-									ctrl+r = goto +symbol+ (goto anything prefix @)
+	ctrl+g						goto +line+ (goto anything prefix :)
+	ctrl+,						goto +word+ (goto anything prefix #)
+	ctrl+shift+,				goto +symbol+ (goto anything prefix @)
 
 =sidebar
 	alt+1/2/../0 (Windows)		goto file number 1/2/../10 (tab order)

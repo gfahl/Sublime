@@ -17,5 +17,25 @@
     { "caption": "View: Reset Font Size", "command": "reset_font_size" },
     { "caption": "View: Toggle Distraction Free Mode", "command": "toggle_distraction_free" },
     { "caption": "View: Show Console", "command": "show_panel", "args": {"panel": "console"} },
-    { "caption": "View: Center Current Line", "command": "show_at_center" }
+    { "caption": "View: Center Current Line", "command": "show_at_center" },
+    {
+        "caption": "Go To: Anything",
+        "command": "show_overlay",
+        "args": {"overlay": "goto", "show_files": true}
+    },
+    {
+        "caption": "Go To: Word",
+        "command": "show_overlay",
+        "args": {"overlay": "goto", "text": "#"}
+    },
+    {
+        "caption": "Go To: Symbol",
+        "command": "show_overlay",
+        "args": {"overlay": "goto", "text": "@"}
+    },
+    {
+        "caption": "Go To: Line",
+        "command": "show_overlay",
+        "args": {"overlay": "goto", "text": ":"}
+    }
 ]
