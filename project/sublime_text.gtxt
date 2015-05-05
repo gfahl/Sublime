@@ -10,33 +10,17 @@ Doing
 To do
 --------------------------------------------------------------------------------
 
-look at "replace in files"
-	ctrl+shift+f and then play with the "..." button
-
-=Mac setup
-	idea: use prefixes in front of arrow key shortcuts to simulate home/end/pgup/pgdown shortcuts?
-		e.g. "ctrl+q, ctrl+left/right/up/down" for home/end/pgup/pgdown
-			"ctrl+q, ctrl+shift+left/right/up/down" for selecting versions
 =To configure/extend
 	diff of the two files at the top of the view stack
 		like diff.py but not using Tortoise
 		assign keyboard shortcut
-	shortcut for View -> Indentation -> Convert Indentation to Spaces
 	always indent using spaces
-	add shortcut of some kind for making 'puts "foo = %p" % foo'
 	ruby: convert {} to do-end (and opposite)
 	sql syntax missing keywords
 		index, if exists, AUTO_INCREMENT, unique
-	turn off tab guides, is there command to toggle?
-	change code folding keyboard shortcuts
-	make open files in sidebar visible by default
 	delete blank lines in selection
-	remove trailing whitespace
 	Drag text left/right in the same way as ctrl+shift+pgup/pgdown
 =To investigate
-	according to my doc
-		alt+click/doubleclick is supposed to delete cursor/selection
-			why doesn't it?
 	shortcut to switch from dark to bright theme
 =Wishlist for Sublime
 	keep tab stack order when moving between projects
@@ -178,6 +162,9 @@ Packages/User/Ruby.sublime-settings				_make your package specific changes here_
 -sublime-keymap
 Packages/Default/Default (Windows).sublime-keymap
 Packages/User/Default (Windows).sublime-keymap
+-sublime-menu
+-sublime-commands
+-sublime-snippet
 -sublime-build
 -tmLanguage
 -tmPreferences
