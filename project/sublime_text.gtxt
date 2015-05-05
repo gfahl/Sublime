@@ -10,9 +10,6 @@ Doing
 To do
 --------------------------------------------------------------------------------
 
-change shortcut for
-	ctrl+(shift+)4				go to next/previous "find in files" result
-	cmd+n/p ?
 look at "replace in files"
 	ctrl+shift+f and then play with the "..." button
 
@@ -137,7 +134,8 @@ Keyboard shortcuts (and useful commands without keyboard shortcut)
 =find
 	ctrl+f						find
 	ctrl+shift+f				find in files
-	ctrl+(shift+)4				go to next/previous "find in files" result
+	cmd+n						go to next "find in files" result
+	cmd+p						go to previous "find in files" result
 
 =file/project
 	ctrl+shift+p				select project
