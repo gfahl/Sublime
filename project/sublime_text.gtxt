@@ -19,7 +19,6 @@ To do
 	sql syntax missing keywords
 		index, if exists, AUTO_INCREMENT, unique
 	delete blank lines in selection
-	Drag text left/right in the same way as ctrl+shift+pgup/pgdown
 =To investigate
 	shortcut to switch from dark to bright theme
 =Wishlist for Sublime
@@ -80,7 +79,8 @@ Keyboard shortcuts (and useful commands without keyboard shortcut)
 									if multiple bookmarks: add cursor at each bookmark
 
 =edit
-	ctrl+shift+pgup/pgdown		move current line/selection of lines up/down (orig: ctrl+shift+up/down)
+	ctrl+shift+pgup/pgdown		move selected lines (or current line) up/down
+	ctrl+cmd+left/right			move selected text left/right
 	ctrl+shift+d				duplicate current line
 	ctrl+k, ctrl+k				delete rest of line
 	ctrl+shift+k				delete current line

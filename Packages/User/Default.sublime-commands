@@ -4,6 +4,8 @@
     { "caption": "Edit: Copy Filename", "command": "copy_filename" },
     { "caption": "Edit: Copy Path", "command": "copy_path" },
     { "caption": "Edit: Paste Date", "command": "paste_date" },
+    { "caption": "Edit: Move Text Left", "command": "move_text_left" },
+    { "caption": "Edit: Move Text Right", "command": "move_text_right" },
     {
         "caption": "Multi-Select: Split into Lines / Select All Bookmarks",
         "command": "get_multiple_cursors"
