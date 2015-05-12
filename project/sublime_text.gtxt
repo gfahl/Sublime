@@ -11,9 +11,15 @@ To do
 --------------------------------------------------------------------------------
 
 =To configure/extend
+	command palette:
+		File: New window
+		File: Close window
+	when exactly two selections: swap text
+		e.g. "<selection 1> and <second selection>" => "<second selection> and <selection 1>"
 	diff of the two files at the top of the view stack
 		like diff.py but not using Tortoise
 		assign keyboard shortcut
+		this might be best: https://packagecontrol.io/packages/FileDiffs
 	always indent using spaces
 	ruby: convert {} to do-end (and opposite)
 	sql syntax missing keywords
@@ -212,6 +218,12 @@ Package Control
 --------------------------------------------------------------------------------
 
 http://wbond.net/sublime_packages/package_control
+
+--------------------------------------------------------------------------------
+Packages
+--------------------------------------------------------------------------------
+
+https://github.com/timonwong/OmniMarkupPreviewer
 
 --------------------------------------------------------------------------------
 Console
