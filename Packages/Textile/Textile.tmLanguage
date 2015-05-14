@@ -87,7 +87,7 @@
 				</dict>
 			</dict>
 			<key>match</key>
-			<string>^((bq|bc(?:\.)?|fn[0-9]+|p(?:\{.*?\})?)\.) </string>
+			<string>^((bq|bc(?:\.)?|fn[0-9]+|p(?:&lt;|&gt;|&lt;&gt;|=|\(+)?(?:\{.*?\})?)\.) </string>
 		</dict>
 		<dict>
 			<key>captures</key>
@@ -121,7 +121,7 @@
 				</dict>
 			</dict>
 			<key>match</key>
-			<string>(@)(.*?)(@)</string>
+			<string>\W(@)(.*?)(@)\W</string>
 		</dict>
 		<dict>
 			<key>captures</key>
