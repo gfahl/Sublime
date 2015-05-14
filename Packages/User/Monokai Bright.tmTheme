@@ -418,6 +418,19 @@
 		</dict>
 		<dict>
 			<key>name</key>
+			<string>Textile Header</string>
+			<key>scope</key>
+			<string>header.textile</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<string>#A4E1A4</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
 			<string>Textile (special)</string>
 			<key>scope</key>
 			<string>special.textile</string>

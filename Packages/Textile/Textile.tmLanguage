@@ -56,9 +56,26 @@
 					<key>name</key>
 					<string>textile</string>
 				</dict>
+				<key>2</key>
+				<dict>
+					<key>name</key>
+					<string>header.textile</string>
+				</dict>
 			</dict>
 			<key>match</key>
-			<string>^((h[1-6]|bq|bc(?:\.)?|fn[0-9]+|p(?:\{.*?\})?)\.) </string>
+			<string>^(h[1-6]\.) (.*)$</string>
+		</dict>
+		<dict>
+			<key>captures</key>
+			<dict>
+				<key>1</key>
+				<dict>
+					<key>name</key>
+					<string>textile</string>
+				</dict>
+			</dict>
+			<key>match</key>
+			<string>^((bq|bc(?:\.)?|fn[0-9]+|p(?:\{.*?\})?)\.) </string>
 		</dict>
 		<dict>
 			<key>captures</key>
