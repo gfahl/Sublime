@@ -273,6 +273,10 @@
 			<key>patterns</key>
 			<array>
 				<dict>
+					<key>include</key>
+					<string>$self</string>
+				</dict>
+				<dict>
 					<key>match</key>
 					<string>\|(?:_\.)?</string>
 					<key>name</key>
