@@ -18,6 +18,18 @@
 				<key>1</key>
 				<dict>
 					<key>name</key>
+					<string>warning.textile</string>
+				</dict>
+			</dict>
+			<key>match</key>
+			<string>(\(todo\))</string>
+		</dict>
+		<dict>
+			<key>captures</key>
+			<dict>
+				<key>1</key>
+				<dict>
+					<key>name</key>
 					<string>special.textile</string>
 				</dict>
 			</dict>
