@@ -131,6 +131,28 @@
 					<key>name</key>
 					<string>textile</string>
 				</dict>
+				<key>2</key>
+				<dict>
+					<key>name</key>
+					<string>special.textile</string>
+				</dict>
+				<key>3</key>
+				<dict>
+					<key>name</key>
+					<string>textile</string>
+				</dict>
+			</dict>
+			<key>match</key>
+			<string> (==)(.*?)(==) </string>
+		</dict>
+		<dict>
+			<key>captures</key>
+			<dict>
+				<key>1</key>
+				<dict>
+					<key>name</key>
+					<string>textile</string>
+				</dict>
 			</dict>
 			<key>match</key>
 			<string>^(table\{.*\}\.)$</string>
