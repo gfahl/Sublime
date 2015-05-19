@@ -22,7 +22,7 @@
 				</dict>
 			</dict>
 			<key>match</key>
-			<string>(\(todo\))</string>
+			<string>(\(todo(?:.*?)\))</string>
 		</dict>
 		<dict>
 			<key>captures</key>
@@ -75,7 +75,7 @@
 				</dict>
 			</dict>
 			<key>match</key>
-			<string>^(h[1-6]\.) (.*)$</string>
+			<string>^(h[1-6](?:\(.*?\))?(?:\{.*?\})?\.) (.*)$</string>
 		</dict>
 		<dict>
 			<key>captures</key>
@@ -87,7 +87,7 @@
 				</dict>
 			</dict>
 			<key>match</key>
-			<string>^((bq|bc(?:\.)?|fn[0-9]+|p(?:&lt;|&gt;|&lt;&gt;|=|\(+)?(?:\{.*?\})?)\.) </string>
+			<string>^((bq|bc(?:\.)?|fn[0-9]+|p(?:&lt;|&gt;|&lt;&gt;|=|\(+)?(?:\(.*?\))?(?:\{.*?\})?)\.) </string>
 		</dict>
 		<dict>
 			<key>captures</key>
@@ -121,7 +121,7 @@
 				</dict>
 			</dict>
 			<key>match</key>
-			<string>\W(@)(.*?)(@)\W</string>
+			<string>(?:\W|^)(@)(.*?)(@)(?:\W|$)</string>
 		</dict>
 		<dict>
 			<key>captures</key>
@@ -143,7 +143,7 @@
 				</dict>
 			</dict>
 			<key>match</key>
-			<string> (==)(.*?)(==) </string>
+			<string>\W(==)(.*?)(==)\W</string>
 		</dict>
 		<dict>
 			<key>captures</key>
@@ -189,7 +189,7 @@
 				</dict>
 			</dict>
 			<key>match</key>
-			<string>(%\{.*?\})(.*?)(%)</string>
+			<string>(%(?:\(.*?\))?(?:\{.*?\})?)(.*?)(%)</string>
 		</dict>
 		<dict>
 			<key>captures</key>
@@ -305,6 +305,14 @@
 					<string>textile</string>
 				</dict>
 			</array>
+		</dict>
+		<dict>
+			<key>begin</key>
+			<string>^notextile\. </string>
+			<key>end</key>
+			<string>^$</string>
+			<key>name</key>
+			<string>textile</string>
 		</dict>
 	</array>
 </dict>
