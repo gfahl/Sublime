@@ -10,6 +10,8 @@ Doing
 To do
 --------------------------------------------------------------------------------
 
+rewrite alt+down/up to be more efficient
+
 =To configure/extend
 	command palette:
 		File: New window
@@ -46,6 +48,7 @@ http://sublimetext.userecho.com/
 http://www.sublimetext.com/docs/2/
 -Unofficial
 http://docs.sublimetext.info/en/latest/index.html
+http://sublime-text-unofficial-documentation.readthedocs.org/
 
 --------------------------------------------------------------------------------
 Keyboard shortcuts (and useful commands without keyboard shortcut)
