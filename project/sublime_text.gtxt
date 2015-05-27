@@ -11,9 +11,6 @@ To do
 --------------------------------------------------------------------------------
 
 =To configure/extend
-	command palette:
-		File: New window
-		File: Close window
 	when exactly two selections: swap text
 		e.g. "<selection 1> and <second selection>" => "<second selection> and <selection 1>"
 	diff of the two files at the top of the view stack

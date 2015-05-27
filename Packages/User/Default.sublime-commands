@@ -1,42 +1,49 @@
 [
-    { "caption": "Convert Case: Camel Case & Co.", "command": "toggle_camel_snake_case" },
+    { "caption": "File: Re-Open Last File", "command": "reopen_last_file" },
+    { "caption": "File: New Window", "command": "new_window" },
+    { "caption": "File: Close Window", "command": "close_window" },
+
+    { "caption": "Edit (Convert Case): Camel Case & Co.", "command": "toggle_camel_snake_case" },
     { "caption": "Edit: Trim Trailing Whitespace", "command": "trim_trailing_white_space_now" },
     { "caption": "Edit: Copy Filename", "command": "copy_filename" },
     { "caption": "Edit: Copy Path", "command": "copy_path" },
     { "caption": "Edit: Paste Date", "command": "paste_date" },
     { "caption": "Edit: Move Text Left", "command": "move_text_left" },
     { "caption": "Edit: Move Text Right", "command": "move_text_right" },
+
     {
         "caption": "Multi-Select: Split into Lines / Select All Bookmarks",
         "command": "get_multiple_cursors"
     },
     { "caption": "Multi-Select: Select All Occurances", "command": "find_all_under" },
-    { "caption": "File: Re-Open Last File", "command": "reopen_last_file" },
+
     { "caption": "Find in Files: Next Result", "command": "next_result" },
     { "caption": "Find in Files: Previous Result", "command": "prev_result" },
+
     { "caption": "View: Decrease Font Size", "command": "decrease_font_size" },
     { "caption": "View: Increase Font Size", "command": "increase_font_size" },
     { "caption": "View: Reset Font Size", "command": "reset_font_size" },
     { "caption": "View: Toggle Distraction Free Mode", "command": "toggle_distraction_free" },
     { "caption": "View: Show Console", "command": "show_panel", "args": {"panel": "console"} },
     { "caption": "View: Center Current Line", "command": "show_at_center" },
+
     {
-        "caption": "Go To: Anything",
+        "caption": "Goto: Anything",
         "command": "show_overlay",
         "args": {"overlay": "goto", "show_files": true}
     },
     {
-        "caption": "Go To: Word",
+        "caption": "Goto: Word",
         "command": "show_overlay",
         "args": {"overlay": "goto", "text": "#"}
     },
     {
-        "caption": "Go To: Symbol",
+        "caption": "Goto: Symbol",
         "command": "show_overlay",
         "args": {"overlay": "goto", "text": "@"}
     },
     {
-        "caption": "Go To: Line",
+        "caption": "Goto: Line",
         "command": "show_overlay",
         "args": {"overlay": "goto", "text": ":"}
     }
