@@ -18,11 +18,34 @@
 				<key>invisibles</key>
 				<string>#3B3A32</string>
 				<key>lineHighlight</key>
-				<string>#4E4D42</string>
+				<string>#3E3D32</string>
 				<key>selection</key>
 				<string>#9D550F</string>
 				<key>selectionForeground</key>
 				<string>#fffff8</string>
+				<key>inactiveSelection</key>
+				<string>#bbbbbb</string>
+				<key>inactiveSelectionForeground</key>
+				<string>#222222</string>
+				<key>findHighlight</key>
+				<string>#FFE792</string>
+				<key>findHighlightForeground</key>
+				<string>#000000</string>
+				<key>activeGuide</key>
+				<string>#9D550FB0</string>
+
+				<key>bracketsForeground</key>
+				<string>#F8F8F2A5</string>
+				<key>bracketsOptions</key>
+				<string>underline</string>
+
+				<key>bracketContentsForeground</key>
+				<string>#F8F8F2A5</string>
+				<key>bracketContentsOptions</key>
+				<string>underline</string>
+
+				<key>tagsOptions</key>
+				<string>stippled_underline</string>
 			</dict>
 		</dict>
 		<dict>
@@ -295,181 +318,73 @@
 				<string>#CFCFC2</string>
 			</dict>
 		</dict>
+
 		<dict>
 			<key>name</key>
-			<string>My Text: important text</string>
+			<string>diff.header</string>
 			<key>scope</key>
-			<string>important-word.my.text, important-text.my.text</string>
+			<string>meta.diff, meta.diff.header</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#FFF0B2</string>
+				<string>#75715E</string>
 			</dict>
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>My Text: header 1</string>
+			<string>diff.deleted</string>
 			<key>scope</key>
-			<string>header.1.my.text</string>
+			<string>markup.deleted</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#A4E1A4</string>
+				<string>#F92672</string>
 			</dict>
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>My Text: header 2</string>
+			<string>diff.inserted</string>
 			<key>scope</key>
-			<string>header.2.my.text</string>
+			<string>markup.inserted</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#A4E1A4</string>
+				<string>#A6E22E</string>
 			</dict>
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>My Text: header 3</string>
+			<string>diff.changed</string>
 			<key>scope</key>
-			<string>header.3.my.text</string>
+			<string>markup.changed</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#A4E1A4</string>
+				<string>#E6DB74</string>
+			</dict>
+		</dict>
+
+		<dict>
+			<key>scope</key>
+			<string>constant.numeric.line-number.find-in-files - match</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#AE81FFA0</string>
 			</dict>
 		</dict>
 		<dict>
-			<key>name</key>
-			<string>My Text: header 4</string>
 			<key>scope</key>
-			<string>header.4.my.text</string>
+			<string>entity.name.filename.find-in-files</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#A4A4E1</string>
+				<string>#E6DB74</string>
 			</dict>
 		</dict>
-		<dict>
-			<key>name</key>
-			<string>My Text: header 5</string>
-			<key>scope</key>
-			<string>header.5.my.text</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#FFF0B2</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>My Text: command line</string>
-			<key>scope</key>
-			<string>command-line.my.text</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#85BAEE</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>Ruby Text: comment 1</string>
-			<key>scope</key>
-			<string>comment.1.ruby.text</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#76C718</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>Ruby Text: comment 2</string>
-			<key>scope</key>
-			<string>comment.2.ruby.text</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#CCEAA9</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>Ruby Text: comment 3</string>
-			<key>scope</key>
-			<string>comment.3.ruby.text</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#A4AD99</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>Ruby Text: result comment</string>
-			<key>scope</key>
-			<string>comment.result.ruby.text</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#A4AD99</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>Textile: warning</string>
-			<key>scope</key>
-			<string>warning.textile</string>
-			<key>settings</key>
-			<dict>
-				<key>fontStyle</key>
-				<string></string>
-				<key>foreground</key>
-				<string>#E1A4A4</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>Textile Header</string>
-			<key>scope</key>
-			<string>header.textile</string>
-			<key>settings</key>
-			<dict>
-				<key>fontStyle</key>
-				<string></string>
-				<key>foreground</key>
-				<string>#A4E1A4</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>Textile (special)</string>
-			<key>scope</key>
-			<string>special.textile</string>
-			<key>settings</key>
-			<dict>
-				<key>fontStyle</key>
-				<string></string>
-				<key>foreground</key>
-				<string>#FFF0B2</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>Textile</string>
-			<key>scope</key>
-			<string>textile</string>
-			<key>settings</key>
-			<dict>
-				<key>fontStyle</key>
-				<string></string>
-				<key>foreground</key>
-				<string>#85BAEE</string>
-			</dict>
-		</dict>
+
 	</array>
 	<key>uuid</key>
-	<string>D8D5E82E-3D5B-46B5-B38E-8C841C21347D</string>
+	<string>D8D5E82E-3D5B-46B5-B38E-8C841C21347E</string>
 </dict>
 </plist>
