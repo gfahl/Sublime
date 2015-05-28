@@ -383,6 +383,180 @@
 			</dict>
 		</dict>
 
+		<dict>
+			<key>name</key>
+			<string>My Text: important text</string>
+			<key>scope</key>
+			<string>important-word.my.text, important-text.my.text</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#FFF0B2</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>My Text: header 1</string>
+			<key>scope</key>
+			<string>header.1.my.text</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#A4E1A4</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>My Text: header 2</string>
+			<key>scope</key>
+			<string>header.2.my.text</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#A4E1A4</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>My Text: header 3</string>
+			<key>scope</key>
+			<string>header.3.my.text</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#A4E1A4</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>My Text: header 4</string>
+			<key>scope</key>
+			<string>header.4.my.text</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#A4A4E1</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>My Text: header 5</string>
+			<key>scope</key>
+			<string>header.5.my.text</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#FFF0B2</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>My Text: command line</string>
+			<key>scope</key>
+			<string>command-line.my.text</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#85BAEE</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Ruby Text: comment 1</string>
+			<key>scope</key>
+			<string>comment.1.ruby.text</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#76C718</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Ruby Text: comment 2</string>
+			<key>scope</key>
+			<string>comment.2.ruby.text</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#CCEAA9</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Ruby Text: comment 3</string>
+			<key>scope</key>
+			<string>comment.3.ruby.text</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#A4AD99</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Ruby Text: result comment</string>
+			<key>scope</key>
+			<string>comment.result.ruby.text</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#A4AD99</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Textile: warning</string>
+			<key>scope</key>
+			<string>warning.textile</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<string>#E1A4A4</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Textile Header</string>
+			<key>scope</key>
+			<string>header.textile</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<string>#A4E1A4</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Textile (special)</string>
+			<key>scope</key>
+			<string>special.textile</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<string>#FFF0B2</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Textile</string>
+			<key>scope</key>
+			<string>textile</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<string>#85BAEE</string>
+			</dict>
+		</dict>
+
 	</array>
 	<key>uuid</key>
 	<string>D8D5E82E-3D5B-46B5-B38E-8C841C21347E</string>
