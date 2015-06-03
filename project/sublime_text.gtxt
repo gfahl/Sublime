@@ -12,7 +12,6 @@ To do
 
 =To configure/extend
 	always indent using spaces
-	ruby: convert {} to do-end (and opposite)
 	sql syntax missing keywords
 		index, if exists, AUTO_INCREMENT, unique
 	delete blank lines in selection
