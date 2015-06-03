@@ -11,8 +11,6 @@ To do
 --------------------------------------------------------------------------------
 
 =To configure/extend
-	when exactly two selections: swap text
-		e.g. "<selection 1> and <second selection>" => "<second selection> and <selection 1>"
 	diff of the two files at the top of the view stack
 		like diff.py but not using Tortoise
 		assign keyboard shortcut
@@ -89,6 +87,7 @@ Keyboard shortcuts (and useful commands without keyboard shortcut)
 	ctrl+k, ctrl+k				delete rest of line
 	ctrl+shift+k				delete current line
 	ctrl+q, ctrl+f				copy current file's name (with extension)
+	ctrl+t						transpose (selections, or characters around prompt)
 	ctrl+q, ctrl+p				copy current file's full path
 	ctrl+q, ctrl+d				paste current date
 	ctrl+space					auto-complete
