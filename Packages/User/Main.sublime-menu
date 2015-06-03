@@ -53,5 +53,12 @@
                 ]
             }
         ]
+    },
+    {
+        "id": "tools",
+        "children":
+        [
+            { "caption": "Diff Previous", "command": "diff_previous" }
+        ]
     }
 ]

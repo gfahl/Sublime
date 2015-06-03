@@ -1,83 +1,41 @@
 import sublime, sublime_plugin
 import difflib
 import time
-import os.path
-import codecs
 
-class DiffFilesCommand(sublime_plugin.WindowCommand):
-    def run(self, files):
-        if len(files) != 2:
-            return
-
-        try:
-            a = codecs.open(files[1], "r", "utf-8").readlines()
-            b = codecs.open(files[0], "r", "utf-8").readlines()
-        except UnicodeDecodeError:
-            sublime.status_message("Diff only works with UTF-8 files")
-            return
-
-        adate = time.ctime(os.stat(files[1]).st_mtime)
-        bdate = time.ctime(os.stat(files[0]).st_mtime)
-
-        diff = difflib.unified_diff(a, b, files[1], files[0], adate, bdate)
-
-        difftxt = u"".join(line for line in diff)
-
-        if difftxt == "":
-            sublime.status_message("Files are identical")
-        else:
-            v = self.window.new_file()
-            v.set_name(os.path.basename(files[1]) + " -> " + os.path.basename(files[0]))
-            v.set_scratch(True)
-            v.set_syntax_file('Packages/Diff/Diff.tmLanguage')
-            edit = v.begin_edit()
-            v.insert(edit, 0, difftxt)
-            v.end_edit(edit)
-
-    def is_visible(self, files):
-        return len(files) == 2
-
-class DiffChangesCommand(sublime_plugin.TextCommand):
+class DiffPreviousCommand(sublime_plugin.TextCommand):
     def run(self, edit):
+        win = self.view.window()
 
-        fname = self.view.file_name();
+        win.run_command("next_view_in_stack")
+        v = win.active_view()
+        txt1 = v.substr(sublime.Region(0, v.size())).splitlines()
+        name1 = v.file_name()
+        date1 = time.ctime(os.stat(name1).st_mtime)
 
-        try:
-            a = codecs.open(fname, "r", "utf-8").read().splitlines()
-            b = self.view.substr(sublime.Region(0, self.view.size())).splitlines()
-        except UnicodeDecodeError:
-            sublime.status_message("Diff only works with UTF-8 files")
-            return
+        win.run_command("prev_view_in_stack")
+        v = win.active_view()
+        txt2 = v.substr(sublime.Region(0, v.size())).splitlines()
+        name2 = v.file_name()
+        date2 = time.ctime(os.stat(name2).st_mtime)
 
-        adate = time.ctime(os.stat(fname).st_mtime)
-        bdate = time.ctime()
-
-        diff = difflib.unified_diff(a, b, fname, fname, adate, bdate,lineterm='')
+        diff = difflib.unified_diff(txt1, txt2, name1, name2, date1, date2, lineterm = '')
         difftxt = u"\n".join(line for line in diff)
 
-        if difftxt == "":
-            sublime.status_message("No changes")
-            return
-
-        use_buffer = self.view.settings().get('diff_changes_to_buffer')
-
-        if use_buffer:
-            v = self.view.window().new_file()
-            v.set_name("Unsaved Changes: " + os.path.basename(self.view.file_name()))
+        try:
+            v = next(_v for _v in win.views() if _v.is_scratch() and _v.name() == u'Diff')
+            win.focus_view(v)
+        except StopIteration:
+            v = win.new_file()
+            v.set_name("Diff")
             v.set_scratch(True)
             v.set_syntax_file('Packages/Diff/Diff.tmLanguage')
-        else:
-            win = self.view.window()
-            v = win.get_output_panel('unsaved_changes')
-            v.set_syntax_file('Packages/Diff/Diff.tmLanguage')
-            v.settings().set('word_wrap', self.view.settings().get('word_wrap'))
 
+        pt = v.size()
         edit = v.begin_edit()
-        v.insert(edit, 0, difftxt)
+        v.insert(edit, v.size(), "\n" + difftxt + "\n")
         v.end_edit(edit)
 
-        if not use_buffer:
-            win.run_command("show_panel", {"panel": "output.unsaved_changes"})
-
-    def is_enabled(self):
-        return self.view.is_dirty() and self.view.file_name()
+        v.sel().clear()
+        v.sel().add(sublime.Region(pt + 1, pt + 1))
+        v.set_viewport_position((v.viewport_position()[0], v.layout_extent()[1]))
+        v.show(pt, False)

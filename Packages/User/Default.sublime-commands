@@ -46,5 +46,7 @@
         "caption": "Goto: Line",
         "command": "show_overlay",
         "args": {"overlay": "goto", "text": ":"}
-    }
+    },
+
+    { "caption": "Tools: Diff Previous", "command": "diff_previous" }
 ]

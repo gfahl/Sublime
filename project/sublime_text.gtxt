@@ -11,10 +11,6 @@ To do
 --------------------------------------------------------------------------------
 
 =To configure/extend
-	diff of the two files at the top of the view stack
-		like diff.py but not using Tortoise
-		assign keyboard shortcut
-		this might be best: https://packagecontrol.io/packages/FileDiffs
 	always indent using spaces
 	ruby: convert {} to do-end (and opposite)
 	sql syntax missing keywords
@@ -117,6 +113,7 @@ Keyboard shortcuts (and useful commands without keyboard shortcut)
 	ctrl+q, ctrl+e				open Windows File Explorer/Mac Finder positioned in the current file's folder
 	ctrl+shift+c				show command palette
 	ctrl+shift+i				show snippets (in command palette)
+	(none)						Tools: Diff Previous
 
 =find
 	ctrl+f						find
