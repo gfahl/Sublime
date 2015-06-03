@@ -54,6 +54,7 @@ Keyboard shortcuts (and useful commands without keyboard shortcut)
 	alt+pgup/pgdown				move by section
 	alt+shift+pgup/pgdown		expand/reduce selection by section
 	ctrl+m						move to matching bracket
+	(none)						Navigate: Move Using Find
 	ctrl+d						select word (when no selection)
 	ctrl+u						undo, including cursor movement and selection
 	ctrl+shift+u				redo, including cursor movement and selection

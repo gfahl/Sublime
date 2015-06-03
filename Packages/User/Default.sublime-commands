@@ -3,6 +3,8 @@
     { "caption": "File: New Window", "command": "new_window" },
     { "caption": "File: Close Window", "command": "close_window" },
 
+    { "caption": "Navigate: Move Using Find", "command": "prompt_move_using_find" },
+
     { "caption": "Edit (Convert Case): Camel Case & Co.", "command": "toggle_camel_snake_case" },
     { "caption": "Edit: Trim Trailing Whitespace", "command": "trim_trailing_white_space_now" },
     { "caption": "Edit: Copy Filename", "command": "copy_filename" },
