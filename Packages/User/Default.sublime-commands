@@ -27,6 +27,9 @@
     { "caption": "View: Show Console", "command": "show_panel", "args": {"panel": "console"} },
     { "caption": "View: Center Current Line", "command": "show_at_center" },
 
+    { "caption": "Indentation: Tab Width 2", "command": "set_setting", "args": {"setting": "tab_size", "value": 2} },
+    { "caption": "Indentation: Tab Width 4", "command": "set_setting", "args": {"setting": "tab_size", "value": 4} },
+
     {
         "caption": "Goto: Anything",
         "command": "show_overlay",
