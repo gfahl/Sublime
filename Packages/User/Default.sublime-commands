@@ -3,7 +3,18 @@
     { "caption": "File: New Window", "command": "new_window" },
     { "caption": "File: Close Window", "command": "close_window" },
 
-    { "caption": "Navigate: Move Using Find", "command": "prompt_move_using_find" },
+    { "caption": "Move by Word: Left", "command": "move", "args": {"by": "words", "forward": false} },
+    { "caption": "Move by Word: Right", "command": "move", "args": {"by": "word_ends", "forward": true} },
+    { "caption": "Move to Beginning of Line", "command": "move_to", "args": {"to": "bol", "extend": false} },
+    { "caption": "Move to End of Line", "command": "move_to", "args": {"to": "eol", "extend": false} },
+    { "caption": "Move by Word-part: Left", "command": "move", "args": {"by": "subwords", "forward": false} },
+    { "caption": "Move by Word-part: Right", "command": "move", "args": {"by": "subwords", "forward": true} },
+    { "caption": "Move by Paragraph: Up", "command": "move_by_paragraph", "args": {"extend": false, "forward": false} },
+    { "caption": "Move by Paragraph: Down", "command": "move_by_paragraph", "args": {"extend": false} },
+    { "caption": "Move to Matching Bracket", "command": "move_to", "args": {"to": "brackets"} },
+    { "caption": "Move to Next Bookmark", "command": "next_bookmark" },
+    { "caption": "Move to Previous Bookmark", "command": "prev_bookmark" },
+    { "caption": "Move Using Find", "command": "prompt_move_using_find" },
 
     { "caption": "Edit (Convert Case): Camel Case & Co.", "command": "toggle_camel_snake_case" },
     { "caption": "Edit: Trim Trailing Whitespace", "command": "trim_trailing_white_space_now" },
@@ -18,6 +29,8 @@
         "command": "get_multiple_cursors"
     },
     { "caption": "Multi-Select: Select All Occurances", "command": "find_all_under" },
+
+    { "caption": "Replace…", "command": "show_panel", "args": {"panel": "replace"} },
 
     { "caption": "Find in Files: Next Result", "command": "next_result" },
     { "caption": "Find in Files: Previous Result", "command": "prev_result" },
