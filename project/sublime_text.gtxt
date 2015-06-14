@@ -10,6 +10,8 @@ Doing
 To do
 --------------------------------------------------------------------------------
 
+Ruby mode: convert between one-line and multiline method definition
+
 =To configure/extend
 	always indent using spaces
 	sql syntax missing keywords
