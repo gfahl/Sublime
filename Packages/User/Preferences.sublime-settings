@@ -13,5 +13,7 @@
 	"show_full_path": true,
 	"tab_size": 4,
 	"translate_tabs_to_spaces": false,
+    "auto_complete_commit_on_tab": true,
+    "auto_complete_with_fields": true,
 	"word_wrap": false
 }
