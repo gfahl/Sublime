@@ -10,7 +10,12 @@ Doing
 To do
 --------------------------------------------------------------------------------
 
-Ruby mode: convert between one-line and multiline method definition
+check
+	https://gist.github.com/edubkendo/6198986 (RubyNext.tmLanguage)
+
+Ruby mode:
+	convert between one-line and multiline method definition
+	save using snake case version of class name
 
 =To configure/extend
 	always indent using spaces
