@@ -1,3 +1,4 @@
 [
+    { "caption": "File: Save Using Snake-Case Version of Class Name", "command": "save_class" },
     { "caption": "Edit: Convert Block Style ({} <-> do...end)", "command": "convert_block" }
 ]
