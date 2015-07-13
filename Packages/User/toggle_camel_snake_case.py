@@ -12,5 +12,6 @@ class ToggleCamelSnakeCaseCommand(sublime_plugin.TextCommand):
             elif s.find(" ") >= 0:
                 s = s.replace(" ", "_")
             else:
+                s = s[0].upper() + s[1:] # make fooFieFum behave like FooFieFum
             	s = " ".join(map(string.lower, re.findall("[A-Z][a-z]*", s)))
             self.view.replace(edit, rg, s)
