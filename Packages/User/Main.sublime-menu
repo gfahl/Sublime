@@ -27,7 +27,8 @@
                 "caption": "Paste Other",
                 "children":
                 [
-                    { "caption": "Paste Date", "command": "paste_date" }
+                    { "caption": "Paste Date", "command": "paste_date" },
+                    { "caption": "Paste Incrementing Numbers", "command": "paste_incrementing_numbers" }
                 ]
             }
         ]

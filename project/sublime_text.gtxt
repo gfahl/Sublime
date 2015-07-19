@@ -10,6 +10,10 @@ Doing
 To do
 --------------------------------------------------------------------------------
 
+new command:
+	Edit -> Paste Other -> Paste Multiple Times
+	prompts for the number of times to paste what is in the clipboard
+
 check
 	https://gist.github.com/edubkendo/6198986 (RubyNext.tmLanguage)
 
