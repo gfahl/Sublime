@@ -10,6 +10,8 @@ Doing
 To do
 --------------------------------------------------------------------------------
 
+allow period (.) and possibly other punctuation after _highlighting underscores_ in .gtxt
+
 new command:
 	Edit -> Paste Other -> Paste Multiple Times
 	prompts for the number of times to paste what is in the clipboard
@@ -64,7 +66,7 @@ Keyboard shortcuts (and useful commands without keyboard shortcut)
 	alt+pgup/pgdown				move by section
 	alt+shift+pgup/pgdown		expand/reduce selection by section
 	ctrl+m						move to matching bracket
-	(none)						Navigate: Move Using Find
+	(none)						Move Using Find
 	ctrl+d						select word (when no selection)
 	ctrl+u						undo, including cursor movement and selection
 	ctrl+shift+u				redo, including cursor movement and selection
@@ -84,7 +86,8 @@ Keyboard shortcuts (and useful commands without keyboard shortcut)
 	cmd+d						select all occurances of selection or word at cursor
 	ctrl+shift+l				get multiple cursors:
 									if multiple lines selected: add cursor at each selected line
-									if multiple bookmarks: add cursor at each bookmark
+									else if multiple bookmarks: add cursor at each bookmark
+									else: add cursor after each selected character
 
 =edit
 	ctrl+shift+pgup/pgdown		move selected lines (or current line) up/down
@@ -93,9 +96,10 @@ Keyboard shortcuts (and useful commands without keyboard shortcut)
 	ctrl+k, ctrl+k				delete rest of line
 	ctrl+shift+k				delete current line
 	ctrl+q, ctrl+f				copy current file's name (with extension)
-	ctrl+t						transpose (selections, or characters around prompt)
 	ctrl+q, ctrl+p				copy current file's full path
+	ctrl+t						transpose (selections, or characters around prompt)
 	ctrl+q, ctrl+d				paste current date
+	(none)						Edit: Paste Incrementing Numbers
 	ctrl+space					auto-complete
 	ctrl+minus					toggle comment
 	ctrl+k, ctrl+u				upper case
@@ -103,6 +107,9 @@ Keyboard shortcuts (and useful commands without keyboard shortcut)
 	ctrl+k, ctrl+t				title case
 	ctrl+k, ctrl+s				"ha hi hu" => "ha_hi_hu" => "HaHiHu" => "ha hi hu" etc.
 	shift+tab					force a tab to be inserted instead of triggering tab command
+	(none)						Edit: Trim Trailing Whitespace
+	-Ruby only
+	(none)						Edit: Convert Block Style ({} <-> do...end)
 
 =view
 	ctrl+up/down				scroll
@@ -116,6 +123,8 @@ Keyboard shortcuts (and useful commands without keyboard shortcut)
 	ctrl+.						show console
 	ctrl+q, ctrl+w				toggle word wrap
 	ctrl+k, ctrl+c				center current line
+	(none)						Indentation: Tab Width 2
+	(none)						Indentation: Tab Width 4
 
 =tools
 	ctrl+r						run macro
@@ -125,11 +134,12 @@ Keyboard shortcuts (and useful commands without keyboard shortcut)
 	ctrl+shift+i				show snippets (in command palette)
 	(none)						Tools: Diff Previous
 
-=find
+=find/replace
 	ctrl+f						find
 	ctrl+shift+f				find in files
 	cmd+n						go to next "find in files" result
 	cmd+p						go to previous "find in files" result
+	alt+cmd+f					replace
 
 =file/project
 	ctrl+shift+p				select project
@@ -137,6 +147,12 @@ Keyboard shortcuts (and useful commands without keyboard shortcut)
 	ctrl+g						goto +line+ (goto anything prefix :)
 	ctrl+,						goto +word+ (goto anything prefix #)
 	ctrl+shift+,				goto +symbol+ (goto anything prefix @)
+	ctrl+w						close file
+	ctrl+shift+t				re-open last file
+	(none)						File: New Window
+	(none)						File: Close Window
+	-Ruby only
+	(none)						File: Save Using Snake-Case Version of Class Name
 
 =sidebar
 	alt+1/2/../0 (Windows)		goto file number 1/2/../10 (tab order)
