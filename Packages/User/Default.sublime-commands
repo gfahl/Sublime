@@ -38,6 +38,8 @@
 
     { "caption": "View: Decrease Font Size", "command": "decrease_font_size" },
     { "caption": "View: Increase Font Size", "command": "increase_font_size" },
+    { "caption": "View: Small Font Size", "command": "small_font_size" },
+    { "caption": "View: Large Font Size", "command": "large_font_size" },
     { "caption": "View: Reset Font Size", "command": "reset_font_size" },
     { "caption": "View: Toggle Distraction Free Mode", "command": "toggle_distraction_free" },
     { "caption": "View: Show Console", "command": "show_panel", "args": {"panel": "console"} },

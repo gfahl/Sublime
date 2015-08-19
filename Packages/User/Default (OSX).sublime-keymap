@@ -80,8 +80,10 @@
 	{ "keys": ["ctrl+q", "ctrl+t"], "command": "set_setting", "args": {"setting": "color_scheme", "value": "Packages/User/Monokai Bright.tmTheme"} },
 	{ "keys": ["ctrl+q", "ctrl+w"], "command": "toggle_setting", "args": {"setting": "word_wrap"} },
 	{ "keys": ["ctrl+q", "tab"], "command": "insert", "args": {"characters": "\t"} },
-	{ "keys": ["ctrl+q", "up"], "command": "increase_font_size" },
-	{ "keys": ["ctrl+q", "down"], "command": "decrease_font_size" },
+	{ "keys": ["ctrl+q", "ctrl+down"], "command": "decrease_font_size" },
+	{ "keys": ["ctrl+q", "ctrl+up"], "command": "increase_font_size" },
+	{ "keys": ["ctrl+q", "ctrl+left"], "command": "small_font_size" },
+	{ "keys": ["ctrl+q", "ctrl+right"], "command": "large_font_size" },
 
 	{ "keys": ["ctrl+shift+up"], "command": "move_by_paragraph", "args": {"extend": true, "forward": false} },
 	{ "keys": ["ctrl+shift+down"], "command": "move_by_paragraph", "args": {"extend": true} },
