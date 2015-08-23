@@ -1,15 +1,24 @@
 [
+	{ "keys": ["ctrl+shift+l"], "command": "get_multiple_cursors" },
+	{ "keys": ["alt+d"], "command": "find_all_under" },
+
+	{ "keys": ["alt+b"], "command": "next_bookmark" },
+	{ "keys": ["alt+shift+b"], "command": "prev_bookmark" },
+	{ "keys": ["ctrl+b"], "command": "toggle_bookmark" },
+	{ "keys": ["ctrl+shift+b"], "command": "clear_bookmarks" },
+
+	{ "keys": ["ctrl+comma"], "command": "show_overlay", "args": {"overlay": "goto", "text": "#"} },
+	{ "keys": ["ctrl+shift+comma"], "command": "show_overlay", "args": {"overlay": "goto", "text": "@"} },
+
 	{ "keys": ["ctrl+period"], "command": "show_panel", "args": {"panel": "console"} },
 	{ "keys": ["ctrl+shift+c"], "command": "show_overlay", "args": {"overlay": "command_palette"} },
 	{ "keys": ["ctrl+shift+i"], "command": "show_overlay", "args": {"overlay": "command_palette", "text": "Snippet: "} },
 	{ "keys": ["ctrl+shift+p"], "command": "prompt_select_project" },
 
-	{ "keys": ["ctrl+q", "ctrl+1"], "command": "decrease_font_size" },
-	{ "keys": ["ctrl+q", "ctrl+2"], "command": "increase_font_size" },
-	{ "keys": ["ctrl+q", "ctrl+0"], "command": "reset_font_size" },
-
 	{ "keys": ["ctrl+shift+pageup"], "command": "swap_line_up" },
 	{ "keys": ["ctrl+shift+pagedown"], "command": "swap_line_down" },
+	{ "keys": ["ctrl+alt+left"], "command": "move_text_left" },
+	{ "keys": ["ctrl+alt+right"], "command": "move_text_right" },
 	{ "keys": ["ctrl+minus"], "command": "toggle_comment", "args": { "block": false } },
 
 	{ "keys": ["ctrl+shift+r"], "command": "toggle_record_macro" },
@@ -18,12 +27,17 @@
 	{ "keys": ["ctrl+k", "ctrl+s"], "command": "toggle_camel_snake_case" },
 	{ "keys": ["ctrl+k", "ctrl+t"], "command": "title_case" },
 	{ "keys": ["ctrl+q", "ctrl+e"], "command": "open_dir", "args": {"dir": "$file_path", "file": "$file_name"} },
+	{ "keys": ["ctrl+q", "ctrl+f"], "command": "copy_filename" },
 	{ "keys": ["ctrl+q", "ctrl+p"], "command": "copy_path" },
 	{ "keys": ["ctrl+q", "ctrl+d"], "command": "paste_date" },
 	{ "keys": ["ctrl+q", "ctrl+s"], "command": "reveal_in_side_bar" },
 	{ "keys": ["ctrl+q", "ctrl+t"], "command": "set_setting", "args": {"setting": "color_scheme", "value": "Packages/User/Monokai Bright.tmTheme"} },
 	{ "keys": ["ctrl+q", "ctrl+w"], "command": "toggle_setting", "args": {"setting": "word_wrap"} },
 	{ "keys": ["ctrl+q", "tab"], "command": "insert", "args": {"characters": "\t"} },
+	{ "keys": ["ctrl+q", "ctrl+down"], "command": "decrease_font_size" },
+	{ "keys": ["ctrl+q", "ctrl+up"], "command": "increase_font_size" },
+	{ "keys": ["ctrl+q", "ctrl+left"], "command": "small_font_size" },
+	{ "keys": ["ctrl+q", "ctrl+right"], "command": "large_font_size" },
 
 	{ "keys": ["ctrl+shift+up"], "command": "move_by_paragraph", "args": {"extend": true, "forward": false} },
 	{ "keys": ["ctrl+shift+down"], "command": "move_by_paragraph", "args": {"extend": true} },
