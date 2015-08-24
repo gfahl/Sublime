@@ -25,6 +25,10 @@
     { "caption": "Edit: Move Text Left", "command": "move_text_left" },
     { "caption": "Edit: Move Text Right", "command": "move_text_right" },
 
+    { "caption": "Ascii: Right-pad Spaces", "command": "right_pad_spaces" },
+    { "caption": "Ascii: Add Frame", "command": "add_frame" },
+    { "caption": "Ascii: Draw Frame", "command": "draw_frame" },
+
     {
         "caption": "Multi-Select: Split into Lines / Select All Bookmarks",
         "command": "get_multiple_cursors"

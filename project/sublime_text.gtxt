@@ -84,6 +84,7 @@ Keyboard shortcuts (and useful commands without keyboard shortcut)
 	ctrl/alt+click				add/delete cursor
 	ctrl/alt+doubleclick		add/delete selection
 	cmd+d						select all occurances of selection or word at cursor
+	ctrl+alt+up/down			add cursors in the same column
 	ctrl+shift+l				get multiple cursors:
 									if multiple lines selected: add cursor at each selected line
 									else if multiple bookmarks: add cursor at each bookmark
@@ -108,6 +109,9 @@ Keyboard shortcuts (and useful commands without keyboard shortcut)
 	ctrl+k, ctrl+s				"ha hi hu" => "ha_hi_hu" => "HaHiHu" => "ha hi hu" etc.
 	shift+tab					force a tab to be inserted instead of triggering tab command
 	(none)						Edit: Trim Trailing Whitespace
+	(none)						Ascii: Right-pad Spaces
+	(none)						Ascii: Add Frame
+	(none)						Ascii: Draw Frame
 	-Ruby only
 	(none)						Edit: Convert Block Style ({} <-> do...end)
 
