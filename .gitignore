@@ -5,3 +5,4 @@ project/Sublime.sublime-project
 *.pyc
 Packages/Default/send2trash
 temp/*
+*.no-git.*
