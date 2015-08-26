@@ -22,6 +22,8 @@
 	{ "keys": ["ctrl+shift+pagedown"], "command": "swap_line_down" },
 	{ "keys": ["ctrl+alt+left"], "command": "move_text_left" },
 	{ "keys": ["ctrl+alt+right"], "command": "move_text_right" },
+	{ "keys": ["ctrl+alt+up"], "command": "move_text_up" },
+	{ "keys": ["ctrl+alt+down"], "command": "move_text_down" },
 	{ "keys": ["ctrl+minus"], "command": "toggle_comment", "args": { "block": false } },
 
 	{ "keys": ["ctrl+shift+r"], "command": "toggle_record_macro" },
