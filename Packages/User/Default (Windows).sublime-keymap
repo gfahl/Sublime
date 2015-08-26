@@ -15,10 +15,15 @@
 	{ "keys": ["ctrl+shift+i"], "command": "show_overlay", "args": {"overlay": "command_palette", "text": "Snippet: "} },
 	{ "keys": ["ctrl+shift+p"], "command": "prompt_select_project" },
 
+	{ "keys": ["ctrl+alt+pageup"], "command": "select_lines", "args": {"forward": false} },
+	{ "keys": ["ctrl+alt+pagedown"], "command": "select_lines", "args": {"forward": true} },
+
 	{ "keys": ["ctrl+shift+pageup"], "command": "swap_line_up" },
 	{ "keys": ["ctrl+shift+pagedown"], "command": "swap_line_down" },
 	{ "keys": ["ctrl+alt+left"], "command": "move_text_left" },
 	{ "keys": ["ctrl+alt+right"], "command": "move_text_right" },
+	{ "keys": ["ctrl+alt+up"], "command": "move_text_up" },
+	{ "keys": ["ctrl+alt+down"], "command": "move_text_down" },
 	{ "keys": ["ctrl+minus"], "command": "toggle_comment", "args": { "block": false } },
 
 	{ "keys": ["ctrl+shift+r"], "command": "toggle_record_macro" },

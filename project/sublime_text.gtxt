@@ -87,7 +87,7 @@ Keyboard shortcuts (and useful commands without keyboard shortcut)
 	ctrl/alt+click				add/delete cursor
 	ctrl/alt+doubleclick		add/delete selection
 	cmd+d						select all occurances of selection or word at cursor
-	ctrl+alt+up/down			add cursors in the same column
+	ctrl+alt+pgup/pgdown		add cursors in the same column
 	ctrl+shift+l				get multiple cursors:
 									if multiple lines selected: add cursor at each selected line
 									else if multiple bookmarks: add cursor at each bookmark
@@ -96,6 +96,7 @@ Keyboard shortcuts (and useful commands without keyboard shortcut)
 =edit
 	ctrl+shift+pgup/pgdown		move selected lines (or current line) up/down
 	ctrl+cmd+left/right			move selected text left/right
+	ctrl+cmd+up/down			move selected text up/down
 	ctrl+shift+d				duplicate current line
 	ctrl+k, ctrl+k				delete rest of line
 	ctrl+shift+k				delete current line
