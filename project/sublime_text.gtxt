@@ -10,8 +10,6 @@ Doing
 To do
 --------------------------------------------------------------------------------
 
-toggle visible spaces
-
 document differences in keyboard shortcuts (see below) between Windows/OSX
 	e.g. ctrl+cmd vs ctrl+alt
 
@@ -127,6 +125,7 @@ Keyboard shortcuts (and useful commands without keyboard shortcut)
 	(none)						View: Increase Font Size
 	(none)						View: Reset Font Size
 	(none)						View: Toggle Distraction Free Mode
+	ctrl+q, ctrl+space			View: Toggle Visible Spaces
 	ctrl+pgdown/pgup			next/previous view (as listed in side bar)
 	ctrl+(shift+)tab			next/previous view in stack
 	ctrl+k, ctrl+b				toggle side bar

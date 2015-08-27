@@ -50,6 +50,7 @@
     { "caption": "View: Toggle Distraction Free Mode", "command": "toggle_distraction_free" },
     { "caption": "View: Show Console", "command": "show_panel", "args": {"panel": "console"} },
     { "caption": "View: Center Current Line", "command": "show_at_center" },
+    { "caption": "View: Toggle Visible Spaces", "command": "toggle_visible_spaces" },
 
     { "caption": "Indentation: Tab Width 2", "command": "set_setting", "args": {"setting": "tab_size", "value": 2} },
     { "caption": "Indentation: Tab Width 4", "command": "set_setting", "args": {"setting": "tab_size", "value": 4} },
