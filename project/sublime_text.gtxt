@@ -116,6 +116,7 @@ Keyboard shortcuts (and useful commands without keyboard shortcut)
 	(none)						Ascii: Right-pad Spaces
 	(none)						Ascii: Add Frame
 	(none)						Ascii: Draw Frame
+	(none)						Ascii: Canvas
 	-Ruby only
 	(none)						Edit: Convert Block Style ({} <-> do...end)
 
