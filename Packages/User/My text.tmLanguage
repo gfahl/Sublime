@@ -57,6 +57,28 @@
 			<string>(?:\s|^|\()(_)(.+?)(_)(?:\s|\)|: |, |; )</string>
 		</dict>
 		<dict>
+			<key>captures</key>
+			<dict>
+				<key>1</key>
+				<dict>
+					<key>name</key>
+					<string>comment.line.number-sign.ruby</string>
+				</dict>
+				<key>2</key>
+				<dict>
+					<key>name</key>
+					<string>warning.my.text</string>
+				</dict>
+				<key>3</key>
+				<dict>
+					<key>name</key>
+					<string>comment.line.number-sign.ruby</string>
+				</dict>
+			</dict>
+			<key>match</key>
+			<string>(?:\s|^|\()(!)(.+?)(!)(?:\s|\)|: |, |; )</string>
+		</dict>
+		<dict>
 			<key>begin</key>
 			<string>^===.*$</string>
 			<key>end</key>
