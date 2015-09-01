@@ -32,7 +32,7 @@
 				</dict>
 			</dict>
 			<key>match</key>
-			<string>(?:\s|^|\()(\+)(\w+)(\+)(?:\s|\)|: |, |; )</string>
+			<string>(?:\s|^|\()(\+)(\w+)(\+)(?:\s|\)\s|:\s|,\s|;\s|!\s|\.)</string>
 		</dict>
 		<dict>
 			<key>captures</key>
@@ -54,7 +54,7 @@
 				</dict>
 			</dict>
 			<key>match</key>
-			<string>(?:\s|^|\()(_)(.+?)(_)(?:\s|\)|: |, |; )</string>
+			<string>(?:\s|^|\()(_)(.+?)(_)(?:\s|\)\s|:\s|,\s|;\s|!\s|\.)</string>
 		</dict>
 		<dict>
 			<key>captures</key>
@@ -76,7 +76,7 @@
 				</dict>
 			</dict>
 			<key>match</key>
-			<string>(?:\s|^|\()(!)(.+?)(!)(?:\s|\)|: |, |; )</string>
+			<string>(?:\s|^|\()(!)(.+?)(!)(?:\s|\)\s|:\s|,\s|;\s|!\s|\.)</string>
 		</dict>
 		<dict>
 			<key>begin</key>

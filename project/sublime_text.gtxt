@@ -13,8 +13,6 @@ To do
 document differences in keyboard shortcuts (see below) between Windows/OSX
 	e.g. ctrl+cmd vs ctrl+alt
 
-allow period (.) and possibly other punctuation after _highlighting underscores_ in .gtxt
-
 new command:
 	Edit -> Paste Other -> Paste Multiple Times
 	prompts for the number of times to paste what is in the clipboard
