@@ -20,6 +20,10 @@ class DiffPreviousCommand(sublime_plugin.TextCommand):
 
         diff = difflib.unified_diff(txt1, txt2, name1, name2, date1, date2, lineterm = '')
         difftxt = u"\n".join(line for line in diff)
+        if len(difftxt) == 0:
+            difftxt = "--- " + name1 + " " + date1 + "\n"
+            difftxt += "--- " + name2 + " " + date2 + "\n"
+            difftxt += "@@ (the files are identical) @@\n"
 
         try:
             v = next(_v for _v in win.views() if _v.is_scratch() and _v.name() == u'Diff')
