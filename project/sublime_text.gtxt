@@ -10,6 +10,12 @@ Doing
 To do
 --------------------------------------------------------------------------------
 
+command: remove empty lines
+
+gtxt: syntax highlight URLs
+
+Diff Previous: show the two file paths even if no differences
+
 document differences in keyboard shortcuts (see below) between Windows/OSX
 	e.g. ctrl+cmd vs ctrl+alt
 
