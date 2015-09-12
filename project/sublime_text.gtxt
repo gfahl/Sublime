@@ -10,8 +10,6 @@ Doing
 To do
 --------------------------------------------------------------------------------
 
-command: remove empty lines
-
 gtxt: syntax highlight URLs
 
 document differences in keyboard shortcuts (see below) between Windows/OSX
@@ -114,6 +112,7 @@ Keyboard shortcuts (and useful commands without keyboard shortcut)
 	ctrl+k, ctrl+t				title case
 	ctrl+k, ctrl+s				"ha hi hu" => "ha_hi_hu" => "HaHiHu" => "ha hi hu" etc.
 	shift+tab					force a tab to be inserted instead of triggering tab command
+	(none)						Edit: Remove Empty Lines
 	(none)						Edit: Trim Trailing Whitespace
 	(none)						Ascii: Right-pad Spaces
 	(none)						Ascii: Add Frame

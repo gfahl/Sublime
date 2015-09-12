@@ -18,6 +18,7 @@
 
     { "caption": "Edit (Convert Case): Camel Case & Co.", "command": "toggle_camel_snake_case" },
     { "caption": "Edit: Trim Trailing Whitespace", "command": "trim_trailing_white_space_now" },
+    { "caption": "Edit: Remove Empty Lines", "command": "remove_empty_lines" },
     { "caption": "Edit: Copy Filename", "command": "copy_filename" },
     { "caption": "Edit: Copy Path", "command": "copy_path" },
     { "caption": "Edit: Paste Date", "command": "paste_date" },
