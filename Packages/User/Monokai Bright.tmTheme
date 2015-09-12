@@ -396,6 +396,17 @@
 		</dict>
 		<dict>
 			<key>name</key>
+			<string>My Text: link</string>
+			<key>scope</key>
+			<string>link.my.text</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#F5CBD8</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
 			<string>My Text: warning text</string>
 			<key>scope</key>
 			<string>warning.my.text</string>
