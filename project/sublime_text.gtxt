@@ -111,6 +111,8 @@ Keyboard shortcuts (and useful commands without keyboard shortcut)
 	ctrl+k, ctrl+s				"ha hi hu" => "ha_hi_hu" => "HaHiHu" => "ha hi hu" etc.
 	shift+tab					force a tab to be inserted instead of triggering tab command
 	(none)						Edit: Remove Empty Lines
+	(none)						Edit: Squeeze Empty Lines
+	(none)						Edit: Squeeze Whitepsace
 	(none)						Edit: Trim Trailing Whitespace
 	(none)						Ascii: Right-pad Spaces
 	(none)						Ascii: Add Frame
