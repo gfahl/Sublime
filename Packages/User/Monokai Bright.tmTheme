@@ -425,6 +425,10 @@
 			<dict>
 				<key>foreground</key>
 				<string>#A4E1A4</string>
+				<key>background</key>
+				<string>#456945</string>
+				<key>fontStyle</key>
+				<string>bold</string>
 			</dict>
 		</dict>
 		<dict>
@@ -436,6 +440,10 @@
 			<dict>
 				<key>foreground</key>
 				<string>#A4E1A4</string>
+				<key>background</key>
+				<string>#456945</string>
+				<key>fontStyle</key>
+				<string>bold</string>
 			</dict>
 		</dict>
 		<dict>
@@ -446,7 +454,11 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#A4E1A4</string>
+				<string>#88B888</string>
+				<key>background</key>
+				<string>#4E544E</string>
+				<key>fontStyle</key>
+				<string>bold</string>
 			</dict>
 		</dict>
 		<dict>
@@ -457,7 +469,9 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#A4A4E1</string>
+				<string>#88B888</string>
+				<key>fontStyle</key>
+				<string>bold</string>
 			</dict>
 		</dict>
 		<dict>
@@ -479,7 +493,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#D4A0F2</string>
+				<string>#BCBCE0</string>
 			</dict>
 		</dict>
 		<dict>

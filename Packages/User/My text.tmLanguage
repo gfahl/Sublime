@@ -86,36 +86,60 @@
 		</dict>
 		<dict>
 			<key>begin</key>
-			<string>^===.*$</string>
-			<key>end</key>
-			<string>^(===.*)?$</string>
-			<key>name</key>
-			<string>header.1.my.text</string>
-		</dict>
-		<dict>
-			<key>begin</key>
-			<string>^---.*$</string>
-			<key>end</key>
-			<string>^(---.*)?$</string>
-			<key>name</key>
-			<string>header.2.my.text</string>
-		</dict>
-		<dict>
-			<key>captures</key>
+			<string>^(~)$</string>
+			<key>beginCaptures</key>
 			<dict>
 				<key>1</key>
 				<dict>
 					<key>name</key>
 					<string>comment.line.number-sign.ruby</string>
 				</dict>
-				<key>2</key>
+			</dict>
+			<key>end</key>
+			<string>^$</string>
+			<key>name</key>
+			<string>header.1.my.text</string>
+			<key>patterns</key>
+			<array>
+				<dict>
+					<key>match</key>
+					<string>~</string>
+					<key>name</key>
+					<string>comment.line.number-sign.ruby</string>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>begin</key>
+			<string>^(~)</string>
+			<key>beginCaptures</key>
+			<dict>
+				<key>1</key>
 				<dict>
 					<key>name</key>
-					<string>header.3.my.text</string>
+					<string>comment.line.number-sign.ruby</string>
 				</dict>
 			</dict>
-			<key>match</key>
-			<string>^\s*(=)([ \w].*)$</string>
+			<key>end</key>
+			<string>^$</string>
+			<key>name</key>
+			<string>header.2.my.text</string>
+		</dict>
+		<dict>
+			<key>begin</key>
+			<string>^(=)</string>
+			<key>beginCaptures</key>
+			<dict>
+				<key>1</key>
+				<dict>
+					<key>name</key>
+					<string>comment.line.number-sign.ruby</string>
+				</dict>
+			</dict>
+			<key>end</key>
+			<string>$</string>
+			<key>name</key>
+			<string>header.3.my.text</string>
 		</dict>
 		<dict>
 			<key>captures</key>
@@ -132,7 +156,7 @@
 				</dict>
 			</dict>
 			<key>match</key>
-			<string>^\s*(-)([ \w].*)$</string>
+			<string>^(-)([ \w].*)$</string>
 		</dict>
 		<dict>
 			<key>captures</key>
@@ -167,6 +191,45 @@
 			</dict>
 			<key>match</key>
 			<string>^\s*(\$)([ \w].*)$</string>
+		</dict>
+		<dict>
+			<key>begin</key>
+			<string>^\+[\-\+]+\+$</string>
+			<key>beginCaptures</key>
+			<dict>
+				<key>0</key>
+				<dict>
+					<key>name</key>
+					<string>comment.line.number-sign.ruby</string>
+				</dict>
+			</dict>
+			<key>end</key>
+			<string>^$</string>
+			<key>endCaptures</key>
+			<dict>
+				<key>0</key>
+				<dict>
+					<key>name</key>
+					<string>comment.line.number-sign.ruby</string>
+				</dict>
+			</dict>
+			<key>name</key>
+			<string>diagram.my.text</string>
+			<key>patterns</key>
+			<array>
+				<dict>
+					<key>match</key>
+					<string>^\+[\-\+]+\+$</string>
+					<key>name</key>
+					<string>comment.line.number-sign.ruby</string>
+				</dict>
+				<dict>
+					<key>match</key>
+					<string>(^\||\|$| \| )</string>
+					<key>name</key>
+					<string>comment.line.number-sign.ruby</string>
+				</dict>
+			</array>
 		</dict>
 	</array>
 	<key>scopeName</key>
