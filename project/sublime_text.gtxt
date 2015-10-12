@@ -1,43 +1,44 @@
-================================================================================
-Project:	Sublime
-================================================================================
+~
+~Project: Sublime
+~
 
---------------------------------------------------------------------------------
-Doing
---------------------------------------------------------------------------------
+~Doing
 
---------------------------------------------------------------------------------
-To do
---------------------------------------------------------------------------------
+~To do
 
 document differences in keyboard shortcuts (see below) between Windows/OSX
-	e.g. ctrl+cmd vs ctrl+alt
+    e.g. ctrl+cmd vs ctrl+alt
 
 new command:
-	Edit -> Paste Other -> Paste Multiple Times
-	prompts for the number of times to paste what is in the clipboard
+    Edit -> Paste Other -> Paste Multiple Times
+    prompts for the number of times to paste what is in the clipboard
 
 check
-	https://gist.github.com/edubkendo/6198986 (RubyNext.tmLanguage)
+    https://gist.github.com/edubkendo/6198986 (RubyNext.tmLanguage)
 
 Ruby mode:
-	convert between one-line and multiline method definition
+    convert between one-line and multiline method definition
 
 =To configure/extend
-	always indent using spaces
-	sql syntax missing keywords
-		index, if exists, AUTO_INCREMENT, unique
-	delete blank lines in selection
-=To investigate
-	shortcut to switch from dark to bright theme
-=Wishlist for Sublime
-	keep tab stack order when moving between projects
-=Bugs to report
-	shortcut text in menus don't get overridden when redefined (redefinition works fine)
 
---------------------------------------------------------------------------------
-Internet links
---------------------------------------------------------------------------------
+always indent using spaces
+sql syntax missing keywords
+    index, if exists, AUTO_INCREMENT, unique
+delete blank lines in selection
+
+=To investigate
+
+shortcut to switch from dark to bright theme
+
+=Wishlist for Sublime
+
+keep tab stack order when moving between projects
+
+=Bugs to report
+
+shortcut text in menus don't get overridden when redefined (redefinition works fine)
+
+~Internet links
 
 http://www.sublimetext.com/
 http://www.sublimetext.com/forum/
@@ -45,252 +46,273 @@ http://sublimetext.info/
 http://sublimetext.userecho.com/
 
 =Documentation
+
 -Official
+
 http://www.sublimetext.com/docs/2/
+
 -Unofficial
+
 http://docs.sublimetext.info/en/latest/index.html
 http://sublime-text-unofficial-documentation.readthedocs.org/
 
---------------------------------------------------------------------------------
-Keyboard shortcuts (and useful commands without keyboard shortcut)
---------------------------------------------------------------------------------
+~Keyboard shortcuts (and useful commands without keyboard shortcut)
 
 =move/select
-	ctrl+left/right				move by word
-	ctrl+shift+left/right		expand/reduce selection by word
-	cmd+left/right				move to beginning/end of line
-	cmd+shift+left/right		expand selection to beginning/end of line
-	alt+left/right				move by word-part
-	alt+shift+left/right		expand/reduce selection by word-part
-	alt+up/down					move by paragraph
-	ctrl+shift+up/down			expand/reduce selection by paragraph
-	alt+pgup/pgdown				move by section
-	alt+shift+pgup/pgdown		expand/reduce selection by section
-	ctrl+m						move to matching bracket
-	(none)						Move Using Find
-	ctrl+d						select word (when no selection)
-	ctrl+u						undo, including cursor movement and selection
-	ctrl+shift+u				redo, including cursor movement and selection
-	ctrl+shift+m				expand selection to brackets
-	ctrl+l						expand selection to line
-	-bookmarks
-	cmd+b						move to next bookmark
-	cmd+shift+b					move to previous bookmark
-	ctrl+b						toggle bookmark
-	ctrl+shift+b				clear all bookmarks
+
+ctrl+left/right             move by word
+ctrl+shift+left/right       expand/reduce selection by word
+cmd+left/right              move to beginning/end of line
+cmd+shift+left/right        expand selection to beginning/end of line
+alt+left/right              move by word-part
+alt+shift+left/right        expand/reduce selection by word-part
+alt+up/down                 move by paragraph
+ctrl+shift+up/down          expand/reduce selection by paragraph
+alt+pgup/pgdown             move by section
+alt+shift+pgup/pgdown       expand/reduce selection by section
+ctrl+m                      move to matching bracket
+(none)                      Move Using Find
+ctrl+d                      select word (when no selection)
+ctrl+u                      undo, including cursor movement and selection
+ctrl+shift+u                redo, including cursor movement and selection
+ctrl+shift+m                expand selection to brackets
+ctrl+l                      expand selection to line
+
+-bookmarks
+
+cmd+b                       move to next bookmark
+cmd+shift+b                 move to previous bookmark
+ctrl+b                      toggle bookmark
+ctrl+shift+b                clear all bookmarks
 
 =multi-select
-	ctrl+d						select more (when selection)
-	ctrl+k, ctrl+d				skip this selection during 'select more'
-	ctrl/alt+click				add/delete cursor
-	ctrl/alt+doubleclick		add/delete selection
-	cmd+d						select all occurances of selection or word at cursor
-	ctrl+alt+pgup/pgdown		add cursors in the same column
-	ctrl+shift+l				get multiple cursors:
-									if multiple lines selected: add cursor at each selected line
-									else if multiple bookmarks: add cursor at each bookmark
-									else: add cursor after each selected character
+
+ctrl+d                      select more (when selection)
+ctrl+k, ctrl+d              skip this selection during 'select more'
+ctrl/alt+click              add/delete cursor
+ctrl/alt+doubleclick        add/delete selection
+cmd+d                       select all occurances of selection or word at cursor
+ctrl+alt+pgup/pgdown        add cursors in the same column
+ctrl+shift+l                get multiple cursors:
+                                if multiple lines selected: add cursor at each selected line
+                                else if multiple bookmarks: add cursor at each bookmark
+                                else: add cursor after each selected character
 
 =edit
-	ctrl+shift+pgup/pgdown		move selected lines (or current line) up/down
-	ctrl+cmd+left/right			move selected text left/right
-	ctrl+cmd+up/down			move selected text up/down
-	ctrl+shift+d				duplicate current line
-	ctrl+k, ctrl+k				delete rest of line
-	ctrl+shift+k				delete current line
-	ctrl+q, ctrl+f				copy current file's name (with extension)
-	ctrl+q, ctrl+p				copy current file's full path
-	ctrl+t						transpose (selections, or characters around prompt)
-	ctrl+q, ctrl+d				paste current date
-	(none)						Edit: Paste Incrementing Numbers
-	ctrl+space					auto-complete
-	ctrl+minus					toggle comment
-	ctrl+k, ctrl+u				upper case
-	ctrl+k, ctrl+l				lower case
-	ctrl+k, ctrl+t				title case
-	ctrl+k, ctrl+s				"ha hi hu" => "ha_hi_hu" => "HaHiHu" => "ha hi hu" etc.
-	shift+tab					force a tab to be inserted instead of triggering tab command
-	(none)						Edit: Remove Empty Lines
-	(none)						Edit: Squeeze Empty Lines
-	(none)						Edit: Squeeze Whitepsace
-	(none)						Edit: Trim Trailing Whitespace
-	(none)						Ascii: Right-pad Spaces
-	(none)						Ascii: Add Frame
-	(none)						Ascii: Draw Frame
-	(none)						Ascii: Canvas
-	-Ruby only
-	(none)						Edit: Convert Block Style ({} <-> do...end)
+
+ctrl+shift+pgup/pgdown      move selected lines (or current line) up/down
+ctrl+cmd+left/right         move selected text left/right
+ctrl+cmd+up/down            move selected text up/down
+ctrl+shift+d                duplicate current line
+ctrl+k, ctrl+k              delete rest of line
+ctrl+shift+k                delete current line
+ctrl+q, ctrl+f              copy current file's name (with extension)
+ctrl+q, ctrl+p              copy current file's full path
+ctrl+t                      transpose (selections, or characters around prompt)
+ctrl+q, ctrl+d              paste current date
+(none)                      Edit: Paste Incrementing Numbers
+ctrl+space                  auto-complete
+ctrl+minus                  toggle comment
+ctrl+k, ctrl+u              upper case
+ctrl+k, ctrl+l              lower case
+ctrl+k, ctrl+t              title case
+ctrl+k, ctrl+s              "ha hi hu" => "ha_hi_hu" => "HaHiHu" => "ha hi hu" etc.
+shift+tab                   force a tab to be inserted instead of triggering tab command
+(none)                      Edit: Remove Empty Lines
+(none)                      Edit: Squeeze Empty Lines
+(none)                      Edit: Squeeze Whitepsace
+(none)                      Edit: Trim Trailing Whitespace
+(none)                      Ascii: Right-pad Spaces
+(none)                      Ascii: Add Frame
+(none)                      Ascii: Draw Frame
+(none)                      Ascii: Canvas
+-Ruby only
+(none)                      Edit: Convert Block Style ({} <-> do...end)
 
 =view
-	ctrl+up/down				scroll
-	(none)						View: Decrease Font Size
-	(none)						View: Increase Font Size
-	(none)						View: Reset Font Size
-	(none)						View: Toggle Distraction Free Mode
-	ctrl+q, ctrl+space			View: Toggle Visible Spaces
-	ctrl+pgdown/pgup			next/previous view (as listed in side bar)
-	ctrl+(shift+)tab			next/previous view in stack
-	ctrl+k, ctrl+b				toggle side bar
-	ctrl+.						show console
-	ctrl+q, ctrl+w				toggle word wrap
-	ctrl+k, ctrl+c				center current line
-	(none)						Indentation: Tab Width 2
-	(none)						Indentation: Tab Width 4
+
+ctrl+up/down                scroll
+(none)                      View: Decrease Font Size
+(none)                      View: Increase Font Size
+(none)                      View: Reset Font Size
+(none)                      View: Toggle Distraction Free Mode
+ctrl+q, ctrl+space          View: Toggle Visible Spaces
+ctrl+pgdown/pgup            next/previous view (as listed in side bar)
+ctrl+(shift+)tab            next/previous view in stack
+ctrl+k, ctrl+b              toggle side bar
+ctrl+.                      show console
+ctrl+q, ctrl+w              toggle word wrap
+ctrl+k, ctrl+c              center current line
+(none)                      Indentation: Tab Width 2
+(none)                      Indentation: Tab Width 4
 
 =tools
-	ctrl+r						run macro
-	ctrl+shift+r				start/end recording macro
-	ctrl+q, ctrl+e				open Windows File Explorer/Mac Finder positioned in the current file's folder
-	ctrl+shift+c				show command palette
-	ctrl+shift+i				show snippets (in command palette)
-	(none)						Tools: Diff Previous
+
+ctrl+r                      run macro
+ctrl+shift+r                start/end recording macro
+ctrl+q, ctrl+e              open Windows File Explorer/Mac Finder positioned in the current file's folder
+ctrl+shift+c                show command palette
+ctrl+shift+i                show snippets (in command palette)
+(none)                      Tools: Diff Previous
 
 =find/replace
-	ctrl+f						find
-	ctrl+shift+f				find in files
-	cmd+n						go to next "find in files" result
-	cmd+p						go to previous "find in files" result
-	alt+cmd+f					replace
+
+ctrl+f                      find
+ctrl+shift+f                find in files
+cmd+n                       go to next "find in files" result
+cmd+p                       go to previous "find in files" result
+alt+cmd+f                   replace
 
 =file/project
-	ctrl+shift+p				select project
-	ctrl+p						goto anything
-	ctrl+g						goto +line+ (goto anything prefix :)
-	ctrl+,						goto +word+ (goto anything prefix #)
-	ctrl+shift+,				goto +symbol+ (goto anything prefix @)
-	ctrl+w						close file
-	ctrl+shift+t				re-open last file
-	(none)						File: New Window
-	(none)						File: Close Window
-	-Ruby only
-	(none)						File: Save Using Snake-Case Version of Class Name
+
+ctrl+shift+p                select project
+ctrl+p                      goto anything
+ctrl+g                      goto +line+ (goto anything prefix :)
+ctrl+,                      goto +word+ (goto anything prefix #)
+ctrl+shift+,                goto +symbol+ (goto anything prefix @)
+ctrl+w                      close file
+ctrl+shift+t                re-open last file
+(none)                      File: New Window
+(none)                      File: Close Window
+-Ruby only
+(none)                      File: Save Using Snake-Case Version of Class Name
 
 =sidebar
-	alt+1/2/../0 (Windows)		goto file number 1/2/../10 (tab order)
-	cmd+1/2/../0 (OSX)			goto file number 1/2/../10 (tab order)
-	ctrl+0						bring focus to side bar
-	ctrl/alt+click (Windows)	select multiple files
-	cmd+click (OSX)				select multiple files
-	ctrl+q, ctrl+s				reveal current file in side bar
 
---------------------------------------------------------------------------------
-Customization
---------------------------------------------------------------------------------
+alt+1/2/../0 (Windows)      goto file number 1/2/../10 (tab order)
+cmd+1/2/../0 (OSX)          goto file number 1/2/../10 (tab order)
+ctrl+0                      bring focus to side bar
+ctrl/alt+click (Windows)    select multiple files
+cmd+click (OSX)             select multiple files
+ctrl+q, ctrl+s              reveal current file in side bar
+
+~Customization
 
 (Ruby is used here as an example of syntax-specific cusomization)
 
 =folder hierarchy for Sublime
+
 C:\Users\Gustav\AppData\Roaming\Sublime Text 2\
-	Packages
-		Default
-		User									_make your changes/additions here_
-												_not touched at upgrade of Sublime_
-		Ruby
+    Packages
+        Default
+        User                                    _make your changes/additions here_
+                                                _not touched at upgrade of Sublime_
+        Ruby
 
 =customization file types
+
 -sublime-project
+
 -sublime-workspace
-_used by Sublime, don't touch_
+
+used by Sublime, don't touch
+
 -sublime-settings
-Packages/Default/Preferences.sublime-settings	_contains all available settings_
-Packages/User/Preferences.sublime-settings		_make your general setup changes here_
+
+Packages/Default/Preferences.sublime-settings   _contains all available settings_
+Packages/User/Preferences.sublime-settings      _make your general setup changes here_
 Packages/Ruby/Ruby.sublime-settings
-Packages/User/Ruby.sublime-settings				_make your package specific changes here_
+Packages/User/Ruby.sublime-settings             _make your package specific changes here_
+
 -sublime-keymap
+
 Packages/Default/Default (Windows).sublime-keymap
 Packages/User/Default (Windows).sublime-keymap
+
 -sublime-menu
+
 -sublime-commands
+
 -sublime-snippet
+
 -sublime-build
+
 -tmLanguage
+
 -tmPreferences
 
 =misc
-view current settings
-	>>> view.settings().get('font_face')
 
---------------------------------------------------------------------------------
-Version Control
---------------------------------------------------------------------------------
+-view current settings
+
+$ view.settings().get('font_face')
+
+~Version Control
 
 copy all files in
-		Windows:
-			C:\Users\Gustav\AppData\Roaming\Sublime Text 2\Packages\[package name]
-		OSX:
-			~/Library/Application Support/Sublime Text 2/Packages/[package name]
-	to
-		Windows:
-			C:\Users\Gustav\Git Projects\Sublime\Packages\[package name]
-		OSX:
-			~/Project/Sublime/Packages/[package name]
+        Windows:
+            C:\Users\Gustav\AppData\Roaming\Sublime Text 2\Packages\[package name]
+        OSX:
+            ~/Library/Application Support/Sublime Text 2/Packages/[package name]
+    to
+        Windows:
+            C:\Users\Gustav\Git Projects\Sublime\Packages\[package name]
+        OSX:
+            ~/Project/Sublime/Packages/[package name]
 where [package name] is each of
-	Japanese Text
-	Ruby
-	Text
-	User
+    Japanese Text
+    Ruby
+    Text
+    User
 
 commit changes
 
---------------------------------------------------------------------------------
-New Sublime version
---------------------------------------------------------------------------------
+~New Sublime version
 
 version control (see above)
 install
 copy all files in
-		C:\Users\Gustav\AppData\Roaming\Sublime Text 2\Packages\Default
-	to
-		C:\Users\Gustav\Git Projects\Sublime\Packages\Default
+        C:\Users\Gustav\AppData\Roaming\Sublime Text 2\Packages\Default
+    to
+        C:\Users\Gustav\Git Projects\Sublime\Packages\Default
 check diffs in Default dir to see what's new, commit changes
 
---------------------------------------------------------------------------------
-Package Control
---------------------------------------------------------------------------------
+~Package Control
 
 http://wbond.net/sublime_packages/package_control
 
---------------------------------------------------------------------------------
-Packages
---------------------------------------------------------------------------------
+~Packages
 
 https://github.com/timonwong/OmniMarkupPreviewer
 
---------------------------------------------------------------------------------
-Console
---------------------------------------------------------------------------------
+~Console
 
-	dir()
-		>>> dir()
-		>>> dir(view)
-		>>> dir(view.run_command)
-	view.sel()
-		returns current selections
-			>>> view.sel()
-			[(1287, 1287)]				# no selection
-			[(377, 391)]				# one region selected
-			[(377, 391), (722, 736)]	# two regions selected
-			>>> view.sel().__class__
-			<class 'sublime.RegionSet'>
-			>>> view.sel()[0].__class__
-			<class 'sublime.Region'>
-			>>> print view.sel.__doc__
+=dir()
 
-				sel( (View)arg1) -> RegionSet :
+$ dir()
+$ dir(view)
+$ dir(view.run_command)
 
-				    C++ signature :
-				        class SelectionSet {lvalue} sel(class TextBufferView {lvalue})
-	view.find(...)
-	view.has_non_empty_selection_region()
-	view.insert(...)
-	view.rowcol(pt)
-	view.run_command(...)
-		>>> view.run_command("insert", {"characters": "abc"})
-			# inserts "abc" at current point/selection(s)
-	view.show(pt)
-	view.size()
-	view.visible_region()
-	view.word(pt)
+=view.sel()
+
+returns current selections
+
+$ view.sel()
+    [(1287, 1287)]              # no selection
+    [(377, 391)]                # one region selected
+    [(377, 391), (722, 736)]    # two regions selected
+$ view.sel().__class__
+    <class 'sublime.RegionSet'>
+$ view.sel()[0].__class__
+    <class 'sublime.Region'>
+$ print view.sel.__doc__
+    sel( (View)arg1) -> RegionSet :
+
+        C++ signature :
+            class SelectionSet {lvalue} sel(class TextBufferView {lvalue})
+
+=...
+view.find(...)
+view.has_non_empty_selection_region()
+view.insert(...)
+view.rowcol(pt)
+view.run_command(...)
+    >>> view.run_command("insert", {"characters": "abc"})
+        # inserts "abc" at current point/selection(s)
+view.show(pt)
+view.size()
+view.visible_region()
+view.word(pt)
 
 
 >>> view.find("\n\n+",0)
