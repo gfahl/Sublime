@@ -496,6 +496,52 @@
 				<string>#BCBCE0</string>
 			</dict>
 		</dict>
+
+		<dict>
+			<key>name</key>
+			<string>MS-SQL Report: description</string>
+			<key>scope</key>
+			<string>description.mssql.report</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#D4A0F2</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>MS-SQL Report: rowcount</string>
+			<key>scope</key>
+			<string>rowcount.mssql.report</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#E1A4A4</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>MS-SQL Report: rows</string>
+			<key>scope</key>
+			<string>rows.mssql.report</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#FFEA91</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>MS-SQL Report: separator</string>
+			<key>scope</key>
+			<string>separator.mssql.report</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#A4E1A4</string>
+			</dict>
+		</dict>
+
 		<dict>
 			<key>name</key>
 			<string>Textile: warning</string>

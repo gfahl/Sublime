@@ -22,7 +22,7 @@
 				<key>2</key>
 				<dict>
 					<key>name</key>
-					<string>command-line.my.text</string>
+					<string>description.mssql.report</string>
 				</dict>
 			</dict>
 			<key>match</key>
@@ -34,7 +34,7 @@
 				<key>1</key>
 				<dict>
 					<key>name</key>
-					<string>warning.my.text</string>
+					<string>rowcount.mssql.report</string>
 				</dict>
 			</dict>
 			<key>match</key>
@@ -53,7 +53,7 @@
 						<key>1</key>
 						<dict>
 							<key>name</key>
-							<string>important-text.my.text</string>
+							<string>rows.mssql.report</string>
 						</dict>
 					</dict>
 					<key>match</key>
@@ -61,7 +61,7 @@
 				</dict>
 			</array>
 			<key>name</key>
-			<string>header.1.my.text</string>
+			<string>separator.mssql.report</string>
 		</dict>
 	</array>
 	<key>scopeName</key>
