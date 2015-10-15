@@ -892,49 +892,6 @@
 				</dict>
 			</array>
 		</dict>
-		<key>table_alias</key>
-		<dict>
-			<key>begin</key>
-			<string>(?&lt;=from|join)\s*</string>
-			<key>end</key>
-			<string>(?=\n|,|with|outer|inner|left|right|cross|where|join|on)</string>
-			<key>name</key>
-			<string>meta.alias.sql</string>
-			<key>patterns</key>
-			<array>
-				<dict>
-					<key>captures</key>
-					<dict>
-						<key>2</key>
-						<dict>
-							<key>name</key>
-							<string>variable.table.sql</string>
-						</dict>
-						<key>3</key>
-						<dict>
-							<key>name</key>
-							<string>string.temp.table.sql</string>
-						</dict>
-						<key>4</key>
-						<dict>
-							<key>name</key>
-							<string>keyword.alias-as.other.sql</string>
-						</dict>
-						<key>5</key>
-						<dict>
-							<key>name</key>
-							<string>entity.name.alias.sql</string>
-						</dict>
-					</dict>
-					<key>match</key>
-					<string>((@\w+)|(#{1,2}\w+)|[\w\.\]\[]+)\s+(as\s+)?(?!=\n|,|with|outer|inner|left|right|cross|where|join|on)(\w+)</string>
-				</dict>
-				<dict>
-					<key>include</key>
-					<string>#comments</string>
-				</dict>
-			</array>
-		</dict>
 	</dict>
 	<key>scopeName</key>
 	<string>source.sql</string>
