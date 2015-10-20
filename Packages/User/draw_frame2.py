@@ -1,6 +1,6 @@
 import sublime, sublime_plugin, re
 
-class DrawFrameCommand(sublime_plugin.TextCommand):
+class DrawFrame2Command(sublime_plugin.TextCommand):
     # Draw an ascii frame on the edges of selected text
     # Pre-requisite: a rectangular-shaped multi-selection
     #   the selections are on consecutive lines
@@ -10,7 +10,7 @@ class DrawFrameCommand(sublime_plugin.TextCommand):
     # If a drawn line passes an orthogonal line, an intersection is drawn
     #
     #   abc <suppose      > jkl        abc +-------------+ jkl
-    #   def <this text was> mno   =>   def |this text was| mno
+    #   def <this text was> mno   =>   def !this text was! mno
     #   ghi <selected     > pqr        ghi +-------------+ pqr
     def run(self, edit):
         rows_a = [self.view.rowcol(r.a)[0] for r in self.view.sel()]
@@ -25,7 +25,7 @@ class DrawFrameCommand(sublime_plugin.TextCommand):
         for i in [0, -1]:
             region = self.view.sel()[i]
             old_text = self.view.substr(region)
-            new_text = re.sub("\|", "+", old_text)
+            new_text = re.sub("\!", "+", old_text)
             new_text = re.sub("[^+]", "-", new_text)
             new_text = "+" + new_text[1:]
             new_text = new_text[:-1] + "+"
@@ -35,6 +35,6 @@ class DrawFrameCommand(sublime_plugin.TextCommand):
                 region = self.view.sel()[i]
                 old_text = self.view.substr(region)
                 new_text = old_text
-                new_text = ("+" if old_text[0] == "+" or old_text[0] == "-" else "|") + new_text[1:]
-                new_text = new_text[:-1] + ("+" if old_text[0] == "+" or old_text[0] == "-" else "|")
+                new_text = ("+" if old_text[0] == "+" or old_text[0] == "-" else "!") + new_text[1:]
+                new_text = new_text[:-1] + ("+" if old_text[0] == "+" or old_text[0] == "-" else "!")
                 self.view.replace(edit, region, new_text)

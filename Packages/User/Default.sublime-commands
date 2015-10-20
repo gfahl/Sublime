@@ -32,7 +32,8 @@
 
     { "caption": "Ascii: Right-pad Spaces", "command": "right_pad_spaces" },
     { "caption": "Ascii: Add Frame", "command": "add_frame" },
-    { "caption": "Ascii: Draw Frame", "command": "draw_frame" },
+    { "caption": "Ascii: Draw Frame (using |)", "command": "draw_frame" },
+    { "caption": "Ascii: Draw Frame (using !)", "command": "draw_frame2" },
     { "caption": "Ascii: Canvas", "command": "create_canvas" },
 
     {
