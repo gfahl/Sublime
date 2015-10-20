@@ -2,6 +2,7 @@
     { "caption": "File: Re-Open Last File", "command": "reopen_last_file" },
     { "caption": "File: New Window", "command": "new_window" },
     { "caption": "File: Close Window", "command": "close_window" },
+    { "caption": "File: Save As…", "command": "prompt_save_as" },
 
     { "caption": "Move by Word: Left", "command": "move", "args": {"by": "words", "forward": false} },
     { "caption": "Move by Word: Right", "command": "move", "args": {"by": "word_ends", "forward": true} },
