@@ -6,8 +6,6 @@
 
 ~To do
 
-new commands: insert Lorem Ipsum in various formats (minimal, short, long etc)
-
 document differences in keyboard shortcuts (see below) between Windows/OSX
     e.g. ctrl+cmd vs ctrl+alt
 
@@ -113,6 +111,8 @@ ctrl+q, ctrl+p              copy current file's full path
 ctrl+t                      transpose (selections, or characters around prompt)
 ctrl+q, ctrl+d              paste current date
 (none)                      Edit: Paste Incrementing Numbers
+(none)                      Edit: Paste Lorem Ipsum (short)
+(none)                      Edit: Paste Lorem Ipsum (long)
 ctrl+space                  auto-complete
 ctrl+minus                  toggle comment
 ctrl+k, ctrl+u              upper case
@@ -232,6 +232,19 @@ Packages/User/Default (Windows).sublime-keymap
 -tmLanguage
 
 -tmPreferences
+
+=creating a new command
+
+create Python script for the command, e.g. Packages/User/my_command.py
+add a line to Packages/User/Default.sublime-commands, e.g.
+    { "caption": "Edit: My New Command", "command": "my_command" },
+if the command has a keyboard shortcut, add a line to the .sublime-keymap files:
+    Packages/User/Default (OSX).sublime-keymap
+    Packages/User/Default (Windows).sublime-keymap
+if the command has a menu entry, add a line to Packages/User/Main.sublime-menu
+copy all the modified files in .../Sublime Text 2/Packages to ...Project/Sublime/Packages
+update documentation
+    project/sublime_text.gtxt
 
 =misc
 
