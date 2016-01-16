@@ -6,6 +6,9 @@
 
 ~To do
 
+write command to show current encoding
+    see http://stackoverflow.com/questions/16195871/how-do-i-see-the-current-encoding-of-a-file-in-sublime-text-2
+
 document differences in keyboard shortcuts (see below) between Windows/OSX
     e.g. ctrl+cmd vs ctrl+alt
 
@@ -187,6 +190,11 @@ ctrl+0                      bring focus to side bar
 ctrl/alt+click (Windows)    select multiple files
 cmd+click (OSX)             select multiple files
 ctrl+q, ctrl+s              reveal current file in side bar
+
+~Encoding
+
+To see current encoding, save the file (ctrl+s) and see the message appearing for a few
+seconds in the status bar
 
 ~Customization
 
