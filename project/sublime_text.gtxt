@@ -6,6 +6,10 @@
 
 ~To do
 
+create syntax for sqlite scripts (.sq)
+
+starting a line with ">" should generate the same syntax colouring as "$"
+
 write command to show current encoding
     see http://stackoverflow.com/questions/16195871/how-do-i-see-the-current-encoding-of-a-file-in-sublime-text-2
 
