@@ -4,9 +4,7 @@
 <dict>
 	<key>fileTypes</key>
 	<array>
-		<string>sql</string>
-		<string>ddl</string>
-		<string>dml</string>
+		<string>mysql</string>
 	</array>
 	<key>foldingStartMarker</key>
 	<string>\s*\(\s*$</string>
@@ -15,7 +13,7 @@
 	<key>keyEquivalent</key>
 	<string>^~S</string>
 	<key>name</key>
-	<string>T-SQL</string>
+	<string>MySQL</string>
 	<key>patterns</key>
 	<array>
 		<dict>
@@ -894,7 +892,7 @@
 		</dict>
 	</dict>
 	<key>scopeName</key>
-	<string>source.sql</string>
+	<string>source.mysql</string>
 	<key>uuid</key>
 	<string>C49120AC-6ECC-11D9-ACC8-000D93589AF6</string>
 </dict>
