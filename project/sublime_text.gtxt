@@ -6,7 +6,6 @@
 
 ~To do
 
-create syntax for sqlite scripts (.sq)
 
 starting a line with ">" should generate the same syntax colouring as "$"
 

@@ -5,7 +5,7 @@
 	<key>name</key>
 	<string>Comments</string>
 	<key>scope</key>
-	<string>source.sql</string>
+	<string>source.sqlite</string>
 	<key>settings</key>
 	<dict>
 		<key>shellVariables</key>
