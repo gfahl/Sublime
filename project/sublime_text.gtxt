@@ -6,6 +6,13 @@
 
 ~To do
 
+new command: paste incrementing numbers (prompting for start number)
+
+mysql syntax:
+    'tee' 'notee' special commands
+    CONCAT_WS
+    "Empty set (0.09 sec)" should be same colour as result rows (yellow)
+    start transaction
 
 starting a line with ">" should generate the same syntax colouring as "$"
 
