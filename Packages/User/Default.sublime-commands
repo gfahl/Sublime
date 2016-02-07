@@ -26,6 +26,7 @@
     { "caption": "Edit: Copy Path", "command": "copy_path" },
     { "caption": "Edit: Paste Date", "command": "paste_date" },
     { "caption": "Edit: Paste Incrementing Numbers", "command": "paste_incrementing_numbers" },
+    { "caption": "Edit: Paste Incrementing Numbers (interactive)", "command": "paste_incrementing_numbers_interactive" },
     { "caption": "Edit: Paste Lorem Ipsum (short)", "command": "paste_lorem_ipsum_short" },
     { "caption": "Edit: Paste Lorem Ipsum (long)", "command": "paste_lorem_ipsum_long" },
     { "caption": "Edit: Move Text Left", "command": "move_text_left" },
