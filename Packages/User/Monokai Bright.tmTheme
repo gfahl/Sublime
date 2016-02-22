@@ -496,6 +496,17 @@
 				<string>#BCBCE0</string>
 			</dict>
 		</dict>
+		<dict>
+			<key>name</key>
+			<string>My Text: command line 2</string>
+			<key>scope</key>
+			<string>command-line-2.my.text</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#BCE0FF</string>
+			</dict>
+		</dict>
 
 		<dict>
 			<key>name</key>

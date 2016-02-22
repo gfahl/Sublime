@@ -193,6 +193,23 @@
 			<string>^\s*(\$)([ \w].*)$</string>
 		</dict>
 		<dict>
+			<key>captures</key>
+			<dict>
+				<key>1</key>
+				<dict>
+					<key>name</key>
+					<string>comment.line.number-sign.ruby</string>
+				</dict>
+				<key>2</key>
+				<dict>
+					<key>name</key>
+					<string>command-line-2.my.text</string>
+				</dict>
+			</dict>
+			<key>match</key>
+			<string>^\s*(\>)([ \w].*)$</string>
+		</dict>
+		<dict>
 			<key>begin</key>
 			<string>^\+[\-\+]+\+$</string>
 			<key>beginCaptures</key>
