@@ -16,6 +16,23 @@
 	<key>patterns</key>
 	<array>
 		<dict>
+			<key>captures</key>
+			<dict>
+				<key>1</key>
+				<dict>
+					<key>name</key>
+					<string>separator.mssql.report</string>
+				</dict>
+				<key>2</key>
+				<dict>
+					<key>name</key>
+					<string>separator.mssql.report</string>
+				</dict>
+			</dict>
+			<key>match</key>
+			<string>^(\\\w+) (.*)$</string>
+		</dict>
+		<dict>
 			<key>include</key>
 			<string>#comments</string>
 		</dict>
@@ -387,12 +404,6 @@
 					<string>@@|&amp;&amp;|!!|@&gt;|&lt;@</string>
 					<key>name</key>
 					<string>keyword.operator.tsearch.pgsql</string>
-				</dict>
-				<dict>
-					<key>match</key>
-					<string>\*</string>
-					<key>name</key>
-					<string>keyword.operator.star.pgsql</string>
 				</dict>
 				<dict>
 					<key>match</key>
