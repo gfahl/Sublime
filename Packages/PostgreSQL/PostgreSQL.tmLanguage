@@ -4,7 +4,6 @@
 <dict>
 	<key>fileTypes</key>
 	<array>
-		<string>sql</string>
 		<string>pgsql</string>
 		<string>psql</string>
 	</array>
@@ -13,7 +12,7 @@
 	<key>foldingStopMarker</key>
 	<string>^\s*\)</string>
 	<key>name</key>
-	<string>SQL (PostgreSQL)</string>
+	<string>PostgreSQL</string>
 	<key>patterns</key>
 	<array>
 		<dict>
