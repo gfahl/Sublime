@@ -6,6 +6,11 @@
 
 ~To do
 
+new command: Wrap Paragraph at Ruler (=alt+q)
+
+unwrap paragraph
+    replaces all <newline> with <space>
+
 mysql syntax:
     'tee' 'notee' special commands
     CONCAT_WS
@@ -125,6 +130,7 @@ ctrl+q, ctrl+d              paste current date
 (none)                      Edit: Paste Lorem Ipsum (long)
 ctrl+space                  auto-complete
 ctrl+minus                  toggle comment
+alt+q                       wrap paragraph at ruler
 ctrl+k, ctrl+u              upper case
 ctrl+k, ctrl+l              lower case
 ctrl+k, ctrl+t              title case
@@ -157,6 +163,10 @@ ctrl+q, ctrl+w              toggle word wrap
 ctrl+k, ctrl+c              center current line
 (none)                      Indentation: Tab Width 2
 (none)                      Indentation: Tab Width 4
+(none)                      Ruler: Off
+(none)                      Ruler: at Column 80
+(none)                      Ruler: at Column 100
+(none)                      Ruler: Prompt
 
 =tools
 

@@ -61,6 +61,11 @@
     { "caption": "View: Center Current Line", "command": "show_at_center" },
     { "caption": "View: Toggle Visible Spaces", "command": "toggle_visible_spaces" },
 
+    { "caption": "Ruler: Off", "command": "set_setting", "args": {"setting": "rulers", "value": []} },
+    { "caption": "Ruler: at Column 80", "command": "set_setting", "args": {"setting": "rulers", "value": [80]} },
+    { "caption": "Ruler: at Column 100", "command": "set_setting", "args": {"setting": "rulers", "value": [100]} },
+    { "caption": "Ruler: Prompt", "command": "ruler_interactive" },
+
     { "caption": "Indentation: Tab Width 2", "command": "set_setting", "args": {"setting": "tab_size", "value": 2} },
     { "caption": "Indentation: Tab Width 4", "command": "set_setting", "args": {"setting": "tab_size", "value": 4} },
 
