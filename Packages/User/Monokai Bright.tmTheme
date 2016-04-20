@@ -424,7 +424,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#A4E1A4</string>
+				<string>#E1F5E1</string>
 				<key>background</key>
 				<string>#456945</string>
 				<key>fontStyle</key>

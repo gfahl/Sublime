@@ -229,7 +229,7 @@
 			<string>(?xi)
 
 				# normal stuff, capture 1
-				 \b[^\.](BIDENT|BBRIEF|BCOMMENT|BBOOL|bigint|numeric|bit|smallint|decimal|smallmoney|int|tinyint|money|float|real|date|datetimeoffset|datetime2|smalldatetime|datetime|time|char|varchar|text|nchar|nvarchar|ntext|binary|varbinary|image|cursor|timestamp|hierarchyid|uniqueidentifier|sysname|sql_variant|xml|table|geography|geometry)\b
+				 \b[^\.](BIDENT|BBRIEF|BCOMMENT|BBOOL|integer|blob|bigint|numeric|bit|smallint|decimal|smallmoney|int|tinyint|money|float|real|date|datetimeoffset|datetime2|smalldatetime|datetime|time|char|varchar|text|nchar|nvarchar|ntext|binary|varbinary|image|cursor|timestamp|hierarchyid|uniqueidentifier|sysname|sql_variant|xml|table|geography|geometry)\b
 
 				# numeric suffix, capture 2 + 3i
 				|\b(bit\svarying|character\s(?:varying)?|tinyint|var\schar|float|interval)\((\d+)\)

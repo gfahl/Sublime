@@ -11,6 +11,13 @@ new command: Wrap Paragraph at Ruler (=alt+q)
 unwrap paragraph
     replaces all <newline> with <space>
 
+new command: ctrl+' inserts quotes (') around word at cursor(s), or around selection(s)
+    ctrl+' ctrl+' inserts double quotes (")
+    ctrl+' ctrl+' ctrl+' inserts underscore (_)
+new command: ctrl+8 inserts () around word at cursor(s), or around selection(s)
+    ctrl+8 ctrl+8 inserts []
+    ctrl+8 ctrl+8 ctrl+8 inserts {}
+
 mysql syntax:
     'tee' 'notee' special commands
     CONCAT_WS
