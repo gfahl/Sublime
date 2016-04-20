@@ -125,7 +125,7 @@ ctrl+q, ctrl+p              copy current file's full path
 ctrl+t                      transpose (selections, or characters around prompt)
 ctrl+q, ctrl+d              paste current date
 (none)                      Edit: Paste Incrementing Numbers
-(none)                      Edit: Paste Incrementing Numbers (interactive)
+(none)                      Edit: Paste Enumeration
 (none)                      Edit: Paste Lorem Ipsum (short)
 (none)                      Edit: Paste Lorem Ipsum (long)
 ctrl+space                  auto-complete
