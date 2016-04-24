@@ -18,6 +18,8 @@
     { "caption": "Move Using Find", "command": "prompt_move_using_find" },
 
     { "caption": "Edit (Convert Case): Camel Case & Co.", "command": "toggle_camel_snake_case" },
+    { "caption": "Edit: Insert or Modify Quotes", "command": "insert_quotes" },
+    { "caption": "Edit: Insert or Modify Parentheses", "command": "insert_parentheses" },
     { "caption": "Edit: Trim Trailing Whitespace", "command": "trim_trailing_white_space_now" },
     { "caption": "Edit: Remove Empty Lines", "command": "remove_empty_lines" },
     { "caption": "Edit: Squeeze Empty Lines", "command": "squeeze_empty_lines" },
