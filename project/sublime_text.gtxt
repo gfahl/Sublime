@@ -82,8 +82,6 @@ alt+left/right              move by word-part
 alt+shift+left/right        expand/reduce selection by word-part
 alt+up/down                 move by paragraph
 ctrl+shift+up/down          expand/reduce selection by paragraph
-alt+pgup/pgdown             move by section
-alt+shift+pgup/pgdown       expand/reduce selection by section
 ctrl+m                      move to matching bracket
 (none)                      Move Using Find
 ctrl+d                      select word (when no selection)

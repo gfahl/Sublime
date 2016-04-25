@@ -97,10 +97,5 @@
 	{ "keys": ["ctrl+shift+up"], "command": "move_by_paragraph", "args": {"extend": true, "forward": false} },
 	{ "keys": ["ctrl+shift+down"], "command": "move_by_paragraph", "args": {"extend": true} },
 	{ "keys": ["alt+up"], "command": "move_by_paragraph", "args": {"extend": false, "forward": false} },
-	{ "keys": ["alt+down"], "command": "move_by_paragraph", "args": {"extend": false} },
-
-	{ "keys": ["alt+shift+pageup"], "command": "move_by_section", "args": {"extend": true, "forward": false} },
-	{ "keys": ["alt+shift+pagedown"], "command": "move_by_section", "args": {"extend": true} },
-	{ "keys": ["alt+pageup"], "command": "move_by_section", "args": {"extend": false, "forward": false} },
-	{ "keys": ["alt+pagedown"], "command": "move_by_section", "args": {"extend": false} }
+	{ "keys": ["alt+down"], "command": "move_by_paragraph", "args": {"extend": false} }
 ]
