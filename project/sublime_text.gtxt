@@ -124,8 +124,8 @@ ctrl+q, ctrl+f              copy current file's name (with extension)
 ctrl+q, ctrl+p              copy current file's full path
 ctrl+t                      transpose (selections, or characters around prompt)
 ctrl+q, ctrl+d              paste current date
-ctrl+'                      Edit: Insert or Modify Quotes
-ctrl+8                      Edit: Insert or Modify Parentheses
+ctrl+'                      Edit: Insert or Modify Quotes (foo => 'foo' => "foo" => _foo_ => foo)
+ctrl+8                      Edit: Insert or Modify Parentheses (foo => (foo) => [foo] => {foo} => foo)
 (none)                      Edit: Paste Incrementing Numbers
 (none)                      Edit: Paste Enumeration
 (none)                      Edit: Paste Lorem Ipsum (short)
@@ -318,6 +318,13 @@ http://wbond.net/sublime_packages/package_control
 https://github.com/timonwong/OmniMarkupPreviewer
 
 ~Console
+
+=log keystrokes
+
+in Console, enter
+> sublime.log_input(True)
+turn off with
+> sublime.log_input(False)
 
 =dir()
 
