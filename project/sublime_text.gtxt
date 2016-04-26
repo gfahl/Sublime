@@ -70,143 +70,192 @@ http://www.sublimetext.com/docs/2/
 http://docs.sublimetext.info/en/latest/index.html
 http://sublime-text-unofficial-documentation.readthedocs.org/
 
-~Keyboard shortcuts (and useful commands without keyboard shortcut)
+~Commands
 
-=move/select
++-----------------------------------+---------------------------+---------------------------+------+
+| Command                           | Keyboard Shortcut         | Keyboard Shortcut on OSX  | Note |
+|                                   |                           | if different from Windows |      |
++-----------------------------------+---------------------------+---------------------------+------+
 
-ctrl+left/right             move by word
-ctrl+shift+left/right       expand/reduce selection by word
-cmd+left/right              move to beginning/end of line
-cmd+shift+left/right        expand selection to beginning/end of line
-alt+left/right              move by word-part
-alt+shift+left/right        expand/reduce selection by word-part
-alt+up/down                 move by paragraph
-ctrl+shift+up/down          expand/reduce selection by paragraph
-ctrl+m                      move to matching bracket
-(none)                      Move Using Find
-ctrl+d                      select word (when no selection)
-ctrl+u                      undo, including cursor movement and selection
-ctrl+shift+u                redo, including cursor movement and selection
-ctrl+shift+m                expand selection to brackets
-ctrl+l                      expand selection to line
+=Move
++-----------------------------------+---------------------------+---------------------------+------+
+| Move by Word: Left                | ctrl+left                 |                           |      |
+| Move by Word: Right               | ctrl+right                |                           |      |
+| Move by Word-part: Left           | alt+left                  |                           |      |
+| Move by Word-part: Right          | alt+right                 |                           |      |
+| Move to Beginning of Line         | home                      | cmd+left                  |      |
+| Move to End of Line               | end                       | cmd+right                 |      |
+| Move by Paragraph: Up             | alt+up                    |                           |      |
+| Move by Paragraph: Down           | alt+down                  |                           |      |
+| Move to Beginning of File         | ctrl+home                 | cmd+up                    |      |
+| Move to End of File               | ctrl+end                  | cmd+down                  |      |
+| Move to Matching Bracket          | ctrl+m                    |                           |      |
+| Move Using Find                   | (none)                    |                           |      |
+| Undo Cursor Movement              | ctrl+u                    |                           | [1]  |
++-----------------------------------+---------------------------+---------------------------+------+
 
--bookmarks
+=Select
++-----------------------------------+---------------------------+---------------------------+------+
+| Select by Word: Left              | ctrl+shift+left           |                           | [2]  |
+| Select by Word: Right             | ctrl+shift+right          |                           | [2]  |
+| Select by Word-part: Left         | alt+shift+left            |                           | [2]  |
+| Select by Word-part: Right        | alt+shift+right           |                           | [2]  |
+| Select to Beginning of Line       | shift+home                | cmd+shift+left            | [2]  |
+| Select to End of Line             | shift+end                 | cmd+shift+right           | [2]  |
+| Select by Paragraph: Up           | ctrl+shift+up             |                           | [2]  |
+| Select by Paragraph: Down         | ctrl+shift+down           |                           | [2]  |
+| Select to Beginning of File       | ctrl+shift+home           | cmd+shift+up              | [2]  |
+| Select to End of File             | ctrl+shift+end            | cmd+shift+down            | [2]  |
+| Select Word                       | ctrl+d                    |                           | [3]  |
+| Expand Selection to Brackets      | ctrl+shift+m              |                           | [4]  |
+| Expand Selection to Line          | ctrl+l                    |                           |      |
++-----------------------------------+---------------------------+---------------------------+------+
 
-cmd+b                       move to next bookmark
-cmd+shift+b                 move to previous bookmark
-ctrl+b                      toggle bookmark
-ctrl+shift+b                clear all bookmarks
+=Bookmarks
++-----------------------------------+---------------------------+---------------------------+------+
+| Toggle Bookmark                   | ctrl+b                    |                           |      |
+| Clear All Bookmarks               | ctrl+shift+b              |                           |      |
+| Move to Next Bookmark             | alt+b                     | cmd+b                     |      |
+| Move to Previous Bookmark         | alt+shift+b               | cmd+shift+b               |      |
++-----------------------------------+---------------------------+---------------------------+------+
 
-=multi-select
+=Multi-Select
++-----------------------------------+---------------------------+---------------------------+------+
+| Select More                       | ctrl+d                    |                           | [5]  |
+| Select More But Not This One      | ctrl+k, ctrl+d            |                           |      |
+| Select All Occurances             | alt+d                     | cmd+d                     | [6]  |
+| Get Multiple Cursors              | ctrl+shift+l              |                           | [7]  |
+| Add Cursor to Multi-Selection     | ctrl+click                |                           |      |
+| Add Word to Multi-Selection       | ctrl+doubleclick          |                           |      |
++-----------------------------------+---------------------------+---------------------------+------+
 
-ctrl+d                      select more (when selection)
-ctrl+k, ctrl+d              skip this selection during 'select more'
-ctrl/alt+click              add/delete cursor
-ctrl/alt+doubleclick        add/delete selection
-cmd+d                       select all occurances of selection or word at cursor
-ctrl+alt+pgup/pgdown        add cursors in the same column
-ctrl+shift+l                get multiple cursors:
-                                if multiple lines selected: add cursor at each selected line
-                                else if multiple bookmarks: add cursor at each bookmark
-                                else: add cursor after each selected character
+=Edit
++-----------------------------------+---------------------------+---------------------------+------+
+| Move Lines Up                     | ctrl+shift+pgup           |                           |      |
+| Move Lines Down                   | ctrl+shift+pgdown         |                           |      |
+| Duplicate Selection/Line          | ctrl+shift+d              |                           |      |
+| Delete Rest of Line               | ctrl+k, ctrl+k            |                           |      |
+| Delete Current Line               | ctrl+shift+k              |                           |      |
+| Copy Filename                     | ctrl+q, ctrl+f            |                           |      |
+| Copy Path                         | ctrl+q, ctrl+p            |                           |      |
+| Paste Current Date                | ctrl+q, ctrl+d            |                           |      |
+| Paste Incrementing Numbers        | (none)                    |                           |      |
+| Paste Enumeration                 | (none)                    |                           |      |
+| Paste Lorem Ipsum (short)         | (none)                    |                           |      |
+| Paste Lorem Ipsum (long)          | (none)                    |                           |      |
+| Transpose                         | ctrl+t                    |                           | [8]  |
+| Insert or Modify Quotes           | ctrl+'                    |                           | [9]  |
+| Insert or Modify Parantheses      | ctrl+8                    |                           | [10] |
+| Auto-Complete                     | ctrl+space                |                           |      |
+| Toggle Comment                    | ctrl+minus                |                           |      |
+| Wrap Paragraph at Ruler           | alt+q                     | ?                         |      |
+| Upper Case                        | ctrl+k, ctrl+u            |                           |      |
+| Lower Case                        | ctrl+k, ctrl+l            |                           |      |
+| Title Case                        | ctrl+k, ctrl+t            |                           |      |
+| Snake Case & Co                   | ctrl+k, ctrl+s            |                           | [11] |
+| Force Insert of Tab               | shift+tab                 |                           | [12] |
+| Remove Empty Lines                | (none)                    |                           |      |
+| Squeeze Empty Lines               | (none)                    |                           |      |
+| Squeeze Whitepsace                | (none)                    |                           |      |
+| Trim Trailing Whitespace          | (none)                    |                           |      |
++-----------------------------------+---------------------------+---------------------------+------+
 
-=edit
+=View
++-----------------------------------+---------------------------+---------------------------+------+
+| Scroll                            | ctrl+up/down              |                           |      |
+| Decrease Font Size                | (none)                    |                           |      |
+| Increase Font Size                | (none)                    |                           |      |
+| Reset Font Size                   | (none)                    |                           |      |
+| Toggle Distraction Free Mode      | (none)                    |                           |      |
+| Toggle Visible Spaces             | ctrl+q, ctrl+space        |                           |      |
+| Next/Previous View in Side Bar    | ctrl+pgdown/pgup          |                           |      |
+| Next/Previous View in Stack       | ctrl+(shift+)tab          |                           |      |
+| Toggle Side Bar                   | ctrl+k, ctrl+b            |                           |      |
+| Show Console                      | ctrl+.                    |                           |      |
+| Toggle Word Wrap                  | ctrl+q, ctrl+w            |                           |      |
+| Center Current Line               | ctrl+k, ctrl+c            |                           |      |
+| Indentation: Tab Width 2          | (none)                    |                           |      |
+| Indentation: Tab Width 4          | (none)                    |                           |      |
+| Ruler: Off                        | (none)                    |                           |      |
+| Ruler: At Column 80               | (none)                    |                           |      |
+| Ruler: At Column 100              | (none)                    |                           |      |
+| Ruler: Prompt                     | (none)                    |                           |      |
++-----------------------------------+---------------------------+---------------------------+------+
 
-ctrl+shift+pgup/pgdown      move selected lines (or current line) up/down
-ctrl+cmd+left/right         move selected text left/right
-ctrl+cmd+up/down            move selected text up/down
-ctrl+shift+d                duplicate current line
-ctrl+k, ctrl+k              delete rest of line
-ctrl+shift+k                delete current line
-ctrl+q, ctrl+f              copy current file's name (with extension)
-ctrl+q, ctrl+p              copy current file's full path
-ctrl+t                      transpose (selections, or characters around prompt)
-ctrl+q, ctrl+d              paste current date
-ctrl+'                      Edit: Insert or Modify Quotes (foo => 'foo' => "foo" => _foo_ => foo)
-ctrl+8                      Edit: Insert or Modify Parentheses (foo => (foo) => [foo] => {foo} => foo)
-(none)                      Edit: Paste Incrementing Numbers
-(none)                      Edit: Paste Enumeration
-(none)                      Edit: Paste Lorem Ipsum (short)
-(none)                      Edit: Paste Lorem Ipsum (long)
-ctrl+space                  auto-complete
-ctrl+minus                  toggle comment
-alt+q                       wrap paragraph at ruler
-ctrl+k, ctrl+u              upper case
-ctrl+k, ctrl+l              lower case
-ctrl+k, ctrl+t              title case
-ctrl+k, ctrl+s              "ha hi hu" => "ha_hi_hu" => "HaHiHu" => "ha hi hu" etc.
-shift+tab                   force a tab to be inserted instead of triggering tab command
-(none)                      Edit: Remove Empty Lines
-(none)                      Edit: Squeeze Empty Lines
-(none)                      Edit: Squeeze Whitepsace
-(none)                      Edit: Trim Trailing Whitespace
-(none)                      Ascii: Right-pad Spaces
-(none)                      Ascii: Add Frame
-(none)                      Ascii: Draw Frame
-(none)                      Ascii: Canvas
--Ruby only
-(none)                      Edit: Convert Block Style ({} <-> do...end)
+=Canvas
++-----------------------------------+---------------------------+---------------------------+------+
+| Canvas                            | (none)                    |                           |      |
+| Add Cursor in the Same Column     | ctrl+alt+pgup/pgdown      | ?                         |      |
+| Move Selection Left               | ctrl+alt+left             | ctrl+cmd+left             |      |
+| Move Selection Right              | ctrl+alt+right            | ctrl+cmd+right            |      |
+| Move Selection Up                 | ctrl+alt+up               | ctrl+cmd+up               |      |
+| Move Selection Down               | ctrl+alt+down             | ctrl+cmd+down             |      |
+| Right-pad Spaces                  | (none)                    |                           |      |
+| Add Frame                         | (none)                    |                           |      |
+| Draw Frame                        | (none)                    |                           |      |
++-----------------------------------+---------------------------+---------------------------+------+
 
-=view
+=Tools
++-----------------------------------+---------------------------+---------------------------+------+
+| Run Macro                         | ctrl+r                    |                           |      |
+| Start/End Recording Macro         | ctrl+shift+r              |                           |      |
+| Open Finder/File Explorer Here    | ctrl+q, ctrl+e            |                           |      |
+| Show Command Palette              | ctrl+shift+c              |                           |      |
+| Show Snippets                     | ctrl+shift+i              |                           |      |
+| Diff Previous                     | (none)                    |                           |      |
++-----------------------------------+---------------------------+---------------------------+------+
 
-ctrl+up/down                scroll
-(none)                      View: Decrease Font Size
-(none)                      View: Increase Font Size
-(none)                      View: Reset Font Size
-(none)                      View: Toggle Distraction Free Mode
-ctrl+q, ctrl+space          View: Toggle Visible Spaces
-ctrl+pgdown/pgup            next/previous view (as listed in side bar)
-ctrl+(shift+)tab            next/previous view in stack
-ctrl+k, ctrl+b              toggle side bar
-ctrl+.                      show console
-ctrl+q, ctrl+w              toggle word wrap
-ctrl+k, ctrl+c              center current line
-(none)                      Indentation: Tab Width 2
-(none)                      Indentation: Tab Width 4
-(none)                      Ruler: Off
-(none)                      Ruler: at Column 80
-(none)                      Ruler: at Column 100
-(none)                      Ruler: Prompt
+=Find/Replace
++-----------------------------------+---------------------------+---------------------------+------+
+| Find                              | ctrl+f                    |                           |      |
+| Replace                           | ctrl+h                    | ?                         |      |
+| Find in Files                     | ctrl+shift+f              |                           |      |
+| Next 'Find in Files' Result       | f4                        | cmd+n                     |      |
+| Previous 'Find in Files' Result   | alt+f4                    | cmd+p                     |      |
++-----------------------------------+---------------------------+---------------------------+------+
 
-=tools
+=File/Project
++-----------------------------------+---------------------------+---------------------------+------+
+| Select Project                    | ctrl+shift+p              |                           |      |
+| Goto Anything                     | ctrl+p                    |                           |      |
+| Goto Line                         | ctrl+g                    |                           |      |
+| Goto Word                         | ctrl+,                    |                           |      |
+| Goto Symbol                       | ctrl+shift+,              |                           |      |
+| Close File                        | ctrl+w                    |                           |      |
+| Re-Open Last File                 | ctrl+shift+t              |                           |      |
+| New Window                        | (none)                    |                           |      |
+| Close Window                      | (none)                    |                           |      |
++-----------------------------------+---------------------------+---------------------------+------+
 
-ctrl+r                      run macro
-ctrl+shift+r                start/end recording macro
-ctrl+q, ctrl+e              open Windows File Explorer/Mac Finder positioned in the current file's folder
-ctrl+shift+c                show command palette
-ctrl+shift+i                show snippets (in command palette)
-(none)                      Tools: Diff Previous
+=Sidebar
++-----------------------------------+---------------------------+---------------------------+------+
+| Goto File Number 1/2/../10        | alt+1/2/../0              | cmd+1/2/../0              |      |
+| Bring Focus To Side Bar           | ctrl+0                    |                           |      |
+| Select Multiple Files             | ctrl/alt+click            | cmd+click                 |      |
+| Reveal Current File In Side Bar   | ctrl+q, ctrl+s            |                           |      |
++-----------------------------------+---------------------------+---------------------------+------+
 
-=find/replace
+=Ruby
++-----------------------------------+---------------------------+---------------------------+------+
+| Convert Block Style               | (none)                    |                           | [13] |
+| Save Using Class Name             | (none)                    |                           |      |
++-----------------------------------+---------------------------+---------------------------+------+
 
-ctrl+f                      find
-ctrl+shift+f                find in files
-cmd+n                       go to next "find in files" result
-cmd+p                       go to previous "find in files" result
-alt+cmd+f                   replace
-
-=file/project
-
-ctrl+shift+p                select project
-ctrl+p                      goto anything
-ctrl+g                      goto +line+ (goto anything prefix :)
-ctrl+,                      goto +word+ (goto anything prefix #)
-ctrl+shift+,                goto +symbol+ (goto anything prefix @)
-ctrl+w                      close file
-ctrl+shift+t                re-open last file
-(none)                      File: New Window
-(none)                      File: Close Window
--Ruby only
-(none)                      File: Save Using Snake-Case Version of Class Name
-
-=sidebar
-
-alt+1/2/../0 (Windows)      goto file number 1/2/../10 (tab order)
-cmd+1/2/../0 (OSX)          goto file number 1/2/../10 (tab order)
-ctrl+0                      bring focus to side bar
-ctrl/alt+click (Windows)    select multiple files
-cmd+click (OSX)             select multiple files
-ctrl+q, ctrl+s              reveal current file in side bar
+[1] Undo includes cursor movements, selection changes AND EDITING
+[2] Expands or reduces the selection depending on current selection and position of cursor
+[3] Command has a different effect when the selection is non-empty
+[4] Execute command twice to include the brackets in the selection
+[5] Command has a different effect when the selection is empty
+[6] If selection: all occurances of selection. If not: all occurances of word at cursor.
+[7] If multiple lines selected: add cursor at each selected line.
+    Else, if multiple bookmarks: add cursor at each bookmark.
+    Else: add cursor after each selected character.
+[8] If >1 selection, shifts the selections. If no selections, transposes characters around prompt.
+[9] foo => 'foo' => "foo" => _foo_ => foo
+[10] foo => (foo) => [foo] => {foo} => foo
+[11] "ha hi hu" => "ha_hi_hu" => "HaHiHu" => "ha hi hu"
+[12] Force a tab to be inserted instead of triggering tab command
+[13] {} <-> do...end
 
 ~Encoding
 
