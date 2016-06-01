@@ -18,6 +18,18 @@
 				<key>1</key>
 				<dict>
 					<key>name</key>
+					<string>invalid</string>
+				</dict>
+			</dict>
+			<key>match</key>
+			<string>(\?{3,}|TODO)</string>
+		</dict>
+		<dict>
+			<key>captures</key>
+			<dict>
+				<key>1</key>
+				<dict>
+					<key>name</key>
 					<string>comment.line.number-sign.ruby</string>
 				</dict>
 				<key>2</key>
