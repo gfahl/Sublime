@@ -9,6 +9,8 @@ class InsertQuotesCommand(sublime_plugin.TextCommand):
             elif s[0] == '"' and s[-1] == '"':
                 s = "_" + s[1:-1] + "_"
             elif s[0] == "_" and s[-1] == "_":
+                s = "*" + s[1:-1] + "*"
+            elif s[0] == "*" and s[-1] == "*":
                 s = s[1:-1]
             else:
                 s = "'" + s + "'"
