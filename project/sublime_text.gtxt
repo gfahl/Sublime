@@ -6,6 +6,17 @@
 
 ~To do
 
+new command: Open Terminal
+    opens a terminal at the same location as the current file
+    see https://github.com/wbond/sublime_terminal
+
+add to commands: Edit: Wrap Paragraph at 80 Characters
+add to commands: Edit: Wrap Paragraph at 90 Characters
+add to commands: Edit: Wrap Paragraph at 100 Characters
+new command: Edit: Wrap Paragraph (prompt for width)
+
+ctrl+' and ctrl+8: if nothing selected, simulate a ctrl+d first
+
 new command: Wrap Paragraph at Ruler (=alt+q)
 
 unwrap paragraph
@@ -87,6 +98,8 @@ http://sublime-text-unofficial-documentation.readthedocs.org/
 | Move to End of Line               | end                       | cmd+right                 |      |
 | Move by Paragraph: Up             | alt+up                    |                           |      |
 | Move by Paragraph: Down           | alt+down                  |                           |      |
+| Move by Page: Up                  | pgup                      |                           |      |
+| Move by Page: Down                | pgdown                    |                           |      |
 | Move to Beginning of File         | ctrl+home                 | cmd+up                    |      |
 | Move to End of File               | ctrl+end                  | cmd+down                  |      |
 | Move to Matching Bracket          | ctrl+m                    |                           |      |
@@ -104,6 +117,8 @@ http://sublime-text-unofficial-documentation.readthedocs.org/
 | Select to End of Line             | shift+end                 | cmd+shift+right           | [2]  |
 | Select by Paragraph: Up           | ctrl+shift+up             |                           | [2]  |
 | Select by Paragraph: Down         | ctrl+shift+down           |                           | [2]  |
+| Select by Page: Up                | shift+pgup                |                           | [2]  |
+| Select by Page: Down              | shift+pgdown              |                           | [2]  |
 | Select to Beginning of File       | ctrl+shift+home           | cmd+shift+up              | [2]  |
 | Select to End of File             | ctrl+shift+end            | cmd+shift+down            | [2]  |
 | Select Word                       | ctrl+d                    |                           | [3]  |
@@ -148,7 +163,7 @@ http://sublime-text-unofficial-documentation.readthedocs.org/
 | Insert or Modify Parantheses      | ctrl+8                    |                           | [10] |
 | Auto-Complete                     | ctrl+space                |                           |      |
 | Toggle Comment                    | ctrl+minus                |                           |      |
-| Wrap Paragraph at Ruler           | alt+q                     | ?                         |      |
+| Wrap Paragraph at Ruler           | alt+q                     | alt+cmd+q                 |      |
 | Upper Case                        | ctrl+k, ctrl+u            |                           |      |
 | Lower Case                        | ctrl+k, ctrl+l            |                           |      |
 | Title Case                        | ctrl+k, ctrl+t            |                           |      |
@@ -185,7 +200,7 @@ http://sublime-text-unofficial-documentation.readthedocs.org/
 =Canvas
 +-----------------------------------+---------------------------+---------------------------+------+
 | Canvas                            | (none)                    |                           |      |
-| Add Cursor in the Same Column     | ctrl+alt+pgup/pgdown      | ?                         |      |
+| Add Cursor in the Same Column     | ctrl+alt+pgup/pgdown      | ctrl+cmd+pgup/pgdown      |
 | Move Selection Left               | ctrl+alt+left             | ctrl+cmd+left             |      |
 | Move Selection Right              | ctrl+alt+right            | ctrl+cmd+right            |      |
 | Move Selection Up                 | ctrl+alt+up               | ctrl+cmd+up               |      |
@@ -208,7 +223,7 @@ http://sublime-text-unofficial-documentation.readthedocs.org/
 =Find/Replace
 +-----------------------------------+---------------------------+---------------------------+------+
 | Find                              | ctrl+f                    |                           |      |
-| Replace                           | ctrl+h                    | ?                         |      |
+| Replace                           | ctrl+h                    | alt+cmd+f                 |      |
 | Find in Files                     | ctrl+shift+f              |                           |      |
 | Next 'Find in Files' Result       | f4                        | cmd+n                     |      |
 | Previous 'Find in Files' Result   | alt+f4                    | cmd+p                     |      |
@@ -241,6 +256,12 @@ http://sublime-text-unofficial-documentation.readthedocs.org/
 | Save Using Class Name             | (none)                    |                           |      |
 +-----------------------------------+---------------------------+---------------------------+------+
 
+=Textile
++-----------------------------------+---------------------------+---------------------------+------+
+| Export Current Markup as HTML     | (none)                    |                           |      |
+| Preview Current Markup in Browser | (none)                    |                           |      |
++-----------------------------------+---------------------------+---------------------------+------+
+
 [1] Undo includes cursor movements, selection changes AND EDITING
 [2] Expands or reduces the selection depending on current selection and position of cursor
 [3] Command has a different effect when the selection is non-empty
@@ -251,8 +272,8 @@ http://sublime-text-unofficial-documentation.readthedocs.org/
     Else, if multiple bookmarks: add cursor at each bookmark.
     Else: add cursor after each selected character.
 [8] If >1 selection, shifts the selections. If no selections, transposes characters around prompt.
-[9] foo => 'foo' => "foo" => _foo_ => foo
-[10] foo => (foo) => [foo] => {foo} => foo
+[9] foo => 'foo' => "foo" => _foo_ => *foo* => foo
+[10] foo => (foo) => [foo] => {foo} => <foo> => foo
 [11] "ha hi hu" => "ha_hi_hu" => "HaHiHu" => "ha hi hu"
 [12] Force a tab to be inserted instead of triggering tab command
 [13] {} <-> do...end
