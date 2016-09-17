@@ -42,6 +42,16 @@
 	{ "keys": ["alt+shift+left"], "command": "move", "args": {"by": "subwords", "forward": false, "extend": true} },
 	{ "keys": ["alt+shift+right"], "command": "move", "args": {"by": "subword_ends", "forward": true, "extend": true} },
 
+	{ "keys": ["ctrl+q", "left"], "command": "move_to", "args": {"to": "bol"} },
+	{ "keys": ["ctrl+q", "shift+left"], "command": "move_to", "args": {"to": "bol", "extend": true} },
+	{ "keys": ["ctrl+q", "right"], "command": "move_to", "args": {"to": "eol"} },
+	{ "keys": ["ctrl+q", "shift+right"], "command": "move_to", "args": {"to": "eol", "extend": true} },
+
+	{ "keys": ["ctrl+q", "up"], "command": "move_to", "args": {"to": "bof"} },
+	{ "keys": ["ctrl+q", "shift+up"], "command": "move_to", "args": {"to": "bof", "extend": true} },
+	{ "keys": ["ctrl+q", "down"], "command": "move_to", "args": {"to": "eof"} },
+	{ "keys": ["ctrl+q", "shift+down"], "command": "move_to", "args": {"to": "eof", "extend": true} },
+
 	{ "keys": ["ctrl+up"], "command": "scroll_lines", "args": {"amount": 1.0} },
 	{ "keys": ["ctrl+down"], "command": "scroll_lines", "args": {"amount": -1.0} },
 
