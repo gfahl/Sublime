@@ -6,6 +6,11 @@
 
 ~To do
 
+change shortcuts that use key which differs from keyboard to keyboard
+    e.g. ctrl+8 since 8 doesn't always have ( on top
+    e.g. ctrl+[ since [ doesn't always have ' on top
+    use ctrl+[number] instead?
+
 new command: Open Terminal
     opens a terminal at the same location as the current file
     see https://github.com/wbond/sublime_terminal
