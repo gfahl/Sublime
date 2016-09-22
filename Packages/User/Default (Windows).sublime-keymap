@@ -1,6 +1,8 @@
 [
 	{ "keys": ["ctrl+shift+l"], "command": "get_multiple_cursors" },
 	{ "keys": ["alt+d"], "command": "find_all_under" },
+	{ "keys": ["alt+f"], "command": "find_under" },
+	{ "keys": ["alt+shift+f"], "command": "find_under_prev" },
 
 	{ "keys": ["alt+b"], "command": "next_bookmark" },
 	{ "keys": ["alt+shift+b"], "command": "prev_bookmark" },

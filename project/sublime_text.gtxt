@@ -6,6 +6,8 @@
 
 ~To do
 
+change keyboard shortcuts for 'Find Word Under' for OSX too
+
 change shortcuts that use key which differs from keyboard to keyboard
     e.g. ctrl+8 since 8 doesn't always have ( on top
     e.g. ctrl+[ since [ doesn't always have ' on top
@@ -236,6 +238,8 @@ http://sublime-text-unofficial-documentation.readthedocs.org/
 =Find/Replace
 +-----------------------------------+---------------------------+---------------------------+------+
 | Find                              | ctrl+f                    |                           |      |
+| Find Word Under                   | alt+f                     | ?                         |      |
+| Find Previous Word Under          | alt+shift+f               | ?                         |      |
 | Replace                           | ctrl+h                    | alt+cmd+f                 |      |
 | Find in Files                     | ctrl+shift+f              |                           |      |
 | Next 'Find in Files' Result       | f4                        | cmd+n                     |      |
