@@ -22,10 +22,6 @@ add to commands: Edit: Wrap Paragraph at 90 Characters
 add to commands: Edit: Wrap Paragraph at 100 Characters
 new command: Edit: Wrap Paragraph (prompt for width)
 
-ctrl+' and ctrl+8: if nothing selected, simulate a ctrl+d first
-
-new command: Wrap Paragraph at Ruler (=alt+q)
-
 unwrap paragraph
     replaces all <newline> with <space>
 
@@ -37,9 +33,6 @@ mysql syntax:
 
 write command to show current encoding
     see http://stackoverflow.com/questions/16195871/how-do-i-see-the-current-encoding-of-a-file-in-sublime-text-2
-
-document differences in keyboard shortcuts (see below) between Windows/OSX
-    e.g. ctrl+cmd vs ctrl+alt
 
 new command:
     Edit -> Paste Other -> Paste Multiple Times
@@ -87,6 +80,7 @@ http://www.sublimetext.com/docs/2/
 
 http://docs.sublimetext.info/en/latest/index.html
 http://sublime-text-unofficial-documentation.readthedocs.org/
+http://sublime-text-unofficial-documentation.readthedocs.io/en/latest/reference/commands.html
 
 ~Commands
 
@@ -193,8 +187,8 @@ http://sublime-text-unofficial-documentation.readthedocs.org/
 =View
 +-----------------------------------+---------------------------+---------------------------+------+
 | Scroll                            | ctrl+up/down              |                           |      |
-| Decrease Font Size                | (none)                    |                           |      |
-| Increase Font Size                | (none)                    |                           |      |
+| Decrease Font Size                | ctrl+q, ctrl+down         |                           |      |
+| Increase Font Size                | ctrl+q, ctrl+up           |                           |      |
 | Reset Font Size                   | (none)                    |                           |      |
 | Toggle Distraction Free Mode      | (none)                    |                           |      |
 | Toggle Visible Spaces             | ctrl+q, ctrl+space        |                           |      |
