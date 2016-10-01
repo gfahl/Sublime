@@ -1,14 +1,15 @@
 import sublime, sublime_plugin
 
 class CreateCanvasCommand(sublime_plugin.TextCommand):
-    # Empty selections: inserts 10 rows of 100 spaces
-    # Non-empty selections: make each row 100 chars long by right-padding spaces
+    # Empty selections: inserts 10 rows of WIDTH spaces
+    # Non-empty selections: make each row WIDTH chars long by right-padding spaces
     def run(self, edit):
+        WIDTH = 200
         v = self.view
         new_sel = []
         for r in reversed(v.sel()):
             if r.empty():
-                new_text = (" " * 100 + "\n") * 10
+                new_text = (" " * WIDTH + "\n") * 10
                 n = len(new_text)
                 _new_sel = []
                 for rg in reversed(new_sel):
@@ -23,7 +24,7 @@ class CreateCanvasCommand(sublime_plugin.TextCommand):
                 region = sublime.Region(old_a, old_b)
                 new_lines = []
                 for line in lines:
-                    new_lines.append(v.substr(line) + " " * (100 - line.size()))
+                    new_lines.append(v.substr(line) + " " * (WIDTH - line.size()))
                 new_text = "\n".join(new_lines)
                 new_b = old_a + len(new_text)
                 n = new_b - old_b
