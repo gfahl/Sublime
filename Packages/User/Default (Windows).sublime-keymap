@@ -35,8 +35,8 @@
 	{ "keys": ["ctrl+shift+r"], "command": "toggle_record_macro" },
 	{ "keys": ["ctrl+r"], "command": "run_macro" },
 
-	{ "keys": ["ctrl+["], "command": "insert_quotes" },
-	{ "keys": ["ctrl+8"], "command": "insert_parentheses" },
+	{ "keys": ["ctrl+1"], "command": "insert_quotes" },
+	{ "keys": ["ctrl+0"], "command": "insert_parentheses" },
 
 	{ "keys": ["ctrl+k", "ctrl+s"], "command": "toggle_camel_snake_case" },
 	{ "keys": ["ctrl+k", "ctrl+t"], "command": "title_case" },

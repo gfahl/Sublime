@@ -9,9 +9,6 @@
 change keyboard shortcuts for 'Find Word Under' for OSX too
 
 change shortcuts that use key which differs from keyboard to keyboard
-    e.g. ctrl+8 since 8 doesn't always have ( on top
-    e.g. ctrl+[ since [ doesn't always have ' on top
-    use ctrl+[number] instead?
 
 new command: Open Terminal
     opens a terminal at the same location as the current file
@@ -168,8 +165,8 @@ http://sublime-text-unofficial-documentation.readthedocs.io/en/latest/reference/
 | Paste Lorem Ipsum (short)         | (none)                    |                           |      |
 | Paste Lorem Ipsum (long)          | (none)                    |                           |      |
 | Transpose                         | ctrl+t                    |                           | [8]  |
-| Insert or Modify Quotes           | ctrl+'                    |                           | [9]  |
-| Insert or Modify Parantheses      | ctrl+8                    |                           | [10] |
+| Insert or Modify Quotes           | ctrl+1                    |                           | [9]  |
+| Insert or Modify Parantheses      | ctrl+0                    |                           | [10] |
 | Auto-Complete                     | ctrl+space                |                           |      |
 | Toggle Comment                    | ctrl+minus                |                           |      |
 | Wrap Paragraph at Ruler           | alt+q                     | alt+cmd+q                 |      |
@@ -256,7 +253,6 @@ http://sublime-text-unofficial-documentation.readthedocs.io/en/latest/reference/
 =Sidebar
 +-----------------------------------+---------------------------+---------------------------+------+
 | Goto File Number 1/2/../10        | alt+1/2/../0              | cmd+1/2/../0              |      |
-| Bring Focus To Side Bar           | ctrl+0                    |                           |      |
 | Select Multiple Files             | ctrl/alt+click            | cmd+click                 |      |
 | Reveal Current File In Side Bar   | ctrl+q, ctrl+s            |                           |      |
 +-----------------------------------+---------------------------+---------------------------+------+
