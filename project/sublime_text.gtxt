@@ -6,6 +6,15 @@
 
 ~To do
 
+idea: backup for dependence on arrow, pgup/down, home/end keys
+    ijkl keys for arrows; uo for pgup/down
+    let ctrl+ijkl be same as movement by arrows
+        am I using any of these now?
+
+create corresponding alt+<key> commands on win for cmd+<key> commands on mac
+    e.g. replace f4 & alt+f4 with alt+n & alt+p
+
+create alternative shortcut for <del> that can be used on both mac and win
 
 change shortcuts that use key which differs from keyboard to keyboard
 
