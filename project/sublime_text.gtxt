@@ -6,9 +6,20 @@
 
 ~To do
 
-change keyboard shortcuts for 'Find Word Under' for OSX too
+"Wrap Paragraph at Ruler" should have a ctrl+shift+c command
+
+Ascii: Select Frame
+    if frame already selected
+            i.e. multi-selection on consecutive lines with same column spans
+        look for a bigger frame and select it
+    if cursor
+        look for a frame around the cursor
+        if found, selects that frame
+            i.e. creates multi-selection covering the frame
 
 change shortcuts that use key which differs from keyboard to keyboard
+
+change keyboard shortcuts for 'Find Word Under' for OSX too
 
 new command: Open Terminal
     opens a terminal at the same location as the current file
