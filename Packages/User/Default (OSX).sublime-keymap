@@ -22,6 +22,8 @@
 	{ "keys": ["ctrl+k", "ctrl+c"], "command": "show_at_center" },
 	{ "keys": ["ctrl+shift+l"], "command": "get_multiple_cursors" },
 	{ "keys": ["super+d"], "command": "find_all_under" },
+	{ "keys": ["super+f"], "command": "find_under" },
+	{ "keys": ["super+shift+f"], "command": "find_under_prev" },
 
 	{ "keys": ["super+b"], "command": "next_bookmark" },
 	{ "keys": ["super+shift+b"], "command": "prev_bookmark" },

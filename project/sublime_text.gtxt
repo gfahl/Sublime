@@ -17,6 +17,16 @@ Ascii: Select Frame
         if found, selects that frame
             i.e. creates multi-selection covering the frame
 
+idea: backup for dependence on arrow, pgup/down, home/end keys
+    ijkl keys for arrows; uo for pgup/down
+    let ctrl+ijkl be same as movement by arrows
+        am I using any of these now?
+
+create corresponding alt+<key> commands on win for cmd+<key> commands on mac
+    e.g. replace f4 & alt+f4 with alt+n & alt+p
+
+create alternative shortcut for <del> that can be used on both mac and win
+
 change shortcuts that use key which differs from keyboard to keyboard
 
 change keyboard shortcuts for 'Find Word Under' for OSX too
@@ -242,8 +252,8 @@ http://sublime-text-unofficial-documentation.readthedocs.io/en/latest/reference/
 =Find/Replace
 +-----------------------------------+---------------------------+---------------------------+------+
 | Find                              | ctrl+f                    |                           |      |
-| Find Word Under                   | alt+f                     | ?                         |      |
-| Find Previous Word Under          | alt+shift+f               | ?                         |      |
+| Find Word Under                   | alt+f                     | cmd+f                     |      |
+| Find Previous Word Under          | alt+shift+f               | cmd+shift+f               |      |
 | Replace                           | ctrl+h                    | alt+cmd+f                 |      |
 | Find in Files                     | ctrl+shift+f              |                           |      |
 | Next 'Find in Files' Result       | f4                        | cmd+n                     |      |
