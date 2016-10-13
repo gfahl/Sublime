@@ -62,6 +62,7 @@
     { "caption": "View: Show Console", "command": "show_panel", "args": {"panel": "console"} },
     { "caption": "View: Center Current Line", "command": "show_at_center" },
     { "caption": "View: Toggle Visible Spaces", "command": "toggle_visible_spaces" },
+    { "caption": "View: Toggle Indent Guides", "command": "toggle_setting", "args": {"setting": "draw_indent_guides"} },
     { "caption": "View: Show Properties", "command": "show_properties" },
 
     { "caption": "Ruler: Off", "command": "set_setting", "args": {"setting": "rulers", "value": []} },
