@@ -6,8 +6,6 @@
 
 ~To do
 
-"Wrap Paragraph at Ruler" should have a ctrl+shift+c command
-
 Ascii: Select Frame
     if frame already selected
             i.e. multi-selection on consecutive lines with same column spans
@@ -34,11 +32,6 @@ change keyboard shortcuts for 'Find Word Under' for OSX too
 new command: Open Terminal
     opens a terminal at the same location as the current file
     see https://github.com/wbond/sublime_terminal
-
-add to commands: Edit: Wrap Paragraph at 80 Characters
-add to commands: Edit: Wrap Paragraph at 90 Characters
-add to commands: Edit: Wrap Paragraph at 100 Characters
-new command: Edit: Wrap Paragraph (prompt for width)
 
 unwrap paragraph
     replaces all <newline> with <space>
@@ -191,6 +184,9 @@ http://sublime-text-unofficial-documentation.readthedocs.io/en/latest/reference/
 | Auto-Complete                     | ctrl+space                |                           |      |
 | Toggle Comment                    | ctrl+minus                |                           |      |
 | Wrap Paragraph at Ruler           | alt+q                     | alt+cmd+q                 |      |
+| Wrap Paragraph at 80 characters   | (none)                    |                           |      |
+| Wrap Paragraph at 100 characters  | (none)                    |                           |      |
+| Wrap Paragraph (prompt for width) | (none)                    |                           |      |
 | Upper Case                        | ctrl+k, ctrl+u            |                           |      |
 | Lower Case                        | ctrl+k, ctrl+l            |                           |      |
 | Title Case                        | ctrl+k, ctrl+t            |                           |      |

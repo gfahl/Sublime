@@ -35,6 +35,10 @@
     { "caption": "Edit: Move Text Right", "command": "move_text_right" },
     { "caption": "Edit: Move Text Up", "command": "move_text_up" },
     { "caption": "Edit: Move Text Down", "command": "move_text_down" },
+    { "caption": "Edit: Wrap Paragraph at Ruler", "command": "wrap_lines" },
+    { "caption": "Edit: Wrap Paragraph at 80 characters", "command": "wrap_lines", "args": {"width": 80} },
+    { "caption": "Edit: Wrap Paragraph at 100 characters", "command": "wrap_lines", "args": {"width": 100} },
+    { "caption": "Edit: Wrap Paragraph (prompt for width)", "command": "wrap_lines_prompt" },
 
     { "caption": "Ascii: Right-pad Spaces", "command": "right_pad_spaces" },
     { "caption": "Ascii: Add Frame", "command": "add_frame" },
