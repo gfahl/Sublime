@@ -53,6 +53,7 @@
 	{ "keys": ["ctrl+q", "ctrl+left"], "command": "small_font_size" },
 	{ "keys": ["ctrl+q", "ctrl+right"], "command": "large_font_size" },
 	{ "keys": ["ctrl+q", "ctrl+space"], "command": "toggle_visible_spaces" },
+	{ "keys": ["ctrl+q", "ctrl+r"], "command": "reverse_selection" },
 
 	{ "keys": ["ctrl+q", "left"], "command": "move_to", "args": {"to": "bol"} },
 	{ "keys": ["ctrl+q", "shift+left"], "command": "move_to", "args": {"to": "bol", "extend": true} },

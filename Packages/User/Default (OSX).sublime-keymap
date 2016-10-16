@@ -105,6 +105,7 @@
 	{ "keys": ["ctrl+q", "ctrl+left"], "command": "small_font_size" },
 	{ "keys": ["ctrl+q", "ctrl+right"], "command": "large_font_size" },
 	{ "keys": ["ctrl+q", "ctrl+space"], "command": "toggle_visible_spaces" },
+	{ "keys": ["ctrl+q", "ctrl+r"], "command": "reverse_selection" },
 
 	{ "keys": ["ctrl+shift+up"], "command": "move_by_paragraph", "args": {"extend": true, "forward": false} },
 	{ "keys": ["ctrl+shift+down"], "command": "move_by_paragraph", "args": {"extend": true} },

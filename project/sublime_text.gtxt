@@ -151,6 +151,7 @@ http://sublime-text-unofficial-documentation.readthedocs.io/en/latest/reference/
 | Select Word                       | ctrl+d                    |                           | [3]  |
 | Expand Selection to Brackets      | ctrl+shift+m              |                           | [4]  |
 | Expand Selection to Line          | ctrl+l                    |                           |      |
+| Reverse Selection                 | ctrl+q, ctrl+r            |                           |      |
 +-----------------------------------+---------------------------+---------------------------+------+
 
 =Bookmarks

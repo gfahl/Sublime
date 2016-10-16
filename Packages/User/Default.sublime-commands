@@ -17,6 +17,8 @@
     { "caption": "Move to Previous Bookmark", "command": "prev_bookmark" },
     { "caption": "Move Using Find", "command": "prompt_move_using_find" },
 
+    { "caption": "Reverse Selection", "command": "reverse_selection" },
+
     { "caption": "Edit (Convert Case): Camel Case & Co.", "command": "toggle_camel_snake_case" },
     { "caption": "Edit: Insert or Modify Quotes", "command": "insert_quotes" },
     { "caption": "Edit: Insert or Modify Parentheses", "command": "insert_parentheses" },
