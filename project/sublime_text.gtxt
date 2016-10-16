@@ -170,6 +170,8 @@ http://sublime-text-unofficial-documentation.readthedocs.io/en/latest/reference/
 | Get Multiple Cursors              | ctrl+shift+l              |                           | [7]  |
 | Add Cursor to Multi-Selection     | ctrl+click                |                           |      |
 | Add Word to Multi-Selection       | ctrl+doubleclick          |                           |      |
+| Extend Upwards                    | ctrl+alt+pgup             | ctrl+cmd+pgup             |      |
+| Extend Downwards                  | ctrl+alt+pgdown           | ctrl+cmd+pgdown           |      |
 +-----------------------------------+---------------------------+---------------------------+------+
 
 =Edit
@@ -230,7 +232,6 @@ http://sublime-text-unofficial-documentation.readthedocs.io/en/latest/reference/
 =Canvas
 +-----------------------------------+---------------------------+---------------------------+------+
 | Canvas                            | (none)                    |                           |      |
-| Add Cursor in the Same Column     | ctrl+alt+pgup/pgdown      | ctrl+cmd+pgup/pgdown      |
 | Move Selection Left               | ctrl+alt+left             | ctrl+cmd+left             |      |
 | Move Selection Right              | ctrl+alt+right            | ctrl+cmd+right            |      |
 | Move Selection Up                 | ctrl+alt+up               | ctrl+cmd+up               |      |
