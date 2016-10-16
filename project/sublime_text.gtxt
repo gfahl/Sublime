@@ -172,6 +172,8 @@ http://sublime-text-unofficial-documentation.readthedocs.io/en/latest/reference/
 | Add Word to Multi-Selection       | ctrl+doubleclick          |                           |      |
 | Extend Upwards                    | ctrl+alt+pgup             | ctrl+cmd+pgup             |      |
 | Extend Downwards                  | ctrl+alt+pgdown           | ctrl+cmd+pgdown           |      |
+| Remove First Selection            | (none)                    |                           |      |
+| Remove Last Selection             | (none)                    |                           |      |
 +-----------------------------------+---------------------------+---------------------------+------+
 
 =Edit

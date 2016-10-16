@@ -51,6 +51,8 @@
     { "caption": "Multi-Select: Select All Occurances", "command": "find_all_under" },
     { "caption": "Multi-Select: Extend Upwards", "command": "extend_multiselection", "args": {"forward": false} },
     { "caption": "Multi-Select: Extend Downwards", "command": "extend_multiselection", "args": {"forward": true} },
+    { "caption": "Multi-Select: Remove First Selection", "command": "shrink_multiselection", "args": {"first": true} },
+    { "caption": "Multi-Select: Remove Last Selection", "command": "shrink_multiselection", "args": {"first": false} },
 
     { "caption": "Replace…", "command": "show_panel", "args": {"panel": "replace"} },
 
