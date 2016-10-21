@@ -82,6 +82,7 @@
 	{ "keys": ["ctrl+super+right"], "command": "move_text_right" },
 	{ "keys": ["ctrl+super+up"], "command": "move_text_up" },
 	{ "keys": ["ctrl+super+down"], "command": "move_text_down" },
+	{ "keys": ["ctrl+super+enter"], "command": "select_frame" },
 	{ "keys": ["ctrl+minus"], "command": "toggle_comment", "args": { "block": false } },
 
 	{ "keys": ["ctrl+shift+r"], "command": "toggle_record_macro" },

@@ -47,6 +47,7 @@
     { "caption": "Ascii: Draw Frame (using |)", "command": "draw_frame" },
     { "caption": "Ascii: Draw Frame (using !)", "command": "draw_frame2" },
     { "caption": "Ascii: Canvas", "command": "create_canvas" },
+    { "caption": "Ascii: Select Frame", "command": "select_frame" },
 
     {
         "caption": "Multi-Select: Split into Lines / Select All Bookmarks",

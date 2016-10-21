@@ -30,6 +30,7 @@
 	{ "keys": ["ctrl+alt+l"], "command": "move_text_right" },
 	{ "keys": ["ctrl+alt+i"], "command": "move_text_up" },
 	{ "keys": ["ctrl+alt+k"], "command": "move_text_down" },
+	{ "keys": ["ctrl+alt+enter"], "command": "select_frame" },
 	{ "keys": ["ctrl+minus"], "command": "toggle_comment", "args": { "block": false } },
 
 	{ "keys": ["ctrl+shift+r"], "command": "toggle_record_macro" },

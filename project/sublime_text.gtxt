@@ -6,6 +6,18 @@
 
 ~To do
 
+create and use common text functions e.g.
+  width for row x
+  number of rows
+
+command to increase multi-selection with next word
+  e.g. "<>foo, fie, fum"
+    "<foo>, fie, fum"
+    "<foo>, <fie>, fum"
+    "<foo>, <fie>, <fum>"
+
+change text for commands "Ascii:" to "Canvas:"
+
 Ascii: Select Frame
     if frame already selected
             i.e. multi-selection on consecutive lines with same column spans
@@ -161,8 +173,8 @@ http://sublime-text-unofficial-documentation.readthedocs.io/en/latest/reference/
 | Select More But Not This One      | ctrl+k, ctrl+d            |                           |      |
 | Select All Occurances             | alt+d                     | cmd+d                     | [6]  |
 | Get Multiple Cursors              | ctrl+shift+l              |                           | [7]  |
-| Add Cursor to Multi-Selection     | ctrl+click                |                           |      |
-| Add Word to Multi-Selection       | ctrl+doubleclick          |                           |      |
+| Add Cursor                        | ctrl+click                |                           |      |
+| Add Word                          | ctrl+doubleclick          |                           |      |
 | Extend Upwards                    | ctrl+alt+pgup             | ctrl+cmd+pgup             |      |
 | Extend Downwards                  | ctrl+alt+pgdown           | ctrl+cmd+pgdown           |      |
 | Remove First Selection            | (none)                    |                           |      |
@@ -237,6 +249,7 @@ http://sublime-text-unofficial-documentation.readthedocs.io/en/latest/reference/
 | Right-pad Spaces                  | (none)                    |                           |      |
 | Add Frame                         | (none)                    |                           |      |
 | Draw Frame                        | (none)                    |                           |      |
+| Select Frame                      | ctrl+alt+return           |                           |      |
 +-----------------------------------+---------------------------+---------------------------+------+
 
 =Tools
