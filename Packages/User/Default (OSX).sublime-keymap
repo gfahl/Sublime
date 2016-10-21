@@ -73,8 +73,8 @@
 	{ "keys": ["ctrl+shift+i"], "command": "show_overlay", "args": {"overlay": "command_palette", "text": "Snippet: "} },
 	{ "keys": ["ctrl+shift+p"], "command": "prompt_select_project" },
 
-	{ "keys": ["ctrl+super+pageup"], "command": "select_lines", "args": {"forward": false} },
-	{ "keys": ["ctrl+super+pagedown"], "command": "select_lines", "args": {"forward": true} },
+	{ "keys": ["ctrl+super+pageup"], "command": "extend_multiselection", "args": {"forward": false} },
+	{ "keys": ["ctrl+super+pagedown"], "command": "extend_multiselection", "args": {"forward": true} },
 
 	{ "keys": ["ctrl+shift+pageup"], "command": "swap_line_up" },
 	{ "keys": ["ctrl+shift+pagedown"], "command": "swap_line_down" },
@@ -105,6 +105,7 @@
 	{ "keys": ["ctrl+q", "ctrl+left"], "command": "small_font_size" },
 	{ "keys": ["ctrl+q", "ctrl+right"], "command": "large_font_size" },
 	{ "keys": ["ctrl+q", "ctrl+space"], "command": "toggle_visible_spaces" },
+	{ "keys": ["ctrl+q", "ctrl+r"], "command": "reverse_selection" },
 
 	{ "keys": ["ctrl+shift+up"], "command": "move_by_paragraph", "args": {"extend": true, "forward": false} },
 	{ "keys": ["ctrl+shift+down"], "command": "move_by_paragraph", "args": {"extend": true} },
