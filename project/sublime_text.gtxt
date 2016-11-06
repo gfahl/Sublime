@@ -6,26 +6,29 @@
 
 ~To do
 
+snippet for "8< --------------- (text deleted here)"
+
+create commands to open certain folders in win file explorer and mac finder
+  <Sublime project folder>/Packages/User
+  <Sublime installation folder>/Packages/User
+'Open Containing Folder' should be a command
+| Open Containing Folder            | ctrl+q, ctrl+e            |                           |      |
+| Open Packages/User Folder (Proj.) | (none)                    |                           |      |
+| Open Packages/User Folder (Subl.) | (none)                    |                           |      |
+
 create and use common text functions e.g.
   width for row x
   number of rows
 
 command to increase multi-selection with next word
+  ctrl+alt+d
   e.g. "<>foo, fie, fum"
     "<foo>, fie, fum"
     "<foo>, <fie>, fum"
     "<foo>, <fie>, <fum>"
+  ctrl+k, ctrl+alt+d should work like ctrl+k, ctrl+d
 
 change text for commands "Ascii:" to "Canvas:"
-
-Ascii: Select Frame
-    if frame already selected
-            i.e. multi-selection on consecutive lines with same column spans
-        look for a bigger frame and select it
-    if cursor
-        look for a frame around the cursor
-        if found, selects that frame
-            i.e. creates multi-selection covering the frame
 
 idea: backup for dependence on arrow, pgup/down, home/end keys
     ijkl keys for arrows; uo for pgup/down
@@ -436,6 +439,13 @@ in Console, enter
 > sublime.log_input(True)
 turn off with
 > sublime.log_input(False)
+
+=log commands
+
+> sublime.log_commands(True)
+> sublime.log_commands(False)
+
+Note: as opposed to view.command_history(n), non-modifying commands are also logged
 
 =dir()
 
