@@ -1,0 +1,13 @@
+[
+	{ "keys": ["ctrl+super+left"], "command": "move_text_left" },
+	{ "keys": ["ctrl+super+right"], "command": "move_text_right" },
+	{ "keys": ["ctrl+super+up"], "command": "move_text_up" },
+	{ "keys": ["ctrl+super+down"], "command": "move_text_down" },
+
+	{ "keys": ["ctrl+super+enter"], "command": "select_frame" },
+
+	{ "keys": ["ctrl+super+pageup"], "command": "extend_multiselection", "args": {"forward": false} },
+	{ "keys": ["ctrl+super+pagedown"], "command": "extend_multiselection", "args": {"forward": true} },
+
+	{ "keys": ["ctrl+q", "ctrl+r"], "command": "reverse_selection" }
+]

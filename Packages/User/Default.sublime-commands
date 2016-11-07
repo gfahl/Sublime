@@ -17,8 +17,6 @@
     { "caption": "Move to Previous Bookmark", "command": "prev_bookmark" },
     { "caption": "Move Using Find", "command": "prompt_move_using_find" },
 
-    { "caption": "Reverse Selection", "command": "reverse_selection" },
-
     { "caption": "Edit (Convert Case): Camel Case & Co.", "command": "toggle_camel_snake_case" },
     { "caption": "Edit: Insert or Modify Quotes", "command": "insert_quotes" },
     { "caption": "Edit: Insert or Modify Parentheses", "command": "insert_parentheses" },
@@ -33,29 +31,16 @@
     { "caption": "Edit: Paste Enumeration", "command": "paste_enumeration" },
     { "caption": "Edit: Paste Lorem Ipsum (short)", "command": "paste_lorem_ipsum_short" },
     { "caption": "Edit: Paste Lorem Ipsum (long)", "command": "paste_lorem_ipsum_long" },
-    { "caption": "Edit: Move Text Left", "command": "move_text_left" },
-    { "caption": "Edit: Move Text Right", "command": "move_text_right" },
-    { "caption": "Edit: Move Text Up", "command": "move_text_up" },
-    { "caption": "Edit: Move Text Down", "command": "move_text_down" },
     { "caption": "Edit: Wrap Paragraph at Ruler", "command": "wrap_lines" },
     { "caption": "Edit: Wrap Paragraph at 80 characters", "command": "wrap_lines", "args": {"width": 80} },
     { "caption": "Edit: Wrap Paragraph at 100 characters", "command": "wrap_lines", "args": {"width": 100} },
     { "caption": "Edit: Wrap Paragraph (prompt for width)", "command": "wrap_lines_prompt" },
-
-    { "caption": "Ascii: Right-pad Spaces", "command": "right_pad_spaces" },
-    { "caption": "Ascii: Add Frame", "command": "add_frame" },
-    { "caption": "Ascii: Draw Frame (using |)", "command": "draw_frame" },
-    { "caption": "Ascii: Draw Frame (using !)", "command": "draw_frame2" },
-    { "caption": "Ascii: Canvas", "command": "create_canvas" },
-    { "caption": "Ascii: Select Frame", "command": "select_frame" },
 
     {
         "caption": "Multi-Select: Split into Lines / Select All Bookmarks",
         "command": "get_multiple_cursors"
     },
     { "caption": "Multi-Select: Select All Occurances", "command": "find_all_under" },
-    { "caption": "Multi-Select: Extend Upwards", "command": "extend_multiselection", "args": {"forward": false} },
-    { "caption": "Multi-Select: Extend Downwards", "command": "extend_multiselection", "args": {"forward": true} },
     { "caption": "Multi-Select: Remove First Selection", "command": "shrink_multiselection", "args": {"first": true} },
     { "caption": "Multi-Select: Remove Last Selection", "command": "shrink_multiselection", "args": {"first": false} },
 

@@ -1,0 +1,18 @@
+[
+	{ "keys": ["ctrl+alt+left"], "command": "move_text_left" },
+	{ "keys": ["ctrl+alt+right"], "command": "move_text_right" },
+	{ "keys": ["ctrl+alt+up"], "command": "move_text_up" },
+	{ "keys": ["ctrl+alt+down"], "command": "move_text_down" },
+
+	{ "keys": ["ctrl+alt+j"], "command": "move_text_left" },
+	{ "keys": ["ctrl+alt+l"], "command": "move_text_right" },
+	{ "keys": ["ctrl+alt+i"], "command": "move_text_up" },
+	{ "keys": ["ctrl+alt+k"], "command": "move_text_down" },
+
+	{ "keys": ["ctrl+alt+enter"], "command": "select_frame" },
+
+	{ "keys": ["ctrl+alt+pageup"], "command": "extend_multiselection", "args": {"forward": false} },
+	{ "keys": ["ctrl+alt+pagedown"], "command": "extend_multiselection", "args": {"forward": true} },
+
+	{ "keys": ["ctrl+q", "ctrl+r"], "command": "reverse_selection" }
+]

@@ -28,8 +28,6 @@ command to increase multi-selection with next word
     "<foo>, <fie>, <fum>"
   ctrl+k, ctrl+alt+d should work like ctrl+k, ctrl+d
 
-change text for commands "Ascii:" to "Canvas:"
-
 idea: backup for dependence on arrow, pgup/down, home/end keys
     ijkl keys for arrows; uo for pgup/down
     let ctrl+ijkl be same as movement by arrows
@@ -159,7 +157,6 @@ http://sublime-text-unofficial-documentation.readthedocs.io/en/latest/reference/
 | Select Word                       | ctrl+d                    |                           | [3]  |
 | Expand Selection to Brackets      | ctrl+shift+m              |                           | [4]  |
 | Expand Selection to Line          | ctrl+l                    |                           |      |
-| Reverse Selection                 | ctrl+q, ctrl+r            |                           |      |
 +-----------------------------------+---------------------------+---------------------------+------+
 
 =Bookmarks
@@ -178,8 +175,6 @@ http://sublime-text-unofficial-documentation.readthedocs.io/en/latest/reference/
 | Get Multiple Cursors              | ctrl+shift+l              |                           | [7]  |
 | Add Cursor                        | ctrl+click                |                           |      |
 | Add Word                          | ctrl+doubleclick          |                           |      |
-| Extend Upwards                    | ctrl+alt+pgup             | ctrl+cmd+pgup             |      |
-| Extend Downwards                  | ctrl+alt+pgdown           | ctrl+cmd+pgdown           |      |
 | Remove First Selection            | (none)                    |                           |      |
 | Remove Last Selection             | (none)                    |                           |      |
 +-----------------------------------+---------------------------+---------------------------+------+
@@ -249,10 +244,13 @@ http://sublime-text-unofficial-documentation.readthedocs.io/en/latest/reference/
 | Move Selection Right              | ctrl+alt+right            | ctrl+cmd+right            |      |
 | Move Selection Up                 | ctrl+alt+up               | ctrl+cmd+up               |      |
 | Move Selection Down               | ctrl+alt+down             | ctrl+cmd+down             |      |
-| Right-pad Spaces                  | (none)                    |                           |      |
+| Right-Pad Spaces                  | (none)                    |                           |      |
 | Add Frame                         | (none)                    |                           |      |
 | Draw Frame                        | (none)                    |                           |      |
 | Select Frame                      | ctrl+alt+return           |                           |      |
+| Reverse Selection                 | ctrl+q, ctrl+r            |                           |      |
+| Extend Upwards                    | ctrl+alt+pgup             | ctrl+cmd+pgup             |      |
+| Extend Downwards                  | ctrl+alt+pgdown           | ctrl+cmd+pgdown           |      |
 +-----------------------------------+---------------------------+---------------------------+------+
 
 =Tools

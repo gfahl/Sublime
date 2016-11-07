@@ -1,0 +1,21 @@
+[
+    { "caption": "Canvas: Right-Pad Spaces", "command": "right_pad_spaces" },
+    { "caption": "Canvas: Add Frame", "command": "add_frame" },
+    { "caption": "Canvas: Draw Frame (using |)", "command": "draw_frame" },
+    { "caption": "Canvas: Draw Frame (using !)", "command": "draw_frame2" },
+    { "caption": "Canvas: Canvas", "command": "create_canvas" },
+    { "caption": "Canvas: Select Frame", "command": "select_frame" },
+    { "caption": "Canvas: Move Text Left", "command": "move_text_left" },
+    { "caption": "Canvas: Move Text Right", "command": "move_text_right" },
+    { "caption": "Canvas: Move Text Up", "command": "move_text_up" },
+    { "caption": "Canvas: Move Text Down", "command": "move_text_down" },
+    {
+        "caption": "Canvas: Extend Selection Upwards",
+        "command": "extend_multiselection", "args": {"forward": false}
+    },
+    {
+        "caption": "Canvas: Extend Selection Downwards",
+        "command": "extend_multiselection", "args": {"forward": true}
+    },
+    { "caption": "Canvas: Reverse Selection Direction", "command": "reverse_selection" }
+]
