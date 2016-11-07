@@ -91,11 +91,12 @@ class Square:
         return self.height() * self.width()
 
     def use_as_selection(self):
-        self.v.sel().clear()
+        regions = []
         for row in range(self.pos['N'], self.pos['S'] + 1, 1):
             a = self.v.text_point(row, self.pos['W'])
             b = self.v.text_point(row, self.pos['E'])
-            self.v.sel().add(sublime.Region(a, b))
+            regions.append(sublime.Region(a, b))
+        self.v.set_selection(regions)
 
 class SelectFrameCommand(sublime_plugin.TextCommand):
     def __init__(self, v):
@@ -129,9 +130,7 @@ class SelectFrameCommand(sublime_plugin.TextCommand):
             self.ix = 0
 
         if self.ix == len(self.found_frames):
-            v.sel().clear()
-            for rg in self.original_selection:
-                v.sel().add(rg)
+            v.set_selection(self.original_selection)
             sublime.status_message(
                 "no frames found" if self.found_frames == [] else "original selection")
             self.ix = -1

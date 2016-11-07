@@ -23,6 +23,4 @@ class MoveTextUpCommand(sublime_plugin.TextCommand):
             v.replace(edit, region_above, text)
             v.replace(edit, r, text_above)
             new_sel.append(region_above)
-        v.sel().clear()
-        for rg in new_sel:
-            v.sel().add(rg)
+        v.set_selection(new_sel)

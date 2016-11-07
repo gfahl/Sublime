@@ -34,6 +34,4 @@ class AddFrameCommand(sublime_plugin.TextCommand):
             new_sel = _new_sel
             new_sel.append(sublime.Region(old_a, new_b))
             self.view.replace(edit, region, new_text)
-        self.view.sel().clear()
-        for rg in new_sel:
-            self.view.sel().add(rg)
+        self.view.set_selection(new_sel)

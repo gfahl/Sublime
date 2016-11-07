@@ -34,7 +34,5 @@ class CreateCanvasCommand(sublime_plugin.TextCommand):
                 new_sel = _new_sel
                 v.replace(edit, region, new_text)
                 new_sel.append(sublime.Region(old_a, new_b + 1))
-        v.sel().clear()
-        for rg in new_sel:
-            v.sel().add(rg)
+        v.set_selection(new_sel)
         v.settings().set('draw_white_space', 'all')
