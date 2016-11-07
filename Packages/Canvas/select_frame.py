@@ -1,7 +1,5 @@
 import sublime, sublime_plugin, re, time
-
-def rowcol_exists(v, row, col):
-    return v.rowcol(v.text_point(row, col)) == (row, col)
+import sublime_util
 
 class Square:
     directions = tuple('WNES')
@@ -17,10 +15,10 @@ class Square:
 
     @classmethod
     def from_selection(klass, v):
-        left = min(map(lambda rg: v.rowcol(rg.begin())[1], v.sel()))
-        top = v.rowcol(v.sel()[0].begin())[0]
-        right = max(map(lambda rg: v.rowcol(rg.end())[1], v.sel()))
-        bottom = v.rowcol(v.sel()[-1].end())[0]
+        left = min(map(lambda rg: v.col(rg.begin()), v.sel()))
+        top = v.row(v.sel()[0].begin())
+        right = max(map(lambda rg: v.col(rg.end()), v.sel()))
+        bottom = v.row(v.sel()[-1].end())
         return klass(v, (left, top, right, bottom))
 
     def __str__(self):
@@ -66,10 +64,10 @@ class Square:
 
     def is_valid(self):
         return (
-            rowcol_exists(self.v, self.pos['N'], self.pos['W']) and
-            rowcol_exists(self.v, self.pos['N'], self.pos['E']) and
-            rowcol_exists(self.v, self.pos['S'], self.pos['W']) and
-            rowcol_exists(self.v, self.pos['S'], self.pos['E'])
+            self.v.rowcol_exists(self.pos['N'], self.pos['W']) and
+            self.v.rowcol_exists(self.pos['N'], self.pos['E']) and
+            self.v.rowcol_exists(self.pos['S'], self.pos['W']) and
+            self.v.rowcol_exists(self.pos['S'], self.pos['E'])
             )
 
     def is_vertical_line(self, col, top_row, bottom_row):
