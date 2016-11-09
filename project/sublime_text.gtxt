@@ -20,14 +20,6 @@ create and use common text functions e.g.
   width for row x
   number of rows
 
-command to increase multi-selection with next word
-  ctrl+alt+d
-  e.g. "<>foo, fie, fum"
-    "<foo>, fie, fum"
-    "<foo>, <fie>, fum"
-    "<foo>, <fie>, <fum>"
-  ctrl+k, ctrl+alt+d should work like ctrl+k, ctrl+d
-
 idea: backup for dependence on arrow, pgup/down, home/end keys
     ijkl keys for arrows; uo for pgup/down
     let ctrl+ijkl be same as movement by arrows
@@ -172,6 +164,8 @@ http://sublime-text-unofficial-documentation.readthedocs.io/en/latest/reference/
 | Select More                       | ctrl+d                    |                           | [5]  |
 | Select More But Not This One      | ctrl+k, ctrl+d            |                           |      |
 | Select All Occurances             | alt+d                     | cmd+d                     | [6]  |
+| Select Next Word                  | ctrl+alt+d                |                           |      |
+| Select Next Word But Not This One | ctrl+alt+k, ctrl+alt+d    |                           |      |
 | Get Multiple Cursors              | ctrl+shift+l              |                           | [7]  |
 | Add Cursor                        | ctrl+click                |                           |      |
 | Add Word                          | ctrl+doubleclick          |                           |      |

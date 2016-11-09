@@ -83,6 +83,9 @@
 	{ "keys": ["ctrl+1"], "command": "insert_quotes" },
 	{ "keys": ["ctrl+0"], "command": "insert_parentheses" },
 
+	{ "keys": ["ctrl+super+d"], "command": "next_word_expand" },
+	{ "keys": ["ctrl+super+k", "ctrl+super+d"], "command": "next_word_expand_skip" },
+
 	{ "keys": ["ctrl+k", "ctrl+s"], "command": "toggle_camel_snake_case" },
 	{ "keys": ["ctrl+k", "ctrl+t"], "command": "title_case" },
 	{ "keys": ["ctrl+q", "ctrl+e"], "command": "open_dir", "args": {"dir": "$file_path", "file": "$file_name"} },
