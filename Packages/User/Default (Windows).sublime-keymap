@@ -12,6 +12,9 @@
 	{ "keys": ["ctrl+comma"], "command": "show_overlay", "args": {"overlay": "goto", "text": "#"} },
 	{ "keys": ["ctrl+shift+comma"], "command": "show_overlay", "args": {"overlay": "goto", "text": "@"} },
 
+	{ "keys": ["alt+n"], "command": "next_result" },
+	{ "keys": ["alt+p"], "command": "prev_result" },
+
 	{ "keys": ["ctrl+period"], "command": "show_panel", "args": {"panel": "console"} },
 	{ "keys": ["ctrl+shift+c"], "command": "show_overlay", "args": {"overlay": "command_palette"} },
 	{ "keys": ["ctrl+shift+i"], "command": "show_overlay", "args": {"overlay": "command_palette", "text": "Snippet: "} },
@@ -45,6 +48,7 @@
 	{ "keys": ["ctrl+q", "ctrl+left"], "command": "small_font_size" },
 	{ "keys": ["ctrl+q", "ctrl+right"], "command": "large_font_size" },
 	{ "keys": ["ctrl+q", "ctrl+space"], "command": "toggle_visible_spaces" },
+	{ "keys": ["ctrl+k", "ctrl+w"], "command": "wrap_lines" },
 
 	{ "keys": ["ctrl+q", "left"], "command": "move_to", "args": {"to": "bol"} },
 	{ "keys": ["ctrl+q", "shift+left"], "command": "move_to", "args": {"to": "bol", "extend": true} },

@@ -24,6 +24,7 @@
 	{ "keys": ["super+d"], "command": "find_all_under" },
 	{ "keys": ["super+f"], "command": "find_under" },
 	{ "keys": ["super+shift+f"], "command": "find_under_prev" },
+	{ "keys": ["ctrl+h"], "command": "show_panel", "args": {"panel": "replace"} },
 
 	{ "keys": ["super+b"], "command": "next_bookmark" },
 	{ "keys": ["super+shift+b"], "command": "prev_bookmark" },
@@ -101,6 +102,7 @@
 	{ "keys": ["ctrl+q", "ctrl+left"], "command": "small_font_size" },
 	{ "keys": ["ctrl+q", "ctrl+right"], "command": "large_font_size" },
 	{ "keys": ["ctrl+q", "ctrl+space"], "command": "toggle_visible_spaces" },
+	{ "keys": ["ctrl+k", "ctrl+w"], "command": "wrap_lines" },
 
 	{ "keys": ["ctrl+shift+up"], "command": "move_by_paragraph", "args": {"extend": true, "forward": false} },
 	{ "keys": ["ctrl+shift+down"], "command": "move_by_paragraph", "args": {"extend": true} },

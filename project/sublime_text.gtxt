@@ -14,10 +14,7 @@ examine keyboard shortcuts
       ctrl+r (run_macro)
       ctrl+g (show_overlay goto :)
       ctrl+t (transpose)
-      ctrl+h (replace)
   what commands deserve a better shortcut?
-    Wrap Paragraph at Ruler
-    Next/Previous 'Find in Files' Result
 
 snippet for "8< --------------- (text deleted here)"
 
@@ -38,10 +35,8 @@ idea: backup for dependence on arrow, pgup/down, home/end keys
     let ctrl+ijkl be same as movement by arrows
         am I using any of these now?
 
-create corresponding alt+<key> commands on win for cmd+<key> commands on mac
-    e.g. replace f4 & alt+f4 with alt+n & alt+p
-
 create alternative shortcut for <del> that can be used on both mac and win
+  ctrl+0 ?
 
 change shortcuts that use key which differs from keyboard to keyboard
 
@@ -202,7 +197,7 @@ http://sublime-text-unofficial-documentation.readthedocs.io/en/latest/reference/
 | Auto-Complete                     | ctrl+space                |                           |      |
 | Toggle Comment                    | ctrl+minus                |                           |      |
 |                                   | ctrl+slash                |                           |      |
-| Wrap Paragraph at Ruler           | alt+q                     | alt+cmd+q                 |      |
+| Wrap Paragraph at Ruler           | ctrl+k, ctrl+w            |                           |      |
 | Wrap Paragraph at 80 characters   | (none)                    |                           |      |
 | Wrap Paragraph at 100 characters  | (none)                    |                           |      |
 | Wrap Paragraph (prompt for width) | (none)                    |                           |      |
@@ -271,10 +266,10 @@ http://sublime-text-unofficial-documentation.readthedocs.io/en/latest/reference/
 | Find                              | ctrl+f                    |                           |      |
 | Find Word Under                   | alt+f                     | cmd+f                     |      |
 | Find Previous Word Under          | alt+shift+f               | cmd+shift+f               |      |
-| Replace                           | ctrl+h                    | alt+cmd+f                 |      |
+| Replace                           | ctrl+h                    |                           |      |
 | Find in Files                     | ctrl+shift+f              |                           |      |
-| Next 'Find in Files' Result       | f4                        | cmd+n                     |      |
-| Previous 'Find in Files' Result   | alt+f4                    | cmd+p                     |      |
+| Next 'Find in Files' Result       | alt+n                     | cmd+n                     |      |
+| Previous 'Find in Files' Result   | alt+p                     | cmd+p                     |      |
 +-----------------------------------+---------------------------+---------------------------+------+
 
 =File/Project
