@@ -8,7 +8,6 @@
 
 examine keyboard shortcuts
   which good one's are available (not used for anything interesting)?
-    ctrl+e (slurp_find_string)
     ctrl+j (join_lines)
     ctrl+i (show_panel incremental_find)
     possibly:
@@ -174,8 +173,8 @@ http://sublime-text-unofficial-documentation.readthedocs.io/en/latest/reference/
 | Select More                       | ctrl+d                    |                           | [5]  |
 | Select More But Not This One      | ctrl+k, ctrl+d            |                           |      |
 | Select All Occurances             | alt+d                     | cmd+d                     | [6]  |
-| Select Next Word                  | ctrl+alt+d                |                           |      |
-| Select Next Word But Not This One | ctrl+alt+k, ctrl+alt+d    |                           |      |
+| Select Next Word                  | ctrl+e                    |                           |      |
+| Select Next Word But Not This One | ctrl+k, ctrl+e            |                           |      |
 | Get Multiple Cursors              | ctrl+shift+l              |                           | [7]  |
 | Add Cursor                        | ctrl+click                |                           |      |
 | Add Word                          | ctrl+doubleclick          |                           |      |
@@ -198,7 +197,7 @@ http://sublime-text-unofficial-documentation.readthedocs.io/en/latest/reference/
 | Paste Lorem Ipsum (short)         | (none)                    |                           |      |
 | Paste Lorem Ipsum (long)          | (none)                    |                           |      |
 | Transpose                         | ctrl+t                    |                           | [8]  |
-| Insert or Modify Quotes           | ctrl+1                    |                           | [9]  |
+| Insert or Modify Quotes           | ctrl+9                    |                           | [9]  |
 | Insert or Modify Parantheses      | ctrl+0                    |                           | [10] |
 | Auto-Complete                     | ctrl+space                |                           |      |
 | Toggle Comment                    | ctrl+minus                |                           |      |

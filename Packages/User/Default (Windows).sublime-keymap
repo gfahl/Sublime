@@ -24,11 +24,11 @@
 	{ "keys": ["ctrl+shift+r"], "command": "toggle_record_macro" },
 	{ "keys": ["ctrl+r"], "command": "run_macro" },
 
-	{ "keys": ["ctrl+1"], "command": "insert_quotes" },
+	{ "keys": ["ctrl+9"], "command": "insert_quotes" },
 	{ "keys": ["ctrl+0"], "command": "insert_parentheses" },
 
-	{ "keys": ["ctrl+alt+d"], "command": "next_word_expand" },
-	{ "keys": ["ctrl+alt+k", "ctrl+alt+d"], "command": "next_word_expand_skip" },
+	{ "keys": ["ctrl+e"], "command": "next_word_expand" },
+	{ "keys": ["ctrl+k", "ctrl+e"], "command": "next_word_expand_skip" },
 
 	{ "keys": ["ctrl+k", "ctrl+s"], "command": "toggle_camel_snake_case" },
 	{ "keys": ["ctrl+k", "ctrl+t"], "command": "title_case" },
