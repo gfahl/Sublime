@@ -6,6 +6,20 @@
 
 ~To do
 
+examine keyboard shortcuts
+  which good one's are available (not used for anything interesting)?
+    ctrl+e (slurp_find_string)
+    ctrl+j (join_lines)
+    ctrl+i (show_panel incremental_find)
+    possibly:
+      ctrl+r (run_macro)
+      ctrl+g (show_overlay goto :)
+      ctrl+t (transpose)
+      ctrl+h (replace)
+  what commands deserve a better shortcut?
+    Wrap Paragraph at Ruler
+    Next/Previous 'Find in Files' Result
+
 snippet for "8< --------------- (text deleted here)"
 
 create commands to open certain folders in win file explorer and mac finder
@@ -32,8 +46,6 @@ create alternative shortcut for <del> that can be used on both mac and win
 
 change shortcuts that use key which differs from keyboard to keyboard
 
-change keyboard shortcuts for 'Find Word Under' for OSX too
-
 new command: Open Terminal
     opens a terminal at the same location as the current file
     see https://github.com/wbond/sublime_terminal
@@ -46,9 +58,6 @@ mysql syntax:
     CONCAT_WS
     "Empty set (0.09 sec)" should be same colour as result rows (yellow)
     start transaction
-
-write command to show current encoding
-    see http://stackoverflow.com/questions/16195871/how-do-i-see-the-current-encoding-of-a-file-in-sublime-text-2
 
 new command:
     Edit -> Paste Other -> Paste Multiple Times
@@ -149,6 +158,7 @@ http://sublime-text-unofficial-documentation.readthedocs.io/en/latest/reference/
 | Select Word                       | ctrl+d                    |                           | [3]  |
 | Expand Selection to Brackets      | ctrl+shift+m              |                           | [4]  |
 | Expand Selection to Line          | ctrl+l                    |                           |      |
+| Reverse Selection                 | ctrl+q, ctrl+r            |                           |      |
 +-----------------------------------+---------------------------+---------------------------+------+
 
 =Bookmarks
@@ -192,6 +202,7 @@ http://sublime-text-unofficial-documentation.readthedocs.io/en/latest/reference/
 | Insert or Modify Parantheses      | ctrl+0                    |                           | [10] |
 | Auto-Complete                     | ctrl+space                |                           |      |
 | Toggle Comment                    | ctrl+minus                |                           |      |
+|                                   | ctrl+slash                |                           |      |
 | Wrap Paragraph at Ruler           | alt+q                     | alt+cmd+q                 |      |
 | Wrap Paragraph at 80 characters   | (none)                    |                           |      |
 | Wrap Paragraph at 100 characters  | (none)                    |                           |      |
@@ -242,7 +253,6 @@ http://sublime-text-unofficial-documentation.readthedocs.io/en/latest/reference/
 | Add Frame                         | (none)                    |                           |      |
 | Draw Frame                        | (none)                    |                           |      |
 | Select Frame                      | ctrl+alt+return           |                           |      |
-| Reverse Selection                 | ctrl+q, ctrl+r            |                           |      |
 | Extend Upwards                    | ctrl+alt+pgup             | ctrl+cmd+pgup             |      |
 | Extend Downwards                  | ctrl+alt+pgdown           | ctrl+cmd+pgdown           |      |
 +-----------------------------------+---------------------------+---------------------------+------+
@@ -384,6 +394,10 @@ update documentation
 -view current settings
 
 $ view.settings().get('font_face')
+
+-reading
+
+http://engineering.vinted.com/2016/06/27/how-to-write-sublime-plugin/
 
 ~Version Control
 
