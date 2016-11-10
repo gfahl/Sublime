@@ -26,10 +26,6 @@ create commands to open certain folders in win file explorer and mac finder
 | Open Packages/User Folder (Proj.) | (none)                    |                           |      |
 | Open Packages/User Folder (Subl.) | (none)                    |                           |      |
 
-create and use common text functions e.g.
-  width for row x
-  number of rows
-
 idea: backup for dependence on arrow, pgup/down, home/end keys
     ijkl keys for arrows; uo for pgup/down
     let ctrl+ijkl be same as movement by arrows
