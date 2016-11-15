@@ -6,6 +6,15 @@
 
 ~To do
 
+modify logic of code folding for .gtxt and .rpt files
+  'Fold All' should mean: fold everything not starting with
+    gtxt: ~
+    rpt: .
+  'Fold Level 2' should mean: fold everything not starting with
+    gtxt: ~ =
+  'Fold Level 3' should mean: fold everything not starting with
+    gtxt: ~ = -
+
 add frame: bug when there are empty lines in selection
 
 after ctrl+9/0: don't keep selected
@@ -208,18 +217,6 @@ http://wbond.net/sublime_packages/package_control
 https://github.com/timonwong/OmniMarkupPreviewer
 
 ~Console
-
-=log keystrokes
-
-> sublime.log_input(True)
-> sublime.log_input(False)
-
-=log commands
-
-> sublime.log_commands(True)
-> sublime.log_commands(False)
-
-Note: as opposed to view.command_history(n), non-modifying commands are also logged
 
 =dir()
 
