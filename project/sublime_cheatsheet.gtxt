@@ -81,7 +81,7 @@
 | Duplicate Selection/Line          | ctrl+shift+d              |                           |      |
 | Delete Rest of Line               | ctrl+k, ctrl+k            |                           |      |
 | Delete Current Line               | ctrl+shift+k              |                           |      |
-| Copy Filename                     | ctrl+q, ctrl+f            |                           |      |
+| Copy Filename                     | ctrl+q, ctrl+q, ctrl+p    |                           |      |
 | Copy Path                         | ctrl+q, ctrl+p            |                           |      |
 | Paste Current Date                | ctrl+q, ctrl+d            |                           |      |
 | Paste Incrementing Numbers        | (none)                    |                           |      |
@@ -156,6 +156,15 @@
 | Show Command Palette              | ctrl+shift+c              |                           |      |
 | Show Snippets                     | ctrl+shift+i              |                           |      |
 | Diff Previous                     | (none)                    |                           |      |
++-----------------------------------+---------------------------+---------------------------+------+
+
+=Code Folding
++-----------------------------------+---------------------------+---------------------------+------+
+| Fold                              | ctrl+q, ctrl+f            |                           |      |
+| Unfold                            | ctrl+q, ctrl+u            |                           |      |
+| Fold All                          | ctrl+q, ctrl+1            |                           |      |
+| Fold Level <n>                    | ctrl+q, ctrl+<n>          |                           |      |
+| Unfold All                        | ctrl+q, ctrl+0            |                           |      |
 +-----------------------------------+---------------------------+---------------------------+------+
 
 =Find/Replace
