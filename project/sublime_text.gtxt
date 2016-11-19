@@ -15,9 +15,16 @@ modify logic of code folding for .gtxt and .rpt files
   'Fold Level 3' should mean: fold everything not starting with
     gtxt: ~ = -
 
-add frame: bug when there are empty lines in selection
++---------------------------------------------------------------------------------------------+
+| Reloading plugin C:\Users\gfahl\AppData\Roaming\Sublime Text 2\Packages\Default\side_bar.py |
+| Traceback (most recent call last):                                                          |
+|   File ".\sublime_plugin.py", line 62, in reload_plugin                                     |
+|   File ".\side_bar.py", line 4, in <module>                                                 |
+|     import send2trash                                                                       |
+| ImportError: No module named send2trash                                                     |
++---------------------------------------------------------------------------------------------+
 
-after ctrl+9/0: don't keep selected
+add frame: bug when there are empty lines in selection
 
 examine keyboard shortcuts
   which good one's are available (not used for anything interesting)?
