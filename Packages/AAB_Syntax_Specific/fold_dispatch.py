@@ -4,9 +4,9 @@ import sublime_util as su
 def get_command_name(v, fallback_python_command_name):
     python_command_name = fallback_python_command_name
     syntax_file = v.settings().get('syntax')
-    m = re.match('.*/(\w+)\.tmLanguage$', syntax_file)
+    m = re.match('.*/([ \w]+)\.tmLanguage$', syntax_file)
     if m:
-        syntax_name = m.group(1)
+        syntax_name = m.group(1).replace(' ', '')
         cand = re.sub('Command$', syntax_name + 'Command', python_command_name)
         text_commands = sublime_plugin.all_command_classes[2]
         cmd = next((cmd for cmd in text_commands if cmd.__name__.lower() == cand.lower()), None)

@@ -6,15 +6,6 @@
 
 ~To do
 
-modify logic of code folding for .gtxt and .rpt files
-  'Fold All' should mean: fold everything not starting with
-    gtxt: ~
-    rpt: .
-  'Fold Level 2' should mean: fold everything not starting with
-    gtxt: ~ =
-  'Fold Level 3' should mean: fold everything not starting with
-    gtxt: ~ = -
-
 +---------------------------------------------------------------------------------------------+
 | Reloading plugin C:\Users\gfahl\AppData\Roaming\Sublime Text 2\Packages\Default\side_bar.py |
 | Traceback (most recent call last):                                                          |

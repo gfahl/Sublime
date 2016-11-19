@@ -1,16 +1,11 @@
 import sublime, sublime_plugin, re
 
-class FoldByLevelGtextCommand(sublime_plugin.TextCommand):
+class FoldByLevelMssqlreportCommand(sublime_plugin.TextCommand):
     def run(self, edit, level):
         v = self.view
         folds = []
         tp = 0
-        if level == 1:
-            regex = '[~]'
-        elif level == 2:
-            regex = '[~=]'
-        elif level >= 3:
-            regex = '[~=\-]'
+        regex = '\.'
         while tp < v.size():
             rg = v.full_line(tp)
             s = v.substr(rg)
