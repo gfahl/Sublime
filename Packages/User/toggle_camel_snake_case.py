@@ -1,8 +1,8 @@
 import sublime, sublime_plugin, re, string
 
 class ToggleCamelSnakeCaseCommand(sublime_plugin.TextCommand):
-	# changes selection as follows:
-	# "foo fie fum" => "foo_fie_fum" => "FooFieFum" => "foo fie fum" etc.
+    # changes selection as follows:
+    # "foo fie fum" => "foo_fie_fum" => "FooFieFum" => "foo fie fum" etc.
     def run(self, edit):
         for rg in reversed(self.view.sel()):
             s = self.view.substr(rg)
@@ -13,5 +13,5 @@ class ToggleCamelSnakeCaseCommand(sublime_plugin.TextCommand):
                 s = s.replace(" ", "_")
             else:
                 s = s[0].upper() + s[1:] # make fooFieFum behave like FooFieFum
-            	s = " ".join(map(string.lower, re.findall("[A-Z][a-z]*", s)))
+                s = " ".join(map(string.lower, re.findall("[A-Z][a-z]*", s)))
             self.view.replace(edit, rg, s)

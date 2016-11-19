@@ -4,11 +4,11 @@ class MoveTextDownCommand(sublime_plugin.TextCommand):
     # Meant to be used for text on a 'space background'
     # Move all selections one row down
     # Assumes that the line below a selection is long enough
-	# +-------+    +-------+
-	# | <def> |    |  abc  |
-	# | <ghi> | => | <def> |
-	# |  abc  |    | <ghi> |
-	# +-------+    +-------+
+    # +-------+    +-------+
+    # | <def> |    |  abc  |
+    # | <ghi> | => | <def> |
+    # |  abc  |    | <ghi> |
+    # +-------+    +-------+
     def run(self, edit):
         new_sel = []
         v = self.view
