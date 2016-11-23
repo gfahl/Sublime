@@ -1,4 +1,4 @@
-import sublime
+import sublime, re
 
 def col(self, text_point):
     return self.rowcol(text_point)[1]
@@ -29,3 +29,7 @@ sublime.View.max_row = max_row
 sublime.View.row = row
 sublime.View.col = col
 sublime.View.set_selection = set_selection
+
+def to_snake_case(s):
+    s1 = re.sub('(.)([A-Z][a-z]+)', r'\1_\2', s)
+    return re.sub('([a-z0-9])([A-Z])', r'\1_\2', s1).lower()
