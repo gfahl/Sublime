@@ -10,6 +10,8 @@
     { "keys": ["ctrl+alt+k"], "command": "move_text_down" },
 
     { "keys": ["ctrl+alt+enter"], "command": "select_frame" },
+    { "keys": ["ctrl+alt+space"], "command": "create_canvas" },
+    { "keys": ["ctrl+alt+f"], "command": "draw_frame" },
 
     { "keys": ["ctrl+alt+pageup"], "command": "extend_multiselection", "args": {"forward": false} },
     { "keys": ["ctrl+alt+pagedown"], "command": "extend_multiselection", "args": {"forward": true} },

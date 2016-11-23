@@ -1,8 +1,7 @@
 [
     { "caption": "Canvas: Right-Pad Spaces", "command": "right_pad_spaces" },
-    { "caption": "Canvas: Add Frame", "command": "add_frame" },
     { "caption": "Canvas: Draw Frame (using |)", "command": "draw_frame" },
-    { "caption": "Canvas: Draw Frame (using !)", "command": "draw_frame2" },
+    { "caption": "Canvas: Draw Frame (using !)", "command": "draw_frame", "args": {"vertical": "!"} },
     { "caption": "Canvas: Canvas", "command": "create_canvas" },
     { "caption": "Canvas: Select Frame", "command": "select_frame" },
     { "caption": "Canvas: Move Text Left", "command": "move_text_left" },

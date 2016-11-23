@@ -136,14 +136,13 @@
 
 =Canvas
 +-----------------------------------+------------------------+----------------------+------+
-| Canvas                            | (none)                 |                      |      |
-| Move Selection Left               | ctrl+alt+left          | ctrl+cmd+left        |      |
-| Move Selection Right              | ctrl+alt+right         | ctrl+cmd+right       |      |
-| Move Selection Up                 | ctrl+alt+up            | ctrl+cmd+up          |      |
-| Move Selection Down               | ctrl+alt+down          | ctrl+cmd+down        |      |
+| Canvas                            | ctrl+alt+space         | ctrl+cmd+space       |      |
+| Move Selection Left               | ctrl+alt+left          | ctrl+cmd+left        | [14] |
+| Move Selection Right              | ctrl+alt+right         | ctrl+cmd+right       | [14] |
+| Move Selection Up                 | ctrl+alt+up            | ctrl+cmd+up          | [14] |
+| Move Selection Down               | ctrl+alt+down          | ctrl+cmd+down        | [14] |
 | Right-Pad Spaces                  | (none)                 |                      |      |
-| Add Frame                         | (none)                 |                      |      |
-| Draw Frame                        | (none)                 |                      |      |
+| Draw Frame                        | ctrl+alt+f             | ctrl+cmd+f           | [15] |
 | Select Frame                      | ctrl+alt+return        |                      |      |
 | Extend Upwards                    | ctrl+alt+pgup          | ctrl+cmd+pgup        |      |
 | Extend Downwards                  | ctrl+alt+pgdown        | ctrl+cmd+pgdown      |      |
@@ -211,21 +210,24 @@
 | Preview Current Markup in Browser | (none)                 |                      |      |
 +-----------------------------------+------------------------+----------------------+------+
 
-[1] Undo includes cursor movements, selection changes AND EDITING
-[2] Expands or reduces the selection depending on current selection and position of cursor
-[3] Command has a different effect when the selection is non-empty
-[4] Execute command twice to include the brackets in the selection
-[5] Command has a different effect when the selection is empty
-[6] If selection: all occurances of selection. If not: all occurances of word at cursor.
-[7] If multiple lines selected: add cursor at each selected line.
-    Else, if multiple bookmarks: add cursor at each bookmark.
-    Else: add cursor after each selected character.
-[8] If >1 selection, shifts the selections. If no selections, transposes characters around prompt.
-[9] foo => 'foo' => "foo" => _foo_ => *foo* => foo
+ [1] Undo includes cursor movements, selection changes AND EDITING
+ [2] Expands or reduces the selection depending on current selection and position of cursor
+ [3] Command has a different effect when the selection is non-empty
+ [4] Execute command twice to include the brackets in the selection
+ [5] Command has a different effect when the selection is empty
+ [6] If selection: all occurances of selection. If not: all occurances of word at cursor.
+ [7] If multiple lines selected: add cursor at each selected line.
+     Else, if multiple bookmarks: add cursor at each bookmark.
+     Else: add cursor after each selected character.
+ [8] If >1 selection, shifts the selections. If no selections, transposes characters around prompt.
+ [9] foo => 'foo' => "foo" => _foo_ => *foo* => foo
 [10] foo => (foo) => [foo] => {foo} => <foo> => foo
 [11] "ha hi hu" => "ha_hi_hu" => "HaHiHu" => "ha hi hu"
 [12] Force a tab to be inserted instead of triggering tab command
 [13] {} <-> do...end
+[14] i-j-k-l are alternatives to up-left-down-right
+[15] If rectangular multi-selection: draw frame there
+	 If one selection spanning >1 row: add frame around whole lines
 
 ~Console
 

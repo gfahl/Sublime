@@ -4,7 +4,14 @@
     { "keys": ["ctrl+super+up"], "command": "move_text_up" },
     { "keys": ["ctrl+super+down"], "command": "move_text_down" },
 
+    { "keys": ["ctrl+super+j"], "command": "move_text_left" },
+    { "keys": ["ctrl+super+l"], "command": "move_text_right" },
+    { "keys": ["ctrl+super+i"], "command": "move_text_up" },
+    { "keys": ["ctrl+super+k"], "command": "move_text_down" },
+
     { "keys": ["ctrl+super+enter"], "command": "select_frame" },
+    { "keys": ["ctrl+super+space"], "command": "create_canvas" },
+    { "keys": ["ctrl+super+f"], "command": "draw_frame" },
 
     { "keys": ["ctrl+super+pageup"], "command": "extend_multiselection", "args": {"forward": false} },
     { "keys": ["ctrl+super+pagedown"], "command": "extend_multiselection", "args": {"forward": true} },

@@ -6,6 +6,10 @@
 
 ~To do
 
+sublime_util.py now has class Rect. remove class Square in select_frame.py and use Rect instead
+
+draw frame: if a drawn line passes an orthogonal line, draw an intersection
+
 +---------------------------------------------------------------------------------------------+
 | Reloading plugin C:\Users\gfahl\AppData\Roaming\Sublime Text 2\Packages\Default\side_bar.py |
 | Traceback (most recent call last):                                                          |
@@ -14,8 +18,6 @@
 |     import send2trash                                                                       |
 | ImportError: No module named send2trash                                                     |
 +---------------------------------------------------------------------------------------------+
-
-add frame: bug when there are empty lines in selection
 
 examine keyboard shortcuts
   which good one's are available (not used for anything interesting)?
