@@ -6,8 +6,6 @@
 
 ~To do
 
-sublime_util.py now has class Rect. remove class Square in select_frame.py and use Rect instead
-
 draw frame: if a drawn line passes an orthogonal line, draw an intersection
 
 +---------------------------------------------------------------------------------------------+
