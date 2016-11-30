@@ -78,18 +78,22 @@ class Rect:
         return Rect(self.v, self.pos_as_tuple())
 
     def draw_frame(self, edit, vertical):
-        line = '+' + '-' * (self.width() - 2)
-        if self.width() > 1: line += '+'
-        self.v.replace(edit, sublime.Region(self.text_point('NW'), self.text_point('NE')), line)
-        for row in range(self.pos['N'] + 1, self.pos['S']):
+        for row in range(self.pos['N'], self.pos['S'] + 1):
             tp1 = self.v.text_point(row, self.pos['W'])
             tp2 = self.v.text_point(row, self.pos['E'])
             rg = sublime.Region(tp1, tp2)
             old_text = self.v.substr(rg)
-            new_text = vertical + old_text[1:-1]
-            if self.width() > 1: new_text += '|'
+            if row in (self.pos['N'], self.pos['S']):
+                new_text = '+' + re.sub('\\' + vertical, '+', old_text[1:-1])
+                new_text = re.sub('[^+]', '-', new_text)
+                if self.width() > 1:
+                    new_text += '+'
+            else:
+                new_text = '+' if old_text[0] in '-+' else vertical
+                new_text += old_text[1:-1]
+                if self.width() > 1:
+                    new_text += '+' if old_text[-1] in '-+' else vertical
             self.v.replace(edit, rg, new_text)
-        self.v.replace(edit, sublime.Region(self.text_point('SW'), self.text_point('SE')), line)
         self.use_as_selection()
 
     def expand(self, direction):

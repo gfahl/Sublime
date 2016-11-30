@@ -6,8 +6,6 @@
 
 ~To do
 
-draw frame: if a drawn line passes an orthogonal line, draw an intersection
-
 +---------------------------------------------------------------------------------------------+
 | Reloading plugin C:\Users\gfahl\AppData\Roaming\Sublime Text 2\Packages\Default\side_bar.py |
 | Traceback (most recent call last):                                                          |
