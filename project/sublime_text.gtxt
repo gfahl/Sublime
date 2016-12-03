@@ -25,14 +25,6 @@ examine keyboard shortcuts
       ctrl+t (transpose)
   what commands deserve a better shortcut?
 
-create commands to open certain folders in win file explorer and mac finder
-  <Sublime project folder>/Packages/User
-  <Sublime installation folder>/Packages/User
-'Open Containing Folder' should be a command
-| Open Containing Folder            | ctrl+q, ctrl+e            |                           |      |
-| Open Packages/User Folder (Proj.) | (none)                    |                           |      |
-| Open Packages/User Folder (Subl.) | (none)                    |                           |      |
-
 idea: backup for dependence on arrow, pgup/down, home/end keys
     ijkl keys for arrows; uo for pgup/down
     let ctrl+ijkl be same as movement by arrows

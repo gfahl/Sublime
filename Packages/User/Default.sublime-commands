@@ -103,5 +103,8 @@
         "args": {"overlay": "goto", "text": ":"}
     },
 
+    { "caption": "Tools: Open Containing Folder", "command": "open_dir", "args": {"dir": "$file_path", "file": "$file_name"} },
+    { "caption": "Tools: Open Packages Folder (Sublime)", "command": "open_dir", "args": {"dir": "$packages"} },
+    { "caption": "Tools: Open Packages Folder (Project)", "command": "open_project_packages_dir" },
     { "caption": "Tools: Diff Previous", "command": "diff_previous" }
 ]

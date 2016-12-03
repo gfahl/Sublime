@@ -152,7 +152,9 @@
 +-----------------------------------+------------------------+----------------------+------+
 | Run Macro                         | ctrl+r                 |                      |      |
 | Start/End Recording Macro         | ctrl+shift+r           |                      |      |
-| Open Finder/File Explorer Here    | ctrl+q, ctrl+e         |                      |      |
+| Open Containing Folder            | ctrl+q, ctrl+e         |                      |      |
+| Open Packages Folder (Project)    | (none)                 |                      |      |
+| Open Packages Folder (Sublime)    | (none)                 |                      |      |
 | Show Command Palette              | ctrl+shift+c           |                      |      |
 | Show Snippets                     | ctrl+shift+i           |                      |      |
 | Diff Previous                     | (none)                 |                      |      |
