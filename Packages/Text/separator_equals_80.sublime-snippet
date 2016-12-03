@@ -1,8 +1,0 @@
-<snippet>
-    <content><![CDATA[================================================================================
-
-]]></content>
-    <tabTrigger>s1</tabTrigger>
-    <description>separator ===</description>
-    <scope>text.plain</scope>
-</snippet>
