@@ -35,10 +35,10 @@
     { "keys": ["ctrl+shift+comma"], "command": "show_overlay", "args": {"overlay": "goto", "text": "@"} },
 
     //
-    { "keys": ["ctrl+left"], "command": "move", "args": {"by": "words", "forward": false} },
-    { "keys": ["ctrl+right"], "command": "move", "args": {"by": "word_ends", "forward": true} },
-    { "keys": ["ctrl+shift+left"], "command": "move", "args": {"by": "words", "forward": false, "extend": true} },
-    { "keys": ["ctrl+shift+right"], "command": "move", "args": {"by": "word_ends", "forward": true, "extend": true} },
+    { "keys": ["ctrl+left"], "command": "move_by_word", "args": {"forward": false} },
+    { "keys": ["ctrl+right"], "command": "move_by_word", "args": {"forward": true} },
+    { "keys": ["ctrl+shift+left"], "command": "move_by_word", "args": {"forward": false, "extend": true} },
+    { "keys": ["ctrl+shift+right"], "command": "move_by_word", "args": {"forward": true, "extend": true} },
 
     { "keys": ["alt+left"], "command": "move", "args": {"by": "subwords", "forward": false} },
     { "keys": ["alt+right"], "command": "move", "args": {"by": "subword_ends", "forward": true} },

@@ -63,6 +63,11 @@
     { "keys": ["ctrl+q", "ctrl+9"], "command": "fold_by_level_dispatch", "args": {"level": 9} },
     { "keys": ["ctrl+q", "ctrl+0"], "command": "unfold_all_dispatch" },
 
+    { "keys": ["ctrl+left"], "command": "move_by_word", "args": {"forward": false} },
+    { "keys": ["ctrl+right"], "command": "move_by_word", "args": {"forward": true} },
+    { "keys": ["ctrl+shift+left"], "command": "move_by_word", "args": {"forward": false, "extend": true} },
+    { "keys": ["ctrl+shift+right"], "command": "move_by_word", "args": {"forward": true, "extend": true} },
+
     { "keys": ["ctrl+q", "left"], "command": "move_to", "args": {"to": "bol"} },
     { "keys": ["ctrl+q", "shift+left"], "command": "move_to", "args": {"to": "bol", "extend": true} },
     { "keys": ["ctrl+q", "right"], "command": "move_to", "args": {"to": "eol"} },
