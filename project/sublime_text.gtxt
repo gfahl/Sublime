@@ -6,14 +6,20 @@
 
 ~To do
 
-+---------------------------------------------------------------------------------------------+
-| Reloading plugin C:\Users\gfahl\AppData\Roaming\Sublime Text 2\Packages\Default\side_bar.py |
-| Traceback (most recent call last):                                                          |
-|   File ".\sublime_plugin.py", line 62, in reload_plugin                                     |
-|   File ".\side_bar.py", line 4, in <module>                                                 |
-|     import send2trash                                                                       |
-| ImportError: No module named send2trash                                                     |
-+---------------------------------------------------------------------------------------------+
+move by word-part for Japanese: should move to place where character type changes
+    e.g. kanji to hiragana; punctuation
+
+ctrl+q, ctrl+1 etc don't work on osx
+    try disabling osx ctrl+2 etc keyboard shortcuts
+
+insert parentheses etc:
+    if cursor not at a word, i.e. ctrl+d picks up only space/tab/newline, insert '' around cursor
+    e.g. if <> means cursor pos, then
+            foo fie <> fum
+        becomes
+            foo fie '<>' fum
+
+new command: Open Root Folder (Project) 
 
 examine keyboard shortcuts
   which good one's are available (not used for anything interesting)?
