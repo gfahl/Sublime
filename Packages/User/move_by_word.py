@@ -5,6 +5,7 @@ class MoveByWordCommand(sublime_plugin.TextCommand):
         delta = 1 if forward else -1
         v = self.view
         new_sel = []
+        show_point = None
 
         for rg in v.sel():
             old_a = rg.a
@@ -18,4 +19,9 @@ class MoveByWordCommand(sublime_plugin.TextCommand):
                 new_b = old_b + (m.start() + 1) * delta if m else line_extremity
             new_a = old_a if extend else new_b
             new_sel.append(sublime.Region(new_a, new_b))
+            if v.visible_region().contains(old_b):
+                show_point = new_b
         v.set_selection(new_sel)
+        if show_point == None:
+            show_point = new_sel[0].b
+        v.show(show_point)
