@@ -7,6 +7,8 @@ Therefore, I put my font settings in the Default folder:
 Default/Preferences (OSX).sublime-settings
 	"font_face": "Inconsolata",
 	"font_size": 15.0,
+	"small_font_size": 15.0,
+	"large_font_size": 22.0,
 Default/Preferences (Windows).sublime-settings
 	"font_face": "Consolas",
-	"font_size": 10
+	"font_size": 11
