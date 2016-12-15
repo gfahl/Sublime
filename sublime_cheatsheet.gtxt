@@ -108,6 +108,11 @@
 | Squeeze Empty Lines               | (none)                 |                      |      |
 | Squeeze Whitepsace                | (none)                 |                      |      |
 | Trim Trailing Whitespace          | (none)                 |                      |      |
+| Sort Selections                   | (none)                 |                      |      |
+| Sort Selections (Case Sensitive)  | (none)                 |                      |      |
+| Reverse Selections                | (none)                 |                      |      |
+| Unique Selections                 | (none)                 |                      |      |
+| Shuffle Selections                | (none)                 |                      |      |
 +-----------------------------------+------------------------+----------------------+------+
 
 =View
