@@ -1,5 +1,5 @@
-import sublime, sublime_plugin, re, time
-import sublime_util as su
+import sublime, sublime_plugin, sublime_util as su
+import time
 
 class SelectFrameCommand(sublime_plugin.TextCommand):
     def __init__(self, v):

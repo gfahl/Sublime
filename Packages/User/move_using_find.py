@@ -1,4 +1,4 @@
-import sublime, sublime_plugin
+import sublime, sublime_plugin, sublime_util as su
 
 class PromptMoveUsingFindCommand(sublime_plugin.WindowCommand):
 
@@ -11,10 +11,9 @@ class PromptMoveUsingFindCommand(sublime_plugin.WindowCommand):
 class MoveUsingFindCommand(sublime_plugin.TextCommand):
 
     def run(self, edit, regex):
+        v = self.view
         new_sel = []
-        for rg in self.view.sel():
-            new_rg = self.view.find(regex, rg.a)
+        for rg in v.sel():
+            new_rg = v.find(regex, rg.a)
             new_sel.append(new_rg)
-        self.view.sel().clear()
-        for rg in new_sel:
-            self.view.sel().add(rg)
+        v.set_selection(new_sel)

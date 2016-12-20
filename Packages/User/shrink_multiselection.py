@@ -1,4 +1,4 @@
-import sublime, sublime_plugin, re
+import sublime, sublime_plugin, sublime_util as su
 
 class ShrinkMultiselectionCommand(sublime_plugin.TextCommand):
     def run(self, edit, first):
@@ -10,6 +10,4 @@ class ShrinkMultiselectionCommand(sublime_plugin.TextCommand):
             rng = range(0, len(v.sel()) - 1, 1)
         for i in rng:
             new_sel.append(v.sel()[i])
-        v.sel().clear()
-        for rg in new_sel:
-            v.sel().add(rg)
+        v.set_selection(new_sel)

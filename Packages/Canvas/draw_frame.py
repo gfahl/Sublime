@@ -1,5 +1,4 @@
-import sublime, sublime_plugin, re
-import sublime_util as su
+import sublime, sublime_plugin, sublime_util as su
 
 class DrawFrameCommand(sublime_plugin.TextCommand):
     # Draws an ascii frame

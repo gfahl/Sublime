@@ -1,6 +1,6 @@
-import sublime, sublime_plugin
+import sublime, sublime_plugin, sublime_util as su
 
-class RulerInteractiveCommand(sublime_plugin.WindowCommand):
+class RulerPromptCommand(sublime_plugin.WindowCommand):
     def run(self):
         self.window.show_input_panel("Column:", "", self.on_done, None, None)
 

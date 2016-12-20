@@ -1,4 +1,4 @@
-import sublime, sublime_plugin
+import sublime, sublime_plugin, sublime_util as su
 
 def has_bookmarks(view):
     return len(view.get_regions("bookmarks")) > 1
@@ -8,13 +8,16 @@ def has_selected_lines(view):
 
 class GetMultipleCursorsCommand(sublime_plugin.TextCommand):
     def run(self, edit):
-        if has_selected_lines(self.view):
-            self.view.run_command('split_selection_into_lines')
-        elif has_bookmarks(self.view):
-            self.view.run_command('select_all_bookmarks')
+        v = self.view
+        if has_selected_lines(v):
+            v.run_command('split_selection_into_lines')
+            sublime.status_message("Previous selection split into lines")
+        elif has_bookmarks(v):
+            v.run_command('select_all_bookmarks')
+            sublime.status_message("All bookmarks selected")
         else:
             new_sel = []
-            for rg in self.view.sel():
+            for rg in v.sel():
                 if rg.a != rg.b:
                     pos = rg.begin()
                     while pos < rg.end():
@@ -22,9 +25,10 @@ class GetMultipleCursorsCommand(sublime_plugin.TextCommand):
                         pos = pos + 1
                 else:
                     new_sel.append(rg)
-            self.view.sel().clear()
+            v.sel().clear()
             for rg in new_sel:
-                self.view.sel().add(rg)
+                v.sel().add(rg)
+            sublime.status_message("Previous selection split into single characters")
 
     def is_enabled(self):
-        return True
+        return has_bookmarks(self.view) or not self.view.empty_selection()

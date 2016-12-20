@@ -1,4 +1,4 @@
-import sublime, sublime_plugin
+import sublime, sublime_plugin, sublime_util as su
 
 class SmallFontSizeCommand(sublime_plugin.ApplicationCommand):
     def run(self):

@@ -1,10 +1,11 @@
-import sublime, sublime_plugin, re
+import sublime, sublime_plugin, sublime_util as su
+import re
 
 class SqueezeWhitespaceCommand(sublime_plugin.TextCommand):
     def run(self, edit):
-        new_sel = []
-        for region in self.view.sel():
-            old_text = self.view.substr(region)
+        v = self.view
+        for region in v.sel():
+            old_text = v.substr(region)
             regex = re.compile('\s{2,}', flags=re.MULTILINE)
             new_text = re.sub(regex, ' ', old_text)
-            self.view.replace(edit, region, new_text)
+            v.replace(edit, region, new_text)

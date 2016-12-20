@@ -1,4 +1,5 @@
-import sublime, sublime_plugin, datetime
+import sublime, sublime_plugin, sublime_util as su
+import datetime
 
 class PasteDateCommand(sublime_plugin.TextCommand):
     def run(self, edit):

@@ -1,4 +1,4 @@
-import sublime, sublime_plugin
+import sublime, sublime_plugin, sublime_util as su
 
 class EncloseInQuotesCommand(sublime_plugin.TextCommand):
     def run(self, edit):

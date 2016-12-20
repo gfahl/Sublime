@@ -1,4 +1,4 @@
-import sublime, sublime_plugin
+import sublime, sublime_plugin, sublime_util as su
 
 class WrapLinesPromptCommand(sublime_plugin.WindowCommand):
     def run(self):

@@ -1,4 +1,5 @@
-import sublime, sublime_plugin, re, string
+import sublime, sublime_plugin, sublime_util as su
+import re, string
 
 class SaveClassCommand(sublime_plugin.WindowCommand):
 

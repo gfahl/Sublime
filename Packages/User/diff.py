@@ -1,6 +1,5 @@
-import sublime, sublime_plugin
-import difflib
-import time
+import sublime, sublime_plugin, sublime_util as su
+import difflib, time
 
 class DiffPreviousCommand(sublime_plugin.TextCommand):
     def run(self, edit):
@@ -39,7 +38,6 @@ class DiffPreviousCommand(sublime_plugin.TextCommand):
         v.insert(edit, v.size(), "\n" + difftxt + "\n")
         v.end_edit(edit)
 
-        v.sel().clear()
-        v.sel().add(sublime.Region(pt + 1, pt + 1))
+        v.set_selection([sublime.Region(pt + 1, pt + 1)])
         v.set_viewport_position((v.viewport_position()[0], v.layout_extent()[1]))
         v.show(pt, False)

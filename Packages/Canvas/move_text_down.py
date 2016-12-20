@@ -1,4 +1,4 @@
-import sublime, sublime_plugin
+import sublime, sublime_plugin, sublime_util as su
 
 class MoveTextDownCommand(sublime_plugin.TextCommand):
     # Meant to be used for text on a 'space background'

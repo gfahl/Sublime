@@ -3,6 +3,9 @@ import sublime, re
 def col(self, text_point):
     return self.rowcol(text_point)[1]
 
+def empty_selection(self):
+    return len(self.sel()) == 1 and self.sel()[0].empty()
+
 def max_col(self, row):
     if row < 0 or row > self.max_row():
         return 0
@@ -18,6 +21,10 @@ def row(self, text_point):
 def rowcol_exists(self, row, col):
     return self.rowcol(self.text_point(row, col)) == (row, col)
 
+def find_prev(self, pattern, from_position):
+    rgs = self.find_all(pattern)
+    return next((rg for rg in reversed(rgs) if rg.b < from_position), None)
+
 def set_selection(self, regions):
     self.sel().clear()
     for rg in regions:
@@ -28,6 +35,8 @@ sublime.View.max_col = max_col
 sublime.View.max_row = max_row
 sublime.View.row = row
 sublime.View.col = col
+sublime.View.empty_selection = empty_selection
+sublime.View.find_prev = find_prev
 sublime.View.set_selection = set_selection
 
 def is_rectangular(self, v):

@@ -1,5 +1,5 @@
-import sublime, sublime_plugin, re
-import sublime_util as su
+import sublime, sublime_plugin, sublime_util as su
+import re
 
 def get_command_name(v, fallback_python_command_name):
     python_command_name = fallback_python_command_name

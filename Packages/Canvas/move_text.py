@@ -1,4 +1,4 @@
-import sublime, sublime_plugin
+import sublime, sublime_plugin, sublime_util as su
 
 class MoveTextCommand(sublime_plugin.TextCommand):
     def is_enabled(self):

@@ -1,4 +1,4 @@
-import sublime, sublime_plugin
+import sublime, sublime_plugin, sublime_util as su
 
 class RightPadSpacesCommand(sublime_plugin.TextCommand):
     # Add spaces to make lines equally long

@@ -1,4 +1,4 @@
-import sublime, sublime_plugin, re
+import sublime, sublime_plugin, sublime_util as su
 
 class ExtendMultiselectionCommand(sublime_plugin.TextCommand):
     def run(self, edit, forward):
