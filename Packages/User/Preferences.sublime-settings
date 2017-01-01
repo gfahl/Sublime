@@ -6,6 +6,10 @@
     "draw_indent_guides": false,
     "find_selected_text": true,
     "fold_buttons": false,
+    "font_options":
+    [
+        "directwrite"
+    ],
     "highlight_line": false,
     "ignored_packages":
     [
