@@ -91,8 +91,10 @@
 | Paste Lorem Ipsum (short)         | (none)                 |                      |      |
 | Paste Lorem Ipsum (long)          | (none)                 |                      |      |
 | Transpose                         | ctrl+t                 |                      | [8]  |
-| Insert or Modify Quotes           | ctrl+8                 |                      | [9]  |
-| Insert or Modify Parantheses      | ctrl+9                 |                      | [10] |
+| Enclose in Quotes                 | ctrl+8                 |                      | [9]  |
+| Insert Quotes                     | ctrl+shift+8           |                      | [9]  |
+| Enclose in Parentheses            | ctrl+9                 |                      | [10] |
+| Insert Parentheses                | ctrl+shift+9           |                      | [10] |
 | Auto-Complete                     | ctrl+space             |                      |      |
 | Toggle Comment                    | ctrl+minus             |                      |      |
 |                                   | ctrl+slash             |                      |      |
@@ -231,8 +233,10 @@
      Else, if multiple bookmarks: add cursor at each bookmark.
      Else: add cursor after each selected character.
  [8] If >1 selection, shifts the selections. If no selections, transposes characters around prompt.
- [9] foo => 'foo' => "foo" => _foo_ => *foo* => foo
-[10] foo => (foo) => [foo] => {foo} => <foo> => foo
+ [9] Consecutive executions of the command changes the type of quotes according to the
+ 	 setting 'quotes'. Example: foo => 'foo' => "foo" => _foo_ => *foo* => foo
+[10] Consecutive executions of the command changes the type of parentheses according to the
+ 	 setting 'parentheses'. Example: foo => (foo) => [foo] => {foo} => <foo> => foo
 [11] "ha hi hu" => "ha_hi_hu" => "HaHiHu" => "ha hi hu"
 [12] Force a tab to be inserted instead of triggering tab command
 [13] {} <-> do...end

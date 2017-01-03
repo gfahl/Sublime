@@ -81,8 +81,10 @@
     { "keys": ["ctrl+shift+r"], "command": "toggle_record_macro" },
     { "keys": ["ctrl+r"], "command": "run_macro" },
 
-    { "keys": ["ctrl+8"], "command": "insert_quotes" },
-    { "keys": ["ctrl+9"], "command": "insert_parentheses" },
+    { "keys": ["ctrl+8"], "command": "enclose_in_quotes" },
+    { "keys": ["ctrl+shift+8"], "command": "insert_quotes" },
+    { "keys": ["ctrl+9"], "command": "enclose_in_parentheses" },
+    { "keys": ["ctrl+shift+9"], "command": "insert_parentheses" },
     { "keys": ["ctrl+0"], "command": "right_delete" },
 
     { "keys": ["super+8"], "command": "prev_view" },
