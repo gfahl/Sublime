@@ -1,0 +1,5 @@
+[
+    { "caption": "View: Decrease Font Size", "command": "decrease_font_size" },
+    { "caption": "View: Increase Font Size", "command": "increase_font_size" },
+    { "caption": "View: Reset Font", "command": "reset_font" }
+]

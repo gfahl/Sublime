@@ -1,0 +1,5 @@
+[
+    { "keys": ["ctrl+q", "ctrl+down"], "command": "decrease_font_size" },
+    { "keys": ["ctrl+q", "ctrl+up"], "command": "increase_font_size" },
+    { "keys": ["ctrl+q", "ctrl+left"], "command": "reset_font" }
+]

@@ -123,7 +123,7 @@
 | Scroll                            | ctrl+up/down           |                      |      |
 | Decrease Font Size                | ctrl+q, ctrl+down      |                      |      |
 | Increase Font Size                | ctrl+q, ctrl+up        |                      |      |
-| Reset Font Size                   | (none)                 |                      |      |
+| Reset Font Size                   | ctrl+q, ctrl+left      |                      |      |
 | Toggle Distraction Free Mode      | (none)                 |                      |      |
 | Toggle Visible Spaces             | ctrl+q, ctrl+space     |                      |      |
 | Toggle Indent Guides              | (none)                 |                      |      |
@@ -255,6 +255,11 @@
 
 > sublime.log_input(True)
 > sublime.log_input(False)
+
+=show current value for setting
+
+> view.settings().get('font_face')
+ => 'Consolas'
 
 ~Misc
 

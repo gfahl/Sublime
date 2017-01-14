@@ -1,0 +1,5 @@
+{
+    "face": { "osx": "Inconsolata", "windows": "Consolas" },
+    "size": { "osx": 15, "windows": 11 },
+    "factor": { "text.japanese": 1.5 }
+}
