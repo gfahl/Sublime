@@ -122,8 +122,8 @@
     { "keys": ["ctrl+q", "ctrl+9"], "command": "fold_by_level_dispatch", "args": {"level": 9} },
     { "keys": ["ctrl+q", "ctrl+0"], "command": "unfold_all_dispatch" },
 
-    { "keys": ["ctrl+shift+up"], "command": "move_by_paragraph", "args": {"extend": true, "forward": false} },
-    { "keys": ["ctrl+shift+down"], "command": "move_by_paragraph", "args": {"extend": true} },
-    { "keys": ["alt+up"], "command": "move_by_paragraph", "args": {"extend": false, "forward": false} },
-    { "keys": ["alt+down"], "command": "move_by_paragraph", "args": {"extend": false} }
+    { "keys": ["super+shift+up"], "command": "move_by_paragraph", "args": {"extend": true, "forward": false} },
+    { "keys": ["super+shift+down"], "command": "move_by_paragraph", "args": {"extend": true} },
+    { "keys": ["super+up"], "command": "move_by_paragraph", "args": {"extend": false, "forward": false} },
+    { "keys": ["super+down"], "command": "move_by_paragraph", "args": {"extend": false} }
 ]

@@ -16,13 +16,13 @@
 |                                   | ctrl+q, left           |                      |      |
 | Move to End of Line               | end                    | cmd+right            |      |
 |                                   | ctrl+q, right          |                      |      |
-| Move by Paragraph: Up             | alt+up                 |                      |      |
-| Move by Paragraph: Down           | alt+down               |                      |      |
+| Move by Paragraph: Up             | alt+up                 | cmd+up               |      |
+| Move by Paragraph: Down           | alt+down               | cmd+down             |      |
 | Move by Page: Up                  | pgup                   |                      |      |
 | Move by Page: Down                | pgdown                 |                      |      |
-| Move to Beginning of File         | ctrl+home              | cmd+up               |      |
+| Move to Beginning of File         | ctrl+home              | (none)               |      |
 |                                   | ctrl+q, up             |                      |      |
-| Move to End of File               | ctrl+end               | cmd+down             |      |
+| Move to End of File               | ctrl+end               | (none)               |      |
 |                                   | ctrl+q, down           |                      |      |
 | Move to Matching Bracket          | ctrl+m                 |                      |      |
 | Move Using Find                   | (none)                 |                      |      |
@@ -39,13 +39,13 @@
 |                                   | ctrl+q, shift+left     |                      | [2]  |
 | Select to End of Line             | shift+end              | cmd+shift+right      | [2]  |
 |                                   | ctrl+q, shift+right    |                      | [2]  |
-| Select by Paragraph: Up           | ctrl+shift+up          |                      | [2]  |
-| Select by Paragraph: Down         | ctrl+shift+down        |                      | [2]  |
+| Select by Paragraph: Up           | alt+shift+up           | cmd+shift+up         | [2]  |
+| Select by Paragraph: Down         | alt+shift+down         | cmd+shift+down       | [2]  |
 | Select by Page: Up                | shift+pgup             |                      | [2]  |
 | Select by Page: Down              | shift+pgdown           |                      | [2]  |
-| Select to Beginning of File       | ctrl+shift+home        | cmd+shift+up         | [2]  |
+| Select to Beginning of File       | ctrl+shift+home        | (none)               | [2]  |
 |                                   | ctrl+q, shift+up       |                      | [2]  |
-| Select to End of File             | ctrl+shift+end         | cmd+shift+down       | [2]  |
+| Select to End of File             | ctrl+shift+end         | (none)               | [2]  |
 |                                   | ctrl+q, shift+down     |                      | [2]  |
 | Select Word                       | ctrl+d                 |                      | [3]  |
 | Expand Selection to Brackets      | ctrl+shift+m           |                      | [4]  |
