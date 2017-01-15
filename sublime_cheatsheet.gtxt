@@ -10,11 +10,11 @@
 +-----------------------------------+------------------------+----------------------+------+
 | Move by Word: Left                | ctrl+left              |                      |      |
 | Move by Word: Right               | ctrl+right             |                      |      |
-| Move by Word-part: Left           | alt+left               |                      |      |
-| Move by Word-part: Right          | alt+right              |                      |      |
-| Move to Beginning of Line         | home                   | cmd+left             |      |
+| Move by Word-part: Left           | alt+left               | cmd+left             |      |
+| Move by Word-part: Right          | alt+right              | cmd+right            |      |
+| Move to Beginning of Line         | home                   | (none)               |      |
 |                                   | ctrl+q, left           |                      |      |
-| Move to End of Line               | end                    | cmd+right            |      |
+| Move to End of Line               | end                    | (none)               |      |
 |                                   | ctrl+q, right          |                      |      |
 | Move by Paragraph: Up             | alt+up                 | cmd+up               |      |
 | Move by Paragraph: Down           | alt+down               | cmd+down             |      |
@@ -33,11 +33,11 @@
 +-----------------------------------+------------------------+----------------------+------+
 | Select by Word: Left              | ctrl+shift+left        |                      | [2]  |
 | Select by Word: Right             | ctrl+shift+right       |                      | [2]  |
-| Select by Word-part: Left         | alt+shift+left         |                      | [2]  |
-| Select by Word-part: Right        | alt+shift+right        |                      | [2]  |
-| Select to Beginning of Line       | shift+home             | cmd+shift+left       | [2]  |
+| Select by Word-part: Left         | alt+shift+left         | cmd+shift+left       | [2]  |
+| Select by Word-part: Right        | alt+shift+right        | cmd+shift+right      | [2]  |
+| Select to Beginning of Line       | shift+home             | (none)               | [2]  |
 |                                   | ctrl+q, shift+left     |                      | [2]  |
-| Select to End of Line             | shift+end              | cmd+shift+right      | [2]  |
+| Select to End of Line             | shift+end              | (none)               | [2]  |
 |                                   | ctrl+q, shift+right    |                      | [2]  |
 | Select by Paragraph: Up           | alt+shift+up           | cmd+shift+up         | [2]  |
 | Select by Paragraph: Down         | alt+shift+down         | cmd+shift+down       | [2]  |

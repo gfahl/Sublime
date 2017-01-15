@@ -40,10 +40,10 @@
     { "keys": ["ctrl+shift+left"], "command": "move_by_word", "args": {"forward": false, "extend": true} },
     { "keys": ["ctrl+shift+right"], "command": "move_by_word", "args": {"forward": true, "extend": true} },
 
-    { "keys": ["alt+left"], "command": "move", "args": {"by": "subwords", "forward": false} },
-    { "keys": ["alt+right"], "command": "move", "args": {"by": "subword_ends", "forward": true} },
-    { "keys": ["alt+shift+left"], "command": "move", "args": {"by": "subwords", "forward": false, "extend": true} },
-    { "keys": ["alt+shift+right"], "command": "move", "args": {"by": "subword_ends", "forward": true, "extend": true} },
+    { "keys": ["super+left"], "command": "move", "args": {"by": "subwords", "forward": false} },
+    { "keys": ["super+right"], "command": "move", "args": {"by": "subword_ends", "forward": true} },
+    { "keys": ["super+shift+left"], "command": "move", "args": {"by": "subwords", "forward": false, "extend": true} },
+    { "keys": ["super+shift+right"], "command": "move", "args": {"by": "subword_ends", "forward": true, "extend": true} },
 
     { "keys": ["ctrl+q", "left"], "command": "move_to", "args": {"to": "bol"} },
     { "keys": ["ctrl+q", "shift+left"], "command": "move_to", "args": {"to": "bol", "extend": true} },
