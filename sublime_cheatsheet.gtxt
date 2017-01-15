@@ -1,227 +1,219 @@
 ~Commands
 
-+-----------------------------------+------------------------+----------------------+------+
-| Command                           | Keyboard Shortcut      | Keyboard Shortcut    | Note |
-|                                   |                        | on OSX if different  |      |
-|                                   |                        | from Windows         |      |
-+-----------------------------------+------------------------+----------------------+------+
++---------------------------------------+----------------------------+------+
+| Command                               | Keyboard Shortcut [16]     | Note |
+|                                       |                            |      |
+|                                       |                            |      |
++---------------------------------------+----------------------------+------+
 
 =Move
-+-----------------------------------+------------------------+----------------------+------+
-| Move by Word: Left                | ctrl+left              |                      |      |
-| Move by Word: Right               | ctrl+right             |                      |      |
-| Move by Word-part: Left           | alt+left               | cmd+left             |      |
-| Move by Word-part: Right          | alt+right              | cmd+right            |      |
-| Move to Beginning of Line         | home                   | (none)               |      |
-|                                   | ctrl+q, left           |                      |      |
-| Move to End of Line               | end                    | (none)               |      |
-|                                   | ctrl+q, right          |                      |      |
-| Move by Paragraph: Up             | alt+up                 | cmd+up               |      |
-| Move by Paragraph: Down           | alt+down               | cmd+down             |      |
-| Move by Page: Up                  | pgup                   |                      |      |
-| Move by Page: Down                | pgdown                 |                      |      |
-| Move to Beginning of File         | ctrl+home              | (none)               |      |
-|                                   | ctrl+q, up             |                      |      |
-| Move to End of File               | ctrl+end               | (none)               |      |
-|                                   | ctrl+q, down           |                      |      |
-| Move to Matching Bracket          | ctrl+m                 |                      |      |
-| Move Using Find                   | (none)                 |                      |      |
-| Undo Cursor Movement              | ctrl+u                 |                      | [1]  |
-+-----------------------------------+------------------------+----------------------+------+
++---------------------------------------+----------------------------+------+
+| Move by Word: Left                    | ctrl+left                  |      |
+| Move by Word: Right                   | ctrl+right                 |      |
+| Move by Word-part: Left               | alt+left                   |      |
+| Move by Word-part: Right              | alt+right                  |      |
+| Move to Beginning of Line             | ctrl+q, left               |      |
+| Move to End of Line                   | ctrl+q, right              |      |
+| Move by Paragraph: Up                 | alt+up                     |      |
+| Move by Paragraph: Down               | alt+down                   |      |
+| Move by Page: Up                      | pgup                       |      |
+| Move by Page: Down                    | pgdown                     |      |
+| Move to Beginning of File             | ctrl+q, up                 |      |
+| Move to End of File                   | ctrl+q, down               |      |
+| Move to Matching Bracket              | ctrl+m                     |      |
+| Move Using Find                       | (none)                     |      |
+| Undo Cursor Movement                  | ctrl+u                     | [1]  |
++---------------------------------------+----------------------------+------+
 
 =Select
-+-----------------------------------+------------------------+----------------------+------+
-| Select by Word: Left              | ctrl+shift+left        |                      | [2]  |
-| Select by Word: Right             | ctrl+shift+right       |                      | [2]  |
-| Select by Word-part: Left         | alt+shift+left         | cmd+shift+left       | [2]  |
-| Select by Word-part: Right        | alt+shift+right        | cmd+shift+right      | [2]  |
-| Select to Beginning of Line       | shift+home             | (none)               | [2]  |
-|                                   | ctrl+q, shift+left     |                      | [2]  |
-| Select to End of Line             | shift+end              | (none)               | [2]  |
-|                                   | ctrl+q, shift+right    |                      | [2]  |
-| Select by Paragraph: Up           | alt+shift+up           | cmd+shift+up         | [2]  |
-| Select by Paragraph: Down         | alt+shift+down         | cmd+shift+down       | [2]  |
-| Select by Page: Up                | shift+pgup             |                      | [2]  |
-| Select by Page: Down              | shift+pgdown           |                      | [2]  |
-| Select to Beginning of File       | ctrl+shift+home        | (none)               | [2]  |
-|                                   | ctrl+q, shift+up       |                      | [2]  |
-| Select to End of File             | ctrl+shift+end         | (none)               | [2]  |
-|                                   | ctrl+q, shift+down     |                      | [2]  |
-| Select Word                       | ctrl+d                 |                      | [3]  |
-| Expand Selection to Brackets      | ctrl+shift+m           |                      | [4]  |
-| Expand Selection to Line          | ctrl+l                 |                      |      |
-| Reverse Selection                 | ctrl+q, ctrl+r         |                      |      |
-+-----------------------------------+------------------------+----------------------+------+
-
-=Bookmarks
-+-----------------------------------+------------------------+----------------------+------+
-| Toggle Bookmark                   | ctrl+b                 |                      |      |
-| Clear All Bookmarks               | ctrl+shift+b           |                      |      |
-| Move to Next Bookmark             | alt+b                  | cmd+b                |      |
-| Move to Previous Bookmark         | alt+shift+b            | cmd+shift+b          |      |
-+-----------------------------------+------------------------+----------------------+------+
-
-=Multi-Select
-+-----------------------------------+------------------------+----------------------+------+
-| Select More                       | ctrl+d                 |                      | [5]  |
-| Select More But Not This One      | ctrl+k, ctrl+d         |                      |      |
-| Select All Occurances             | alt+d                  | cmd+d                | [6]  |
-| Select Next Word                  | ctrl+e                 |                      |      |
-| Select Next Word But Not This One | ctrl+k, ctrl+e         |                      |      |
-| Get Multiple Cursors              | ctrl+shift+l           |                      | [7]  |
-| Add Cursor                        | ctrl+click             |                      |      |
-| Add Word                          | ctrl+doubleclick       |                      |      |
-| Remove First Selection            | (none)                 |                      |      |
-| Remove Last Selection             | (none)                 |                      |      |
-+-----------------------------------+------------------------+----------------------+------+
++---------------------------------------+----------------------------+------+
+| Select by Word: Left                  | ctrl+shift+left            | [2]  |
+| Select by Word: Right                 | ctrl+shift+right           | [2]  |
+| Select by Word-part: Left             | alt+shift+left             | [2]  |
+| Select by Word-part: Right            | alt+shift+right            | [2]  |
+| Select to Beginning of Line           | ctrl+q, shift+left         | [2]  |
+| Select to End of Line                 | ctrl+q, shift+right        | [2]  |
+| Select by Paragraph: Up               | alt+shift+up               | [2]  |
+| Select by Paragraph: Down             | alt+shift+down             | [2]  |
+| Select by Page: Up                    | shift+pgup                 | [2]  |
+| Select by Page: Down                  | shift+pgdown               | [2]  |
+| Select to Beginning of File           | ctrl+q, shift+up           | [2]  |
+| Select to End of File                 | ctrl+q, shift+down         | [2]  |
+| Select Word                           | ctrl+d                     | [3]  |
+| Expand Selection to Brackets          | ctrl+shift+m               | [4]  |
+| Expand Selection to Line              | ctrl+l                     |      |
+| Reverse Selection                     | ctrl+q, ctrl+r             |      |
++---------------------------------------+----------------------------+------+
 
 =Edit
-+-----------------------------------+------------------------+----------------------+------+
-| Move Lines Up                     | ctrl+shift+pgup        |                      |      |
-| Move Lines Down                   | ctrl+shift+pgdown      |                      |      |
-| Duplicate Selection/Line          | ctrl+shift+d           |                      |      |
-| Delete Next Character             | ctrl+0                 |                      |      |
-| Delete Rest of Line               | ctrl+k, ctrl+k         |                      |      |
-| Delete Current Line               | ctrl+shift+k           |                      |      |
-| Copy Filename                     | ctrl+q, ctrl+q, ctrl+p |                      |      |
-| Copy Path                         | ctrl+q, ctrl+p         |                      |      |
-| Paste Current Date                | ctrl+q, ctrl+d         |                      |      |
-| Paste Incrementing Numbers        | (none)                 |                      |      |
-| Paste Enumeration                 | (none)                 |                      |      |
-| Paste Lorem Ipsum (short)         | (none)                 |                      |      |
-| Paste Lorem Ipsum (long)          | (none)                 |                      |      |
-| Transpose                         | ctrl+t                 |                      | [8]  |
-| Enclose in Quotes                 | ctrl+8                 |                      | [9]  |
-| Insert Quotes                     | ctrl+shift+8           |                      | [9]  |
-| Enclose in Parentheses            | ctrl+9                 |                      | [10] |
-| Insert Parentheses                | ctrl+shift+9           |                      | [10] |
-| Auto-Complete                     | ctrl+space             |                      |      |
-| Toggle Comment                    | ctrl+minus             |                      |      |
-|                                   | ctrl+slash             |                      |      |
-| Wrap Paragraph at Ruler           | ctrl+k, ctrl+w         |                      |      |
-| Wrap Paragraph at 80 characters   | (none)                 |                      |      |
-| Wrap Paragraph at 100 characters  | (none)                 |                      |      |
-| Wrap Paragraph (prompt for width) | (none)                 |                      |      |
-| Upper Case                        | ctrl+k, ctrl+u         |                      |      |
-| Lower Case                        | ctrl+k, ctrl+l         |                      |      |
-| Title Case                        | ctrl+k, ctrl+t         |                      |      |
-| Snake Case & Co                   | ctrl+k, ctrl+s         |                      | [11] |
-| Force Insert of Tab               | shift+tab              |                      | [12] |
-| Remove Empty Lines                | (none)                 |                      |      |
-| Squeeze Empty Lines               | (none)                 |                      |      |
-| Squeeze Whitepsace                | (none)                 |                      |      |
-| Trim Trailing Whitespace          | (none)                 |                      |      |
-| Sort Selections                   | (none)                 |                      |      |
-| Sort Selections (Case Sensitive)  | (none)                 |                      |      |
-| Reverse Selections                | (none)                 |                      |      |
-| Unique Selections                 | (none)                 |                      |      |
-| Shuffle Selections                | (none)                 |                      |      |
-+-----------------------------------+------------------------+----------------------+------+
++---------------------------------------+----------------------------+------+
+| Move Lines Up                         | ctrl+shift+up              |      |
+| Move Lines Down                       | ctrl+shift+down            |      |
+| Duplicate Selection/Line              | ctrl+shift+d               |      |
+| Delete Next Character                 | ctrl+0                     |      |
+| Delete Rest of Line                   | ctrl+k, ctrl+k             |      |
+| Delete Current Line                   | ctrl+shift+k               |      |
+| Copy Filename                         | ctrl+q, ctrl+q, ctrl+p     |      |
+| Copy Path                             | ctrl+q, ctrl+p             |      |
+| Paste Current Date                    | ctrl+q, ctrl+d             |      |
+| Paste Incrementing Numbers            | (none)                     |      |
+| Paste Enumeration                     | (none)                     |      |
+| Paste Lorem Ipsum (short)             | (none)                     |      |
+| Paste Lorem Ipsum (long)              | (none)                     |      |
+| Transpose                             | ctrl+t                     | [8]  |
+| Enclose in Quotes                     | ctrl+8                     | [9]  |
+| Insert Quotes                         | ctrl+shift+8               | [9]  |
+| Enclose in Parentheses                | ctrl+9                     | [10] |
+| Insert Parentheses                    | ctrl+shift+9               | [10] |
+| Auto-Complete                         | ctrl+space                 |      |
+| Toggle Comment                        | ctrl+minus                 |      |
+|                                       | ctrl+slash                 |      |
+| Wrap Paragraph at Ruler               | ctrl+k, ctrl+w             |      |
+| Wrap Paragraph at 80 characters       | (none)                     |      |
+| Wrap Paragraph at 100 characters      | (none)                     |      |
+| Wrap Paragraph (prompt for width)     | (none)                     |      |
+| Upper Case                            | ctrl+k, ctrl+u             |      |
+| Lower Case                            | ctrl+k, ctrl+l             |      |
+| Title Case                            | ctrl+k, ctrl+t             |      |
+| Snake Case & Co                       | ctrl+k, ctrl+s             | [11] |
+| Force Insert of Tab                   | shift+tab                  | [12] |
+| Remove Empty Lines                    | (none)                     |      |
+| Squeeze Empty Lines                   | (none)                     |      |
+| Squeeze Whitepsace                    | (none)                     |      |
+| Trim Trailing Whitespace              | (none)                     |      |
+| Sort Selections                       | (none)                     |      |
+| Sort Selections (Case Sensitive)      | (none)                     |      |
+| Reverse Selections                    | (none)                     |      |
+| Unique Selections                     | (none)                     |      |
+| Shuffle Selections                    | (none)                     |      |
++---------------------------------------+----------------------------+------+
 
 =View
-+-----------------------------------+------------------------+----------------------+------+
-| Scroll                            | ctrl+up/down           |                      |      |
-| Decrease Font Size                | ctrl+q, ctrl+down      |                      |      |
-| Increase Font Size                | ctrl+q, ctrl+up        |                      |      |
-| Reset Font Size                   | ctrl+q, ctrl+left      |                      |      |
-| Toggle Distraction Free Mode      | (none)                 |                      |      |
-| Toggle Visible Spaces             | ctrl+q, ctrl+space     |                      |      |
-| Toggle Indent Guides              | (none)                 |                      |      |
-| Next/Previous View in Side Bar    | ctrl+pgdown/pgup       |                      |      |
-|                                   | alt+8/9                | cmd+8/9              |      |
-| Next/Previous View in Stack       | ctrl+(shift+)tab       |                      |      |
-| Toggle Side Bar                   | ctrl+k, ctrl+b         |                      |      |
-| Show Console                      | ctrl+.                 |                      |      |
-| Toggle Word Wrap                  | ctrl+q, ctrl+w         |                      |      |
-| Center Current Line               | ctrl+k, ctrl+c         |                      |      |
-| Indentation: Tab Width 2          | (none)                 |                      |      |
-| Indentation: Tab Width 4          | (none)                 |                      |      |
-| Ruler: Off                        | (none)                 |                      |      |
-| Ruler: At Column 80               | (none)                 |                      |      |
-| Ruler: At Column 100              | (none)                 |                      |      |
-| Ruler: Prompt                     | (none)                 |                      |      |
-| Show Properties                   | (none)                 |                      |      |
-+-----------------------------------+------------------------+----------------------+------+
++---------------------------------------+----------------------------+------+
+| Scroll                                | ctrl+up/down               |      |
+| Decrease Font Size                    | ctrl+q, ctrl+down          |      |
+| Increase Font Size                    | ctrl+q, ctrl+up            |      |
+| Reset Font Size                       | ctrl+q, ctrl+left          |      |
+| Toggle Distraction Free Mode          | (none)                     |      |
+| Toggle Visible Spaces                 | ctrl+q, ctrl+space         |      |
+| Toggle Indent Guides                  | (none)                     |      |
+| Next/Previous View in Side Bar        | ctrl+pgdown/pgup           |      |
+|                                       | alt+8/9                    |      |
+| Next/Previous View in Stack           | ctrl+(shift+)tab           |      |
+| Toggle Side Bar                       | ctrl+k, ctrl+b             |      |
+| Show Console                          | ctrl+.                     |      |
+| Toggle Word Wrap                      | ctrl+q, ctrl+w             |      |
+| Center Current Line                   | ctrl+k, ctrl+c             |      |
+| Indentation: Tab Width 2              | (none)                     |      |
+| Indentation: Tab Width 4              | (none)                     |      |
+| Ruler: Off                            | (none)                     |      |
+| Ruler: At Column 80                   | (none)                     |      |
+| Ruler: At Column 100                  | (none)                     |      |
+| Ruler: Prompt                         | (none)                     |      |
+| Show Properties                       | (none)                     |      |
++---------------------------------------+----------------------------+------+
+
+=Multi-Select
++---------------------------------------+----------------------------+------+
+| Select More                           | ctrl+d                     | [5]  |
+| Select More But Not This One          | ctrl+k, ctrl+d             |      |
+| Select All Occurances                 | alt+d                      | [6]  |
+| Select Next Word                      | ctrl+e                     |      |
+| Select Next Word But Not This One     | ctrl+k, ctrl+e             |      |
+| Get Multiple Cursors                  | ctrl+shift+l               | [7]  |
+| Add Cursor                            | ctrl+click                 |      |
+| Add Word                              | ctrl+doubleclick           |      |
+| Remove First Selection                | (none)                     |      |
+| Remove Last Selection                 | (none)                     |      |
++---------------------------------------+----------------------------+------+
+
+=Bookmarks
++---------------------------------------+----------------------------+------+
+| Toggle Bookmark                       | ctrl+b                     |      |
+| Clear All Bookmarks                   | ctrl+shift+b               |      |
+| Move to Next Bookmark                 | alt+b                      |      |
+| Move to Previous Bookmark             | alt+shift+b                |      |
++---------------------------------------+----------------------------+------+
 
 =Canvas
-+-----------------------------------+------------------------+----------------------+------+
-| Canvas                            | ctrl+alt+space         | ctrl+cmd+space       |      |
-| Move Selection Left               | ctrl+alt+left          | ctrl+cmd+left        | [14] |
-| Move Selection Right              | ctrl+alt+right         | ctrl+cmd+right       | [14] |
-| Move Selection Up                 | ctrl+alt+up            | ctrl+cmd+up          | [14] |
-| Move Selection Down               | ctrl+alt+down          | ctrl+cmd+down        | [14] |
-| Right-Pad Spaces                  | (none)                 |                      |      |
-| Draw Frame                        | ctrl+alt+f             | ctrl+cmd+f           | [15] |
-| Select Frame                      | ctrl+alt+return        |                      |      |
-| Extend Upwards                    | ctrl+alt+pgup          | ctrl+cmd+pgup        |      |
-| Extend Downwards                  | ctrl+alt+pgdown        | ctrl+cmd+pgdown      |      |
-+-----------------------------------+------------------------+----------------------+------+
++---------------------------------------+----------------------------+------+
+| Canvas                                | ctrl+alt+space             |      |
+| Move Selection Left                   | ctrl+alt+left              | [14] |
+| Move Selection Right                  | ctrl+alt+right             | [14] |
+| Move Selection Up                     | ctrl+alt+up                | [14] |
+| Move Selection Down                   | ctrl+alt+down              | [14] |
+| Right-Pad Spaces                      | (none)                     |      |
+| Draw Frame                            | ctrl+alt+f                 | [15] |
+| Select Frame                          | ctrl+alt+return            |      |
+| Extend Upwards                        | ctrl+alt+pgup              |      |
+| Extend Downwards                      | ctrl+alt+pgdown            |      |
++---------------------------------------+----------------------------+------+
 
 =Tools
-+-----------------------------------+------------------------+----------------------+------+
-| Run Macro                         | ctrl+r                 |                      |      |
-| Start/End Recording Macro         | ctrl+shift+r           |                      |      |
-| Open Containing Folder            | ctrl+q, ctrl+e         |                      |      |
-| Open Packages Folder (Project)    | (none)                 |                      |      |
-| Open Packages Folder (Sublime)    | (none)                 |                      |      |
-| Show Command Palette              | ctrl+shift+c           |                      |      |
-| Show Snippets                     | ctrl+shift+i           |                      |      |
-| Diff Previous                     | (none)                 |                      |      |
-+-----------------------------------+------------------------+----------------------+------+
++---------------------------------------+----------------------------+------+
+| Run Macro                             | ctrl+r                     |      |
+| Start/End Recording Macro             | ctrl+shift+r               |      |
+| Open Containing Folder                | ctrl+q, ctrl+e             |      |
+| Open Packages Folder (Project)        | (none)                     |      |
+| Open Packages Folder (Sublime)        | (none)                     |      |
+| Show Command Palette                  | ctrl+shift+c               |      |
+| Show Snippets                         | ctrl+shift+i               |      |
+| Diff Previous                         | (none)                     |      |
++---------------------------------------+----------------------------+------+
 
 =Code Folding
-+-----------------------------------+------------------------+----------------------+------+
-| Fold                              | ctrl+q, ctrl+f         |                      |      |
-| Unfold                            | ctrl+q, ctrl+u         |                      |      |
-| Fold All                          | ctrl+q, ctrl+1         |                      |      |
-| Fold Level <n>                    | ctrl+q, ctrl+<n>       |                      |      |
-| Unfold All                        | ctrl+q, ctrl+0         |                      |      |
-+-----------------------------------+------------------------+----------------------+------+
++---------------------------------------+----------------------------+------+
+| Fold                                  | ctrl+q, ctrl+f             |      |
+| Unfold                                | ctrl+q, ctrl+u             |      |
+| Fold All                              | ctrl+q, ctrl+1             |      |
+| Fold Level <n>                        | ctrl+q, ctrl+<n>           |      |
+| Unfold All                            | ctrl+q, ctrl+0             |      |
++---------------------------------------+----------------------------+------+
 
 =Find/Replace
-+-----------------------------------+------------------------+----------------------+------+
-| Find                              | ctrl+f                 |                      |      |
-| Find Word Under                   | alt+f                  | cmd+f                |      |
-| Find Previous Word Under          | alt+shift+f            | cmd+shift+f          |      |
-| Replace                           | ctrl+h                 |                      |      |
-| Find in Files                     | ctrl+shift+f           |                      |      |
-| Next 'Find in Files' Result       | alt+n                  | cmd+n                |      |
-| Previous 'Find in Files' Result   | alt+p                  | cmd+p                |      |
-+-----------------------------------+------------------------+----------------------+------+
++---------------------------------------+----------------------------+------+
+| Find                                  | ctrl+f                     |      |
+| Find Word Under                       | alt+f                      |      |
+| Find Previous Word Under              | alt+shift+f                |      |
+| Replace                               | ctrl+h                     |      |
+| Find in Files                         | ctrl+shift+f               |      |
+| Next 'Find in Files' Result           | alt+n                      |      |
+| Previous 'Find in Files' Result       | alt+p                      |      |
++---------------------------------------+----------------------------+------+
 
 =File/Project
-+-----------------------------------+------------------------+----------------------+------+
-| Select Project                    | ctrl+shift+p           |                      |      |
-| Goto Anything                     | ctrl+p                 |                      |      |
-| Goto Line                         | ctrl+g                 |                      |      |
-| Goto Word                         | ctrl+,                 |                      |      |
-| Goto Symbol                       | ctrl+shift+,           |                      |      |
-| Close File                        | ctrl+w                 |                      |      |
-| Re-Open Last File                 | ctrl+shift+t           |                      |      |
-| New Window                        | (none)                 |                      |      |
-| Close Window                      | (none)                 |                      |      |
-+-----------------------------------+------------------------+----------------------+------+
++---------------------------------------+----------------------------+------+
+| Select Project                        | ctrl+shift+p               |      |
+| Goto Anything                         | ctrl+p                     |      |
+| Goto Line                             | ctrl+g                     |      |
+| Goto Word                             | ctrl+,                     |      |
+| Goto Symbol                           | ctrl+shift+,               |      |
+| Close File                            | ctrl+w                     |      |
+| Re-Open Last File                     | ctrl+shift+t               |      |
+| New Window                            | (none)                     |      |
+| Close Window                          | (none)                     |      |
++---------------------------------------+----------------------------+------+
 
 =Sidebar
-+-----------------------------------+------------------------+----------------------+------+
-| Goto File Number 1/2/../7         | alt+1/2/../7           | cmd+1/2/../7         |      |
-| Focus Side Bar                    | alt+0                  | cmd+0                |      |
-| Move File Up/Down                 | alt+shift+8/9          | cmd+shift+8/9        |      |
-| Select Multiple Files             | ctrl/alt+click         | cmd+click            |      |
-| Reveal Current File In Side Bar   | ctrl+q, ctrl+s         |                      |      |
-+-----------------------------------+------------------------+----------------------+------+
++---------------------------------------+----------------------------+------+
+| Goto File Number 1/2/../7             | alt+1/2/../7               |      |
+| Focus Side Bar                        | alt+0                      |      |
+| Move File Up/Down                     | alt+shift+8/9              |      |
+| Select Multiple Files                 | alt+click                  |      |
+| Reveal Current File                   | ctrl+q, ctrl+s             |      |
++---------------------------------------+----------------------------+------+
 
 =Ruby
-+-----------------------------------+------------------------+----------------------+------+
-| Convert Block Style               | (none)                 |                      | [13] |
-| Save Using Class Name             | (none)                 |                      |      |
-+-----------------------------------+------------------------+----------------------+------+
++---------------------------------------+----------------------------+------+
+| Convert Block Style                   | (none)                     | [13] |
+| Save Using Class Name                 | (none)                     |      |
++---------------------------------------+----------------------------+------+
 
-=Textile
-+-----------------------------------+------------------------+----------------------+------+
-| Export Current Markup as HTML     | (none)                 |                      |      |
-| Preview Current Markup in Browser | (none)                 |                      |      |
-+-----------------------------------+------------------------+----------------------+------+
+=OmniMarkupPreviewer
++---------------------------------------+----------------------------+------+
+| Export Current Markup as HTML         | (none)                     |      |
+| Preview Current Markup in Browser     | (none)                     |      |
++---------------------------------------+----------------------------+------+
 
  [1] Undo includes cursor movements, selection changes AND EDITING
  [2] Expands or reduces the selection depending on current selection and position of cursor
@@ -243,6 +235,7 @@
 [14] i-j-k-l are alternatives to up-left-down-right
 [15] If rectangular multi-selection: draw frame there
 	 If one selection spanning >1 row: add frame around whole lines
+[16] On OSX, use <cmd> key instead of <alt>
 
 ~Console
 
