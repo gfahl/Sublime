@@ -29,9 +29,7 @@
                 [
                     { "caption": "Paste Date", "command": "paste_date" },
                     { "caption": "Paste Incrementing Numbers", "command": "paste_enumeration" },
-                    { "caption": "Paste Enumeration", "command": "paste_enumeration_prompt" },
-                    { "caption": "Paste Lorem Ipsum (short)", "command": "paste_lorem_ipsum_short" },
-                    { "caption": "Paste Lorem Ipsum (long)", "command": "paste_lorem_ipsum_long" }
+                    { "caption": "Paste Enumeration", "command": "paste_enumeration_prompt" }
                 ]
             }
         ]

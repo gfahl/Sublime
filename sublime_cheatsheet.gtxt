@@ -58,8 +58,6 @@
 | Paste Current Date                    | ctrl+q, ctrl+d             |      |
 | Paste Incrementing Numbers            | (none)                     |      |
 | Paste Enumeration                     | (none)                     |      |
-| Paste Lorem Ipsum (short)             | (none)                     |      |
-| Paste Lorem Ipsum (long)              | (none)                     |      |
 | Transpose                             | ctrl+t                     | [8]  |
 | Enclose in Quotes                     | ctrl+8                     | [9]  |
 | Insert Quotes                         | ctrl+shift+8               | [9]  |

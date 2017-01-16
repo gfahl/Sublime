@@ -31,8 +31,6 @@
     { "caption": "Edit: Paste Date", "command": "paste_date" },
     { "caption": "Edit: Paste Incrementing Numbers", "command": "paste_enumeration" },
     { "caption": "Edit: Paste Enumeration", "command": "paste_enumeration_prompt" },
-    { "caption": "Edit: Paste Lorem Ipsum (short)", "command": "paste_lorem_ipsum_short" },
-    { "caption": "Edit: Paste Lorem Ipsum (long)", "command": "paste_lorem_ipsum_long" },
     { "caption": "Edit: Wrap Paragraph at Ruler", "command": "wrap_lines" },
     { "caption": "Edit: Wrap Paragraph at 80 characters", "command": "wrap_lines", "args": {"width": 80} },
     { "caption": "Edit: Wrap Paragraph at 100 characters", "command": "wrap_lines", "args": {"width": 100} },
