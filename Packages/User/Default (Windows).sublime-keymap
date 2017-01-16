@@ -15,14 +15,12 @@
     { "keys": ["alt+n"], "command": "next_result" },
     { "keys": ["alt+p"], "command": "prev_result" },
 
-    { "keys": ["ctrl+period"], "command": "show_panel", "args": {"panel": "console"} },
+    { "keys": ["ctrl+i"], "command": "show_panel", "args": {"panel": "console"} },
     { "keys": ["ctrl+shift+c"], "command": "show_overlay", "args": {"overlay": "command_palette"} },
     { "keys": ["ctrl+shift+i"], "command": "show_overlay", "args": {"overlay": "command_palette", "text": "Snippet: "} },
     { "keys": ["ctrl+shift+p"], "command": "prompt_select_project" },
 
-    { "keys": ["ctrl+shift+pageup"], "command": "swap_line_up" },
-    { "keys": ["ctrl+shift+pagedown"], "command": "swap_line_down" },
-    { "keys": ["ctrl+minus"], "command": "toggle_comment", "args": { "block": false } },
+    { "keys": ["ctrl+j"], "command": "toggle_comment", "args": { "block": false } },
 
     { "keys": ["ctrl+shift+r"], "command": "toggle_record_macro" },
     { "keys": ["ctrl+r"], "command": "run_macro" },
@@ -33,10 +31,10 @@
     { "keys": ["ctrl+shift+9"], "command": "insert_parentheses" },
     { "keys": ["ctrl+0"], "command": "right_delete" },
 
-    { "keys": ["alt+8"], "command": "prev_view" },
-    { "keys": ["alt+9"], "command": "next_view" },
-    { "keys": ["alt+shift+8"], "command": "move_tab", "args": { "forward": false }  },
-    { "keys": ["alt+shift+9"], "command": "move_tab", "args": { "forward": true }  },
+    { "keys": ["alt+comma"], "command": "prev_view" },
+    { "keys": ["alt+period"], "command": "next_view" },
+    { "keys": ["alt+shift+comma"], "command": "move_tab", "args": { "forward": false }  },
+    { "keys": ["alt+shift+period"], "command": "move_tab", "args": { "forward": true }  },
     { "keys": ["alt+0"], "command": "focus_side_bar" },
 
     { "keys": ["ctrl+e"], "command": "next_word_expand" },
@@ -67,6 +65,11 @@
     { "keys": ["ctrl+q", "ctrl+8"], "command": "fold_by_level_dispatch", "args": {"level": 8} },
     { "keys": ["ctrl+q", "ctrl+9"], "command": "fold_by_level_dispatch", "args": {"level": 9} },
     { "keys": ["ctrl+q", "ctrl+0"], "command": "unfold_all_dispatch" },
+
+    { "keys": ["ctrl+comma"], "command": "move", "args": {"by": "pages", "forward": false} },
+    { "keys": ["ctrl+period"], "command": "move", "args": {"by": "pages", "forward": true} },
+    { "keys": ["ctrl+shift+comma"], "command": "move", "args": {"by": "pages", "forward": false, "extend": true} },
+    { "keys": ["ctrl+shift+period"], "command": "move", "args": {"by": "pages", "forward": true, "extend": true} },
 
     { "keys": ["ctrl+left"], "command": "move_by_word", "args": {"forward": false} },
     { "keys": ["ctrl+right"], "command": "move_by_word", "args": {"forward": true} },

@@ -13,8 +13,8 @@
     { "keys": ["ctrl+super+space"], "command": "create_canvas" },
     { "keys": ["ctrl+super+f"], "command": "draw_frame" },
 
-    { "keys": ["ctrl+super+pageup"], "command": "extend_multiselection", "args": {"forward": false} },
-    { "keys": ["ctrl+super+pagedown"], "command": "extend_multiselection", "args": {"forward": true} },
+    { "keys": ["ctrl+super+comma"], "command": "extend_multiselection", "args": {"forward": false} },
+    { "keys": ["ctrl+super+period"], "command": "extend_multiselection", "args": {"forward": true} },
 
     { "keys": ["ctrl+q", "ctrl+r"], "command": "reverse_selection" }
 ]
