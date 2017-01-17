@@ -74,8 +74,8 @@
     { "keys": ["ctrl+shift+left"], "command": "move_by_word", "args": {"forward": false, "extend": true} },
     { "keys": ["ctrl+shift+right"], "command": "move_by_word", "args": {"forward": true, "extend": true} },
 
-    { "keys": ["ctrl+q", "left"], "command": "move_to", "args": {"to": "bol"} },
-    { "keys": ["ctrl+q", "shift+left"], "command": "move_to", "args": {"to": "bol", "extend": true} },
+    { "keys": ["ctrl+q", "left"], "command": "move_to", "args": {"to": "hardbol"} },
+    { "keys": ["ctrl+q", "shift+left"], "command": "move_to", "args": {"to": "hardbol", "extend": true} },
     { "keys": ["ctrl+q", "right"], "command": "move_to", "args": {"to": "eol"} },
     { "keys": ["ctrl+q", "shift+right"], "command": "move_to", "args": {"to": "eol", "extend": true} },
 

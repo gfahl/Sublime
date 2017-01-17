@@ -6,7 +6,7 @@
 
     { "caption": "Move by Word: Left", "command": "move_by_word", "args": {"forward": false} },
     { "caption": "Move by Word: Right", "command": "move_by_word", "args": {"forward": true} },
-    { "caption": "Move to Beginning of Line", "command": "move_to", "args": {"to": "bol", "extend": false} },
+    { "caption": "Move to Beginning of Line", "command": "move_to", "args": {"to": "hardbol", "extend": false} },
     { "caption": "Move to End of Line", "command": "move_to", "args": {"to": "eol", "extend": false} },
     { "caption": "Move by Word-part: Left", "command": "move", "args": {"by": "subwords", "forward": false} },
     { "caption": "Move by Word-part: Right", "command": "move", "args": {"by": "subwords", "forward": true} },
